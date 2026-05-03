@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "comment": "Stub corpus for v1.0.0. Phase 2a (iOS migration) sweeps every view and adds the remaining ~110 keys. Phase 2b adds compact-form variants for Dynamic Type. New keys are additive — existing keys cannot change shape without a major version bump.",
+    "fullCorpusTarget": 150,
+    "currentCount": "~40"
+  },
+
+  "app.name": "Wedding Player",
+
+  "segment.daytime": "Daytime",
+  "segment.evening": "Evening",
+
+  "colour.dustyblue": "Dusty Blue",
+  "colour.sage":      "Sage",
+  "colour.amber":     "Amber",
+  "colour.mauve":     "Mauve",
+  "colour.burgundy":  "Burgundy",
+  "colour.teal":      "Teal",
+  "colour.steel":     "Steel",
+  "colour.rose":      "Rose",
+  "colour.seafoam":   "Seafoam",
+  "colour.taupe":     "Taupe",
+  "colour.coral":     "Coral",
+  "colour.honey":     "Honey",
+
+  "moment.guests-arriving.name":       "Guests Arriving",
+  "moment.guests-arriving.short":      "Arriving",
+  "moment.walking-the-aisle.name":     "Walking Down The Aisle",
+  "moment.walking-the-aisle.short":    "Entrance",
+  "moment.signing-the-register.name":  "Signing The Register",
+  "moment.signing-the-register.short": "Register",
+  "moment.the-couple-exit.name":       "The Couple Exit",
+  "moment.the-couple-exit.short":      "Exit",
+  "moment.wedding-breakfast.name":     "Wedding Breakfast",
+  "moment.wedding-breakfast.short":    "Breakfast",
+  "moment.drinks-reception.name":      "Drinks Reception",
+  "moment.drinks-reception.short":     "Drinks",
+
+  "demo.track.a-thousand-tomorrows.title":   "A Thousand Tomorrows",
+  "demo.track.a-thousand-tomorrows.artist":  "Wedding Player Demo",
+  "demo.track.as-we-sign-our-names.title":   "As We Sign Our Names",
+  "demo.track.as-we-sign-our-names.artist":  "Wedding Player Demo",
+  "demo.track.from-this-day-on.title":       "From This Day On",
+  "demo.track.from-this-day-on.artist":      "Wedding Player Demo",
+  "demo.track.perfect-enough.title":         "Perfect Enough",
+  "demo.track.perfect-enough.artist":        "Wedding Player Demo",
+  "demo.track.quiet-hands-steady-hearts.title":  "Quiet Hands, Steady Hearts",
+  "demo.track.quiet-hands-steady-hearts.artist": "Wedding Player Demo",
+
+  "paywall.title":                "Unlock Wedding Player",
+  "paywall.subtitle":             "One-off purchase. Yours forever.",
+  "paywall.cta.purchase":         "Get Full Access",
+  "paywall.cta.restore":          "Restore Purchase",
+
+  "onboarding.welcome.title":     "Music for the moments that matter",
+  "onboarding.demo.title":        "Try a demo ceremony",
+  "onboarding.ready.title":       "You're ready"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "demo_001",
+    "filename": "a-thousand-tomorrows.mp3",
+    "displayTitleKey": "demo.track.a-thousand-tomorrows.title",
+    "artistKey": "demo.track.a-thousand-tomorrows.artist",
+    "durationSecs": 114
+  },
+  {
+    "id": "demo_002",
+    "filename": "as-we-sign-our-names.mp3",
+    "displayTitleKey": "demo.track.as-we-sign-our-names.title",
+    "artistKey": "demo.track.as-we-sign-our-names.artist",
+    "durationSecs": 91
+  },
+  {
+    "id": "demo_003",
+    "filename": "from-this-day-on.mp3",
+    "displayTitleKey": "demo.track.from-this-day-on.title",
+    "artistKey": "demo.track.from-this-day-on.artist",
+    "durationSecs": 177
+  },
+  {
+    "id": "demo_004",
+    "filename": "perfect-enough.mp3",
+    "displayTitleKey": "demo.track.perfect-enough.title",
+    "artistKey": "demo.track.perfect-enough.artist",
+    "durationSecs": 92
+  },
+  {
+    "id": "demo_005",
+    "filename": "quiet-hands-steady-hearts.mp3",
+    "displayTitleKey": "demo.track.quiet-hands-steady-hearts.title",
+    "artistKey": "demo.track.quiet-hands-steady-hearts.artist",
+    "durationSecs": 139
+  }
+]

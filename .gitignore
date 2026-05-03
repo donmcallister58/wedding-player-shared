@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.log
+
+# Codegen scratch outputs (generated, not committed)
+/build/
+/generated/
+/tmp/

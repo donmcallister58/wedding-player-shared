@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+
+  "cdnBaseURL": "https://cdn.weddingplayer.app/music",
+
+  "iap": {
+    "fullAccessProductId": "com.donmcallister.weddingplayer.fullaccess"
+  },
+
+  "playback": {
+    "fadeDurationSecs": 5.0,
+    "crossfadeSecs": 3.0,
+    "autoAdvance": true
+  },
+
+  "segments": [
+    { "key": "daytime", "displayKey": "segment.daytime" },
+    { "key": "evening", "displayKey": "segment.evening" }
+  ],
+
+  "colours": [
+    { "key": "blue",   "displayKey": "colour.dustyblue", "lightHex": "#5A72B5", "darkHex": "#7A8FCA", "tabLightHex": "#4A5E96", "tabDarkHex": "#6478AA" },
+    { "key": "green",  "displayKey": "colour.sage",      "lightHex": "#6B9E70", "darkHex": "#88B88D", "tabLightHex": "#58835C", "tabDarkHex": "#709A74" },
+    { "key": "orange", "displayKey": "colour.amber",     "lightHex": "#C49A45", "darkHex": "#D4B462", "tabLightHex": "#A47F38", "tabDarkHex": "#B09850" },
+    { "key": "purple", "displayKey": "colour.mauve",     "lightHex": "#8B6EA0", "darkHex": "#A88AB8", "tabLightHex": "#735A85", "tabDarkHex": "#8C7298" },
+    { "key": "red",    "displayKey": "colour.burgundy",  "lightHex": "#8B5A5A", "darkHex": "#A87474", "tabLightHex": "#734A4A", "tabDarkHex": "#8C6060" },
+    { "key": "teal",   "displayKey": "colour.teal",      "lightHex": "#5E9E9E", "darkHex": "#7AB8B8", "tabLightHex": "#4D8383", "tabDarkHex": "#649A9A" },
+    { "key": "indigo", "displayKey": "colour.steel",     "lightHex": "#6482A0", "darkHex": "#849CBA", "tabLightHex": "#526B85", "tabDarkHex": "#6C829C" },
+    { "key": "pink",   "displayKey": "colour.rose",      "lightHex": "#C47A80", "darkHex": "#D4949A", "tabLightHex": "#A4656A", "tabDarkHex": "#B07A80" },
+    { "key": "mint",   "displayKey": "colour.seafoam",   "lightHex": "#7BAAAA", "darkHex": "#95C4C4", "tabLightHex": "#658D8D", "tabDarkHex": "#7CA4A4" },
+    { "key": "brown",  "displayKey": "colour.taupe",     "lightHex": "#8A7A62", "darkHex": "#A8967C", "tabLightHex": "#726550", "tabDarkHex": "#8C7C66" },
+    { "key": "cyan",   "displayKey": "colour.coral",     "lightHex": "#D4968A", "darkHex": "#E0B0A4", "tabLightHex": "#B07C72", "tabDarkHex": "#BA9288" },
+    { "key": "yellow", "displayKey": "colour.honey",     "lightHex": "#B8A060", "darkHex": "#D0BA78", "tabLightHex": "#9A854F", "tabDarkHex": "#AC9C62" }
+  ],
+
+  "colourAutoSequence": ["teal", "pink", "indigo", "orange", "mint", "purple", "cyan", "brown", "blue", "yellow", "green", "red"],
+
+  "defaultMoments": [
+    { "key": "guests-arriving",      "nameKey": "moment.guests-arriving.name",      "shortNameKey": "moment.guests-arriving.short",      "colourKey": "teal",   "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 0 },
+    { "key": "walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
+    { "key": "signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 2 },
+    { "key": "the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 3 },
+    { "key": "wedding-breakfast",    "nameKey": "moment.wedding-breakfast.name",    "shortNameKey": "moment.wedding-breakfast.short",    "colourKey": "purple", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 4 },
+    { "key": "drinks-reception",     "nameKey": "moment.drinks-reception.name",     "shortNameKey": "moment.drinks-reception.short",     "colourKey": "mint",   "segment": "evening", "autoAdvanceToNext": false, "sortOrder": 5 }
+  ],
+
+  "demoMoments": [
+    { "key": "demo-walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 0 },
+    { "key": "demo-signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
+    { "key": "demo-the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 2 }
+  ]
+}
