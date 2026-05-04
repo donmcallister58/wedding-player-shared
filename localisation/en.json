@@ -217,7 +217,7 @@
 
   "settings.title":                            "Settings",
   "settings.section.wedding":                  "THE WEDDING",
-  "settings.section.moments":                  "ADD OR EDIT MOMENTS",
+  "settings.section.moments":                  "MOMENTS",
   "settings.section.appearance":               "APPEARANCE",
   "settings.section.monogram":                 "MONOGRAM",
   "settings.section.playback":                 "PLAYBACK",
@@ -251,7 +251,7 @@
   "settings.appleMusic.title":                 "Apple Music Setup Guide",
   "settings.appleMusic.subtitle":              "Library sync & auto-downloads",
 
-  "settings.downloads.title":                  "Download Checklist",
+  "settings.downloads.title":                  "Offline Readiness",
   "settings.downloads.subtitle.empty":         "No Apple Music tracks added yet",
   "settings.downloads.subtitle.ready":         "All tracks ready for offline",
   "settings.downloads.subtitle.pending.one":   "1 track not yet downloaded",
