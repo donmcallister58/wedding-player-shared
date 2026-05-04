@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~353"
+    "currentCount": "~373"
   },
 
   "app.name": "Wedding Player",
@@ -413,5 +413,28 @@
   "personalisation.date.title":                "When's the\nbig day?",
   "personalisation.date.skip":                 "SKIP: NO DATE YET",
   "personalisation.finish.title":              "You're all set",
-  "personalisation.finish.cta":                "Now add your ceremony music!"
+  "personalisation.finish.cta":                "Now add your ceremony music!",
+
+  "trial.title":                               "TRIAL MODE",
+  "trial.tagline":                             "CEREMONY MUSIC",
+  "trial.body":                                "Playback is limited to 30 seconds in trial mode. Try before you buy.",
+  "trial.cta.preview":                         "Play Preview (30 sec)",
+  "trial.cta.unlock":                          "Unlock unlimited playback",
+
+  "rating.prompt.title":                       "Enjoying Wedding Player?",
+  "rating.prompt.body":                        "Your feedback helps other couples find us",
+  "rating.prompt.rate":                        "Rate Us on the App Store",
+  "rating.prompt.feedback":                    "Help, Feedback & Contact Us",
+  "rating.prompt.notNow":                      "Not Now",
+
+  "postWedding.title":                         "Congratulations!",
+  "postWedding.body":                          "We hope your day was everything\nyou dreamed of",
+  "postWedding.callout":                       "If Wedding Player helped make your ceremony perfect, a review would mean the world to us.",
+  "postWedding.cta.review":                    "Leave a Review",
+
+  "setupGuide.title":                          "GET STARTED",
+  "setupGuide.step1.title":                    "Customise your moments",
+  "setupGuide.step1.detail":                   "Tap the icon in the top right to access the Adding or Editing Moments panel.",
+  "setupGuide.step2.title":                    "Add music to each moment",
+  "setupGuide.step2.detail":                   "Tap any moment below, then Edit, then add local files (if available) or Apple Music tracks."
 }
