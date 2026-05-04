@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~169"
+    "currentCount": "~174"
   },
 
   "app.name": "Wedding Player",
@@ -202,5 +202,12 @@
   "preview.upsell":                            "Skip the preview and unlock full access",
   "preview.cta.unlock":                        "Unlock Full Access",
 
-  "transition.nextUp":                         "NEXT UP"
+  "transition.nextUp":                         "NEXT UP",
+
+  "general.cancel":                            "Cancel",
+
+  "playlist.tracksHeader":                     "MOMENT TRACKS",
+  "playlist.empty.cta":                        "Add tracks using the buttons below",
+  "playlist.delete.confirm":                   "Remove",
+  "playlist.delete.message":                   "This removes the track from this moment. Local files and Originals stay on your device."
 }
