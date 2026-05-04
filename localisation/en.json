@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~334"
+    "currentCount": "~342"
   },
 
   "app.name": "Wedding Player",
@@ -375,6 +375,14 @@
   "appleMusicGuide.warning.title":             "Important: Offline Downloads",
   "appleMusicGuide.warning.body":              "Apple Music tracks need to be downloaded to your device before the ceremony. Without downloads, they won't play if the venue has no WiFi.",
   "appleMusicGuide.gotIt":                     "GOT IT",
+  "appleMusicGuide.step1.title":               "Sync Library",
+  "appleMusicGuide.step1.detail":              "Go to Settings → Music → Sync Library and make sure it's ON. This allows Apple Music tracks to be downloaded.",
+  "appleMusicGuide.step2.title":               "Automatic Downloads",
+  "appleMusicGuide.step2.detail":              "In Settings → Music, enable Automatic Downloads. New tracks added to your library will download automatically.",
+  "appleMusicGuide.step3.title":               "Verify Before the Day",
+  "appleMusicGuide.step3.detail":              "Use the Offline Checklist in Wedding Player to confirm every track is downloaded. Do this the night before, don't rely on venue WiFi.",
+  "appleMusicGuide.step4.title":               "Bluetooth Reliability",
+  "appleMusicGuide.step4.detail":              "If a Bluetooth speaker disconnects mid-ceremony, local tracks will continue on your phone's speaker. Apple Music tracks may stop: Apple's streaming framework doesn't survive route changes. For critical moments, a wired connection or local audio files are the most reliable.",
 
   "downloads.title":                           "Offline Readiness",
   "downloads.allClear.title":                  "All Clear",
