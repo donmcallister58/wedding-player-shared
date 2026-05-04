@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~243"
+    "currentCount": "~258"
   },
 
   "app.name": "Wedding Player",
@@ -300,5 +300,22 @@
   "moments.delete.fallback":                   "Delete Moment?",
   "moments.delete.confirm.empty":              "Delete %@",
   "moments.delete.confirm.withTracks.one":     "Delete Moment and 1 Track",
-  "moments.delete.confirm.withTracks.many":    "Delete Moment and %d Tracks"
+  "moments.delete.confirm.withTracks.many":    "Delete Moment and %d Tracks",
+
+  "moments.detail.namePlaceholder":            "Moment Name",
+  "moments.detail.shortNamePlaceholder":       "Short Name (for tab)",
+  "moments.detail.nameCounter":                "%d/%d",
+  "moments.detail.stat.track.one":             "Track",
+  "moments.detail.stat.track.many":            "Tracks",
+  "moments.detail.stat.total":                 "Total",
+
+  "moments.add.title":                         "Add Moment",
+  "moments.edit.title":                        "Edit Moment",
+  "moments.add.namePlaceholder":               "Name",
+  "moments.add.shortNamePlaceholder":          "Tab label",
+  "moments.add.counter":                       "%d / %d",
+  "moments.add.shortNameCounter":              "%d / %d · Short name used on tabs",
+  "moments.edit.cta":                          "Save Changes",
+  "moments.add.maxPerSegment":                 "Maximum %d moments per segment.",
+  "moments.add.suggestions":                   "Suggestions"
 }
