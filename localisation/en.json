@@ -521,6 +521,8 @@
   "moments.suggest.foodServed.short":          "Food",
   "moments.suggest.firstDance.name":           "First Dance",
   "moments.suggest.firstDance.short":          "1st Dance",
+  "moments.suggest.dadDaughterDance.name":     "Dad & Daughter Dance",
+  "moments.suggest.dadDaughterDance.short":    "Dad Dance",
   "moments.suggest.partySelection.name":       "Party Selection",
   "moments.suggest.partySelection.short":      "Party",
   "moments.suggest.lastDance.name":            "Last Dance",
