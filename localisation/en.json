@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "comment": "Stub corpus for v1.0.0. Phase 2a (iOS migration) sweeps every view and adds the remaining ~110 keys. Phase 2b adds compact-form variants for Dynamic Type. New keys are additive — existing keys cannot change shape without a major version bump.",
+    "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~40"
+    "currentCount": "~63"
   },
 
   "app.name": "Wedding Player",
@@ -47,10 +47,31 @@
   "demo.track.quiet-hands-steady-hearts.title":  "Quiet Hands, Steady Hearts",
   "demo.track.quiet-hands-steady-hearts.artist": "Wedding Player Demo",
 
-  "paywall.title":                "Unlock Wedding Player",
-  "paywall.subtitle":             "One-off purchase. Yours forever.",
-  "paywall.cta.purchase":         "Get Full Access",
-  "paywall.cta.restore":          "Restore Purchase",
+  "paywall.eyebrow":                       "WEDDING PLAYER PREMIUM",
+  "paywall.title":                         "Unlock Full\nPlayback",
+  "paywall.subtitle":                      "One-off purchase. Yours forever.",
+  "paywall.feature.playback.title":        "Full Ceremony Playback",
+  "paywall.feature.playback.detail":       "Rehearse and play your complete timeline without interruptions.",
+  "paywall.feature.live.title":            "Live Mode",
+  "paywall.feature.live.detail":           "The panic-proof interface for your venue coordinator. Large controls, zero risk.",
+  "paywall.feature.offline.title":         "Offline Readiness",
+  "paywall.feature.offline.detail":        "100% downloaded assurance for venues with no Wi-Fi. Never rely on the network.",
+  "paywall.cta.purchase":                  "Unlock Lifetime Access",
+  "paywall.cta.purchase.withPrice":        "Unlock Lifetime Access — %@",
+  "paywall.cta.restore":                   "Restore Purchases",
+  "paywall.link.venue":                    "Professional Licence",
+  "paywall.disclaimer":                    "One-time payment. No subscriptions. Access forever.",
+  "paywall.link.privacy":                  "Privacy Policy",
+  "paywall.link.terms":                    "Terms of Use",
+  "paywall.dismiss.a11y":                  "Dismiss",
+
+  "paywall.venue.eyebrow":                  "FOR WEDDING PROFESSIONALS",
+  "paywall.venue.title":                    "Professional\nLicence",
+  "paywall.venue.subtitle":                 "Run multiple weddings from a single device.\nReset and personalise for each new couple.",
+  "paywall.venue.feature.resets.title":     "Unlimited Resets",
+  "paywall.venue.feature.resets.detail":    "Clear and personalise for each new couple with one tap.",
+  "paywall.venue.feature.playback.title":   "Full Playback + Live Mode",
+  "paywall.venue.feature.playback.detail":  "Everything in the individual licence, plus panic-proof ceremony controls.",
 
   "onboarding.welcome.title":     "Music for the moments that matter",
   "onboarding.demo.title":        "Try a demo ceremony",
