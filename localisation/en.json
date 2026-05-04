@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~373"
+    "currentCount": "~410"
   },
 
   "app.name": "Wedding Player",
@@ -436,5 +436,53 @@
   "setupGuide.step1.title":                    "Customise your moments",
   "setupGuide.step1.detail":                   "Tap the icon in the top right to access the Adding or Editing Moments panel.",
   "setupGuide.step2.title":                    "Add music to each moment",
-  "setupGuide.step2.detail":                   "Tap any moment below, then Edit, then add local files (if available) or Apple Music tracks."
+  "setupGuide.step2.detail":                   "Tap any moment below, then Edit, then add local files (if available) or Apple Music tracks.",
+
+  "nowPlaying.upNext.track":                   "UP NEXT: %@",
+  "nowPlaying.upNext.moment":                  "NEXT: %@",
+  "nowPlaying.lastTrackLooping":               "LAST TRACK · WILL LOOP",
+  "nowPlaying.finalTrack":                     "FINAL TRACK",
+
+  "transport.nextTrack":                       "Next Track",
+  "transport.fadeAndEnd":                      "Fade & End",
+  "transport.fadeTo":                          "Fade to %@",
+  "transport.fading.stop":                     "Fading to Stop",
+  "transport.fading.end":                      "Fading to End",
+  "transport.fading.toMoment":                 "Fading to %@",
+  "transport.fadeToNextMoment":                "Fade to Next Moment",
+
+  "iPad.tipCard.title":                        "ADD YOUR MUSIC",
+  "iPad.moment.a11y.base":                     "%@, %d %@",
+  "iPad.moment.a11y.nowPlayingSuffix":         ", now playing",
+  "iPad.moment.trackCount.one":                "track",
+  "iPad.moment.trackCount.many":               "tracks",
+  "iPad.editMode.title":                       "%@ Playlist",
+
+  "music.browse.search":                       "Search",
+  "music.browse.myPlaylists":                  "My Playlists",
+  "music.browse.browse":                       "Browse",
+
+  "catalogue.preview.a11y.stop":               "Stop %@",
+  "catalogue.preview.a11y.play":               "Play %@",
+  "catalogue.preview.a11y.preview":            "Preview %@",
+
+  "getMusic.hint.step1":                       "Tap the **play circle** to hear a 15-second preview.",
+  "getMusic.hint.step2":                       "Tap the **download arrow** to save the full track, then play again to hear the whole thing.",
+  "getMusic.hint.step3":                       "Tap **Done**: your downloaded Originals will be available to add to your Moments.",
+  "getMusic.filter.all":                       "All",
+  "getMusic.filter.downloaded":                "Downloaded",
+
+  "downloads.readiness.message.ready":         "All tracks ready: you're set!",
+  "downloads.readiness.message.partial":       "Nearly there: download remaining tracks",
+  "downloads.readiness.message.actionNeeded":  "Action needed: most tracks need downloading",
+
+  "downloads.diagnostic.appleMusic":           "Apple Music",
+  "downloads.diagnostic.network":              "Network",
+  "downloads.diagnostic.storage":              "Storage",
+  "downloads.diagnostic.value.active":         "Active",
+  "downloads.diagnostic.value.notDetected":    "Not detected",
+
+  "downloads.action.bullet1":                  "Apple Music tracks won't play without internet unless downloaded first",
+  "downloads.action.bullet2":                  "A **\"Wedding Player — Ceremony\"** playlist has been created in Apple Music",
+  "downloads.action.bullet3":                  "Open Apple Music, find the playlist, and tap the download icon"
 }
