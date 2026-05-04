@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~234"
+    "currentCount": "~243"
   },
 
   "app.name": "Wedding Player",
@@ -290,5 +290,15 @@
   "alert.exitDemo.message":                    "This will remove all demo tracks and let you start building your own ceremony playlist from scratch.",
   "alert.resetPurchase.title":                 "Reset Purchase",
   "alert.resetPurchase.confirm":               "Reset Purchase",
-  "alert.resetPurchase.message":               "This clears the local purchase flag. You'll still need to manage the sandbox transaction in Settings → App Store → Sandbox Account to fully re-test purchasing."
+  "alert.resetPurchase.message":               "This clears the local purchase flag. You'll still need to manage the sandbox transaction in Settings → App Store → Sandbox Account to fully re-test purchasing.",
+
+  "moments.list.title":                        "Add or Edit Moments",
+  "moments.list.add":                          "Add Moment",
+  "moments.list.maxDaytime":                   "Maximum %d ceremony moments for a clean operator experience.",
+  "moments.list.maxEvening":                   "Maximum %d evening moments.",
+  "moments.delete.title":                      "Delete \"%@\"?",
+  "moments.delete.fallback":                   "Delete Moment?",
+  "moments.delete.confirm.empty":              "Delete %@",
+  "moments.delete.confirm.withTracks.one":     "Delete Moment and 1 Track",
+  "moments.delete.confirm.withTracks.many":    "Delete Moment and %d Tracks"
 }
