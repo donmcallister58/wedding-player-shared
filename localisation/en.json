@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~174"
+    "currentCount": "~234"
   },
 
   "app.name": "Wedding Player",
@@ -209,5 +209,86 @@
   "playlist.tracksHeader":                     "MOMENT TRACKS",
   "playlist.empty.cta":                        "Add tracks using the buttons below",
   "playlist.delete.confirm":                   "Remove",
-  "playlist.delete.message":                   "This removes the track from this moment. Local files and Originals stay on your device."
+  "playlist.delete.message":                   "This removes the track from this moment. Local files and Originals stay on your device.",
+
+  "settings.title":                            "Settings",
+  "settings.section.wedding":                  "THE WEDDING",
+  "settings.section.moments":                  "ADD OR EDIT MOMENTS",
+  "settings.section.appearance":               "APPEARANCE",
+  "settings.section.monogram":                 "MONOGRAM",
+  "settings.section.playback":                 "PLAYBACK",
+  "settings.section.originals":                "WEDDING PLAYER ORIGINALS",
+  "settings.section.appleMusic":               "APPLE MUSIC",
+  "settings.section.account":                  "ACCOUNT",
+  "settings.section.licence":                  "PROFESSIONAL LICENCE",
+  "settings.section.demo":                     "DEMO",
+  "settings.section.testing":                  "TESTING",
+
+  "settings.partner1":                         "Partner 1",
+  "settings.partner2":                         "Partner 2",
+  "settings.firstName.placeholder":            "First name",
+  "settings.weddingDate":                      "Wedding Date",
+  "settings.weddingDate.notSet":               "Not set",
+
+  "settings.moments.count.one":                "1 moment",
+  "settings.moments.count.many":               "%d moments",
+  "settings.moments.subtitle":                 "Tap to add, edit, or reorder moments",
+
+  "settings.crossfade.toggle":                 "Crossfade between tracks",
+  "settings.fadeOut.label":                    "Fade out duration",
+  "settings.fadeOut.value":                    "%ds",
+  "settings.fadeOut.min":                      "2s",
+  "settings.fadeOut.max":                      "15s",
+
+  "settings.originals.title":                  "Manage Originals",
+  "settings.originals.subtitle.empty":         "Download ceremony tracks: %d available",
+  "settings.originals.subtitle.partial":       "%d of %d tracks downloaded",
+
+  "settings.appleMusic.title":                 "Apple Music Setup Guide",
+  "settings.appleMusic.subtitle":              "Sync Library & Automatic Downloads steps",
+
+  "settings.downloads.title":                  "Download Checklist",
+  "settings.downloads.subtitle.empty":         "No Apple Music tracks added yet",
+  "settings.downloads.subtitle.ready":         "All tracks ready for offline",
+  "settings.downloads.subtitle.pending.one":   "1 track not yet downloaded",
+  "settings.downloads.subtitle.pending.many":  "%d tracks not yet downloaded",
+
+  "settings.account.venue.title":              "Professional Licence",
+  "settings.account.venue.badge":              "ACTIVE SUBSCRIPTION",
+  "settings.account.premium.title":            "Wedding Player Premium",
+  "settings.account.premium.badge":            "ACTIVE MEMBER",
+
+  "settings.venueUpsell.title":                "Wedding Professional?",
+  "settings.venueUpsell.subtitle":             "Subscribe for unlimited resets between couples",
+
+  "settings.contactSupport":                   "Contact Support",
+  "settings.appVersion":                       "App Version",
+
+  "settings.licence.reset.title":              "Set Up for New Wedding",
+  "settings.licence.reset.subtitle":           "Clear all names, dates, tracks, and moments to start fresh for a new couple.",
+
+  "settings.demo.exit.title":                  "Exit Demo Mode",
+  "settings.demo.exit.subtitle":               "Clear all demo tracks and start building your own ceremony playlist.",
+
+  "settings.beta.title":                       "Beta Testing Guide",
+  "settings.beta.subtitle":                    "Step-by-step walkthrough of every feature, what to test, and how to send feedback.",
+
+  "settings.resetPurchase.title":              "Reset Purchase State",
+  "settings.resetPurchase.subtitle":           "Clear the local purchase flag so you can test the purchase flow again.",
+
+  "settings.footer.privacy":                   "PRIVACY",
+  "settings.footer.terms":                     "TERMS",
+
+  "settings.monogram.removeLogo":              "REMOVE LOGO",
+  "settings.monogram.customLogo":              "Custom Logo",
+
+  "alert.reset.title":                         "Set Up for New Wedding",
+  "alert.reset.confirm":                       "Reset Everything",
+  "alert.reset.message":                       "This will permanently delete all couple names, wedding date, tracks, playlists, and custom moments. Your theme, purchase status, and app settings will be kept.\n\nThis cannot be undone.",
+  "alert.exitDemo.title":                      "Exit Demo Mode",
+  "alert.exitDemo.confirm":                    "Exit Demo",
+  "alert.exitDemo.message":                    "This will remove all demo tracks and let you start building your own ceremony playlist from scratch.",
+  "alert.resetPurchase.title":                 "Reset Purchase",
+  "alert.resetPurchase.confirm":               "Reset Purchase",
+  "alert.resetPurchase.message":               "This clears the local purchase flag. You'll still need to manage the sandbox transaction in Settings → App Store → Sandbox Account to fully re-test purchasing."
 }
