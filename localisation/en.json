@@ -48,7 +48,7 @@
   "demo.track.quiet-hands-steady-hearts.artist": "Wedding Player Demo",
 
   "paywall.eyebrow":                       "WEDDING PLAYER PREMIUM",
-  "paywall.title":                         "Unlock Full\nPlayback",
+  "paywall.title":                         "Unlock Full\nAccess",
   "paywall.subtitle":                      "One-off purchase. Yours forever.",
   "paywall.feature.playback.title":        "Full Ceremony Playback",
   "paywall.feature.playback.detail":       "Rehearse and play your complete timeline without interruptions.",
@@ -57,7 +57,7 @@
   "paywall.feature.offline.title":         "Offline Readiness",
   "paywall.feature.offline.detail":        "100% downloaded assurance for venues with no Wi-Fi. Never rely on the network.",
   "paywall.cta.purchase":                  "Unlock Lifetime Access",
-  "paywall.cta.purchase.withPrice":        "Unlock Lifetime Access — %@",
+  "paywall.cta.purchase.withPrice":        "Unlock Lifetime Access: %@",
   "paywall.cta.restore":                   "Restore Purchases",
   "paywall.link.venue":                    "Professional Licence",
   "paywall.disclaimer":                    "One-time payment. No subscriptions. Access forever.",
