@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~111"
+    "currentCount": "~169"
   },
 
   "app.name": "Wedding Player",
@@ -128,5 +128,79 @@
   "demo.tip.default.playing.tip":              "Let it play to the end, or tap Fade out to move on.",
   "demo.tip.default.stopped.action":           "Press Start %@ to start",
   "demo.tip.default.stopped.context":          "Each moment holds its own playlist, played in order during that part of the day.",
-  "demo.tip.default.stopped.tip":              "When it finishes, the next moment is automatically cued up: one tap to start."
+  "demo.tip.default.stopped.tip":              "When it finishes, the next moment is automatically cued up: one tap to start.",
+
+  "general.done":                              "Done",
+  "general.edit":                              "EDIT",
+
+  "transport.restartMoment":                   "RESTART MOMENT",
+  "transport.now":                             "NOW",
+  "transport.next":                            "NEXT",
+  "transport.cueing":                          "Cueing %@",
+  "transport.cue":                             "Cue %@",
+  "transport.fadeOut":                         "Fade out",
+  "transport.continueMoment":                  "Continue %@",
+  "transport.startMoment":                     "Start %@",
+  "transport.a11y.fading":                     "Fading",
+  "transport.a11y.play":                       "Play",
+  "transport.a11y.fadeToEnd":                  "End",
+  "transport.a11y.fadeTo":                     "Fade to %@",
+  "transport.a11y.fadeOutCue":                 "Fade out, Cue %@",
+
+  "live.badge":                                "LIVE",
+  "live.modeBadge":                            "LIVE MODE",
+  "live.swipeToExit":                          "Swipe to exit",
+  "live.looping":                              "LOOPING",
+  "live.rehearsalMode":                        "REHEARSAL MODE",
+  "live.goLive":                               "Go Live",
+  "live.goLive.locked":                        "Go Live: Tap to unlock",
+
+  "momentSwitch.switchNow":                    "Switch Now",
+  "momentSwitch.keepPlaying":                  "Keep Playing",
+
+  "battery.warning.atPct":                     "Battery at %d%%: plug in before the ceremony",
+  "battery.warning.low":                       "Battery low: plug in before the ceremony",
+
+  "momentInfo.section":                        "MOMENT INFO",
+  "momentInfo.loopTrack":                      "Loop Track",
+  "momentInfo.loopTrack.detail":               "Repeat until you fade to the next moment",
+  "momentInfo.crossfade":                      "Crossfade %ds",
+
+  "moment.editor.section":                     "MOMENT DETAILS",
+  "moment.editor.name":                        "Name",
+  "moment.editor.shortName":                   "Short",
+  "moment.editor.segment":                     "Segment",
+
+  "playlist.section":                          "PLAYLIST",
+
+  "segment.daytime.upper":                     "DAYTIME",
+  "segment.evening.upper":                     "EVENING",
+
+  "allMoments.title":                          "All Moments",
+  "allMoments.count":                          "YOUR %d MOMENTS",
+
+  "trial.banner":                              "Trial Mode: Tap to unlock",
+  "review.banner":                             "Love Wedding Player? Leave a review",
+
+  "iPad.empty.addMusic":                       "Tap **Add Local Files** to import MP3, M4A, and WAV files from your device, **Add Originals** for free ceremony-ready tracks, or **Add Apple Music** to search your subscription.",
+  "iPad.empty.selectMoment":                   "Select your moments in the sidebar, or add new moments using the settings icon.",
+
+  "nowPlaying.empty":                          "No tracks yet",
+  "nowPlaying.editButton":                     "Edit",
+  "nowPlaying.moreTracks":                     "and %d more",
+  "nowPlaying.a11y.progress":                  "Playback progress",
+
+  "volume.muted":                              "Volume is muted: use device buttons to turn up",
+  "volume.low":                                "Volume is low: raise it before the ceremony",
+
+  "preview.title":                             "Ready to Play?",
+  "preview.confirm":                           "Confirm this is the correct moment before starting playback.",
+  "preview.cta.start":                         "Start Playing",
+  "preview.prompt":                            "Ready to play %@ preview?",
+  "preview.cta.preview":                       "Play %ds Preview",
+  "preview.or":                                "OR",
+  "preview.upsell":                            "Skip the preview and unlock full access",
+  "preview.cta.unlock":                        "Unlock Full Access",
+
+  "transition.nextUp":                         "NEXT UP"
 }
