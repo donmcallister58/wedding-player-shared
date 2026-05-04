@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~78"
+    "currentCount": "~111"
   },
 
   "app.name": "Wedding Player",
@@ -89,5 +89,44 @@
 
   "onboarding.demo.title":               "See it\nin action",
   "onboarding.demo.body":                "The demo walks you through a real ceremony: tracks organised into moments, played and managed exactly as you would on the day.",
-  "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why."
+  "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why.",
+
+  "demo.complete.title":                       "Demo Complete!",
+  "demo.complete.benefit.moments":             "Separate moments for each part of the ceremony: aisle, signing, and exit.",
+  "demo.complete.benefit.playback":            "Each moment played its tracks in order, with seamless fades to the next moment with a tap.",
+  "demo.complete.benefit.advance":             "Moments advanced automatically. The next one was always cued up and ready.",
+  "demo.complete.benefit.edit":                "Edit the default moments, rename them, or add new ones, including evening moments like drinks and party.",
+  "demo.complete.benefit.live":                "On the day, Live Mode gives you large, easy-to-tap controls. Zero stress.",
+  "demo.complete.cta.setup":                   "Ready to set up your Wedding...",
+  "demo.complete.cta.replay":                  "Replay Demo",
+
+  "demo.tip.label":                            "TIP",
+
+  "demo.tip.entrance.playing.action":          "The music for the %@ moment is now playing",
+  "demo.tip.entrance.playing.context":         "The wedding party walks down the aisle to this track.",
+  "demo.tip.entrance.playing.tip":             "Let it play to the end, or tap Fade out to move on.",
+  "demo.tip.entrance.stopped.action":          "Press Start %@",
+  "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the wedding party's walk down the aisle.",
+  "demo.tip.entrance.stopped.tip":             "When it finishes, the next moment is automatically cued up and ready to go with one tap.",
+
+  "demo.tip.register.playing.action":          "%@ is now playing",
+  "demo.tip.register.playing.context":         "Multiple tracks keep the music flowing while the register is signed.",
+  "demo.tip.register.playing.tip":             "Let it play to the end, or tap Fade out when the signing is done.",
+  "demo.tip.register.stopped.action":          "Press Start %@",
+  "demo.tip.register.stopped.context":         "Background music for signing the register. %d tracks play in sequence, filling however long it takes.",
+  "demo.tip.register.stopped.tip":             "Tap Fade out when you're ready to move on.",
+
+  "demo.tip.exit.playing.action":              "%@ is now playing!",
+  "demo.tip.exit.playing.context":             "The newlyweds walk back down the aisle to this celebration track.",
+  "demo.tip.exit.playing.tip":                 "Let it play out, or tap Fade & End to bring the ceremony to a close.",
+  "demo.tip.exit.stopped.action":              "Press Start %@",
+  "demo.tip.exit.stopped.context":             "The exit music: the grand finale as the newlyweds walk back down the aisle.",
+  "demo.tip.exit.stopped.tip":                 "Everything is pre-loaded and ready. One tap and the music plays. That's the power of Wedding Player.",
+
+  "demo.tip.default.playing.action":           "The %@ moment is now playing",
+  "demo.tip.default.playing.context":          "Each moment holds its own playlist, played in order during that part of the day.",
+  "demo.tip.default.playing.tip":              "Let it play to the end, or tap Fade out to move on.",
+  "demo.tip.default.stopped.action":           "Press Start %@ to start",
+  "demo.tip.default.stopped.context":          "Each moment holds its own playlist, played in order during that part of the day.",
+  "demo.tip.default.stopped.tip":              "When it finishes, the next moment is automatically cued up: one tap to start."
 }
