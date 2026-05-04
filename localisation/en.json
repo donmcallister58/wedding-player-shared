@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~342"
+    "currentCount": "~353"
   },
 
   "app.name": "Wedding Player",
@@ -400,5 +400,18 @@
   "downloads.a11y.notDownloaded":              "Not downloaded",
   "downloads.status.ready":                    "READY",
   "downloads.status.download":                 "DOWNLOAD",
-  "downloads.status.needed":                   "NEEDED"
+  "downloads.status.needed":                   "NEEDED",
+
+  "appearance.title":                          "Appearance",
+  "appearance.preview.title":                  "Wedding March",
+  "appearance.menu.fromPhotos":                "Choose from Photos",
+  "appearance.menu.fromFiles":                 "Choose from Files",
+
+  "personalisation.cta.continue":              "CONTINUE",
+  "personalisation.cta.startAdding":           "START ADDING MUSIC",
+  "personalisation.names.title":               "Who's getting\nmarried?",
+  "personalisation.date.title":                "When's the\nbig day?",
+  "personalisation.date.skip":                 "SKIP: NO DATE YET",
+  "personalisation.finish.title":              "You're all set",
+  "personalisation.finish.cta":                "Now add your ceremony music!"
 }
