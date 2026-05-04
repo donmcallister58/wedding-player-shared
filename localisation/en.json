@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~410"
+    "currentCount": "~444"
   },
 
   "app.name": "Wedding Player",
@@ -484,5 +484,41 @@
 
   "downloads.action.bullet1":                  "Apple Music tracks won't play without internet unless downloaded first",
   "downloads.action.bullet2":                  "A **\"Wedding Player — Ceremony\"** playlist has been created in Apple Music",
-  "downloads.action.bullet3":                  "Open Apple Music, find the playlist, and tap the download icon"
+  "downloads.action.bullet3":                  "Open Apple Music, find the playlist, and tap the download icon",
+
+  "catalogue.category.prelude":                "Prelude",
+  "catalogue.category.processional":           "Processional",
+  "catalogue.category.signing":                "Signing",
+  "catalogue.category.recessional":            "Recessional",
+
+  "moments.suggest.prelude.name":              "Prelude",
+  "moments.suggest.prelude.short":             "Prelude",
+  "moments.suggest.processional.name":         "Processional",
+  "moments.suggest.processional.short":        "Process",
+  "moments.suggest.hymns.name":                "Hymns",
+  "moments.suggest.hymns.short":               "Hymns",
+  "moments.suggest.readings.name":             "Readings",
+  "moments.suggest.readings.short":            "Readings",
+  "moments.suggest.firstKiss.name":            "First Kiss",
+  "moments.suggest.firstKiss.short":           "Kiss",
+  "moments.suggest.candleLighting.name":       "Candle Lighting",
+  "moments.suggest.candleLighting.short":      "Candle",
+  "moments.suggest.recessional.name":          "Recessional",
+  "moments.suggest.recessional.short":         "Recess",
+  "moments.suggest.confettiWalk.name":         "Confetti Walk",
+  "moments.suggest.confettiWalk.short":        "Confetti",
+  "moments.suggest.bridesmaids.name":          "Bridesmaids",
+  "moments.suggest.bridesmaids.short":         "Maids",
+  "moments.suggest.drinksReception.name":      "Drinks Reception",
+  "moments.suggest.drinksReception.short":     "Drinks",
+  "moments.suggest.dinnerMusic.name":          "Dinner Music",
+  "moments.suggest.dinnerMusic.short":         "Dinner",
+  "moments.suggest.speeches.name":             "Speeches",
+  "moments.suggest.speeches.short":            "Speeches",
+  "moments.suggest.firstDance.name":           "First Dance",
+  "moments.suggest.firstDance.short":          "1st Dance",
+  "moments.suggest.party.name":                "Party",
+  "moments.suggest.party.short":               "Party",
+  "moments.suggest.lastDance.name":            "Last Dance",
+  "moments.suggest.lastDance.short":           "Last Dance"
 }
