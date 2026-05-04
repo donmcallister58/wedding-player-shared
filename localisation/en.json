@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Phase 2a sweep landing area-by-area. v1.0.1 adds paywall keys (couples + venue). New keys are additive; value updates on unused stubs are allowed. Existing keys cannot change shape without a major version bump.",
     "fullCorpusTarget": 150,
-    "currentCount": "~63"
+    "currentCount": "~78"
   },
 
   "app.name": "Wedding Player",
@@ -73,7 +73,21 @@
   "paywall.venue.feature.playback.title":   "Full Playback + Live Mode",
   "paywall.venue.feature.playback.detail":  "Everything in the individual licence, plus panic-proof ceremony controls.",
 
-  "onboarding.welcome.title":     "Music for the moments that matter",
-  "onboarding.demo.title":        "Try a demo ceremony",
-  "onboarding.ready.title":       "You're ready"
+  "onboarding.button.next":              "NEXT",
+  "onboarding.button.startDemo":         "EXPERIENCE THE DEMO",
+
+  "onboarding.welcome.title":            "Your wedding,\nyour music",
+  "onboarding.welcome.body":             "The ceremony music app designed\nfor the most important day\nof your life.",
+
+  "onboarding.how.title":                "Effortless\nceremony music",
+  "onboarding.how.step1.title":          "Create moments",
+  "onboarding.how.step1.detail":         "One for each part of your day",
+  "onboarding.how.step2.title":          "Add your music",
+  "onboarding.how.step2.detail":         "Import files or search Apple Music",
+  "onboarding.how.step3.title":          "Play on the day",
+  "onboarding.how.step3.detail":         "Seamless crossfade, zero stress",
+
+  "onboarding.demo.title":               "See it\nin action",
+  "onboarding.demo.body":                "The demo walks you through a real ceremony: tracks organised into moments, played and managed exactly as you would on the day.",
+  "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why."
 }
