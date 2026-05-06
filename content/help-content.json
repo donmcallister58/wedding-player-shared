@@ -12,10 +12,10 @@
           "title": "How do I set up my ceremony moments?",
           "platform": "both",
           "steps": [
-            "Tap the settings icon in the top right to open the Moment Manager.",
-            "You'll see the default moments — Walking Down the Aisle, Signing the Register, and Leaving. Tap any to rename it, change its colour, or adjust playback settings.",
-            "To add a new moment (e.g. Drinks Reception, First Dance), tap the + button.",
-            "Drag moments to reorder them to match your ceremony running order."
+            "Tap the \"Edit Moments\" button next to Rehearsal Mode to open the Moment Manager.",
+            "You'll see the current list of moments organised into Daytime and Evening Sections. From this screen, you can delete a moment or drag to re-order.",
+            "To add a new moment, tap the \"+ Add Moment\" button.",
+            "Tap any moment to open it to rename it, or to move it to Daytime or Evening Segment and tap \"Save Changes\""
           ]
         },
         {
