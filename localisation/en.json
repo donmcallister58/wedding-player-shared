@@ -300,7 +300,7 @@
   "alert.resetPurchase.confirm":               "Reset Purchase",
   "alert.resetPurchase.message":               "This clears the local purchase flag. You'll still need to manage the sandbox transaction in Settings → App Store → Sandbox Account to fully re-test purchasing.",
 
-  "moments.list.title":                        "Add or Edit Moments",
+  "moments.list.title":                        "Edit Moments",
   "moments.list.add":                          "Add Moment",
   "moments.list.maxDaytime":                   "Maximum %d ceremony moments for a clean operator experience.",
   "moments.list.maxEvening":                   "Maximum %d evening moments.",
