@@ -442,9 +442,9 @@
 
   "setupGuide.title":                          "GET STARTED",
   "setupGuide.step1.title":                    "Customise your moments",
-  "setupGuide.step1.detail":                   "Tap the icon in the top right to access the Adding or Editing Moments panel.",
+  "setupGuide.step1.detail":                   "Tap the Edit Moments button at the bottom of the screen to add, edit or delete moments.",
   "setupGuide.step2.title":                    "Add music to each moment",
-  "setupGuide.step2.detail":                   "Tap any moment below, then Edit, then add local files (if available) or Apple Music tracks.",
+  "setupGuide.step2.detail":                   "Tap on any moment below, and use the Tracks button to add local files, Originals or Apple Music tracks to each moment.",
 
   "nowPlaying.upNext.track":                   "UP NEXT: %@",
   "nowPlaying.upNext.moment":                  "NEXT: %@",
