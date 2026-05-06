@@ -1,0 +1,195 @@
+{
+  "_comment": "Single source of truth for in-app help and the website support page.",
+  "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "items": [
+        {
+          "id": "setup-moments",
+          "title": "How do I set up my ceremony moments?",
+          "platform": "both",
+          "steps": [
+            "Tap the settings icon in the top right to open the Moment Manager.",
+            "You'll see the default moments — Walking Down the Aisle, Signing the Register, and Leaving. Tap any to rename it, change its colour, or adjust playback settings.",
+            "To add a new moment (e.g. Drinks Reception, First Dance), tap the + button.",
+            "Drag moments to reorder them to match your ceremony running order."
+          ]
+        },
+        {
+          "id": "add-music-ios",
+          "title": "How do I add music to a moment?",
+          "platform": "ios",
+          "steps": [
+            "Tap any moment, then tap Edit.",
+            "Tap + Add Tracks, then choose Local Files to import from the Files app (MP3, M4A, WAV, AIFF).",
+            "Or choose Apple Music to search and add streaming tracks — these require an active subscription.",
+            "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Tracks play in order — drag to reorder them within a moment."
+          ]
+        },
+        {
+          "id": "add-music-android",
+          "title": "How do I add music to a moment?",
+          "platform": "android",
+          "steps": [
+            "Tap any moment, then tap Edit.",
+            "Tap + Add Tracks to import MP3, M4A, or WAV files from your device storage.",
+            "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Tracks play in order — drag to reorder them within a moment."
+          ]
+        },
+        {
+          "id": "enable-live-mode",
+          "title": "How do I switch to Live Mode for the ceremony?",
+          "platform": "both",
+          "steps": [
+            "Tap Go Live when you're ready to hand over control.",
+            "Wedding Player runs a pre-flight check first — it flags any missing tracks or offline issues before switching to the large-control interface.",
+            "Fix any warnings before the ceremony. Don't dismiss them and hope for the best.",
+            "We recommend running through this during rehearsal so there are no surprises on the day."
+          ]
+        },
+        {
+          "id": "apple-music-offline",
+          "title": "How do I make Apple Music tracks available offline?",
+          "platform": "ios",
+          "steps": [
+            "Open the Offline Readiness checklist (tap the cloud icon in the moment list).",
+            "Any tracks not yet downloaded will show a warning.",
+            "Open the Music app and download the Wedding Player — Ceremony playlist. This playlist is created automatically for you.",
+            "Return to Wedding Player — each track should show a green tick.",
+            "Test playback in Aeroplane Mode the day before, not on the morning of the ceremony."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on-the-day",
+      "title": "On The Day",
+      "items": [
+        {
+          "id": "airplane-mode",
+          "title": "What is the airplane icon in Live Mode?",
+          "platform": "both",
+          "steps": [
+            "The airplane icon shows whether Aeroplane Mode is on. When it's red, Aeroplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
+            "Tap the icon to jump straight to Settings and switch Aeroplane Mode on. Once enabled, the indicator turns green.",
+            "Enable Aeroplane Mode before every ceremony — ideally during the pre-flight check when you first tap Go Live."
+          ]
+        },
+        {
+          "id": "handover",
+          "title": "Can someone else control the music on the day?",
+          "platform": "both",
+          "steps": [
+            "Yes — that's what Live Mode is designed for. Hand the phone to your venue coordinator or a trusted friend once Live Mode is active.",
+            "The large-button interface is straightforward to use without any knowledge of how the app was set up.",
+            "Brief them beforehand on which button starts each moment, and run a rehearsal so they're confident."
+          ]
+        },
+        {
+          "id": "offline-prep",
+          "title": "How do I prepare for offline use on the day?",
+          "platform": "both",
+          "steps": [
+            "All local audio files work offline automatically — no action needed.",
+            "For Apple Music tracks (iOS): download them via the Music app before the ceremony and verify with the Offline Readiness checklist.",
+            "Enable Aeroplane Mode during the ceremony to block calls and notifications.",
+            "Charge your device fully the night before. Keep the app in the foreground — don't close it between moments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "items": [
+        {
+          "id": "no-sound",
+          "title": "No sound is playing",
+          "platform": "both",
+          "steps": [
+            "Check the volume slider inside the moment — it may be at zero.",
+            "Check your device's physical volume buttons.",
+            "On iPhone, make sure the mute switch on the side of the device is off.",
+            "If using Bluetooth or an external speaker, confirm it's connected and selected as the audio output."
+          ]
+        },
+        {
+          "id": "track-missing-ios",
+          "title": "A track won't play or shows as missing",
+          "platform": "ios",
+          "steps": [
+            "For local files: the file may have been moved or deleted from the device. Remove it from the moment and re-import it.",
+            "For Apple Music tracks: check your subscription is active and the track is downloaded for offline use (see Offline Readiness in Settings).",
+            "If the file was in iCloud Drive and has been removed from your device, download it in the Files app first.",
+            "Try closing and reopening the app if the issue persists."
+          ]
+        },
+        {
+          "id": "track-missing-android",
+          "title": "A track won't play or shows as missing",
+          "platform": "android",
+          "steps": [
+            "The file may have been moved or deleted from your device. Remove it from the moment and re-import it.",
+            "Check the file format is supported: MP3, M4A, and WAV files work. FLAC and OGG are not currently supported.",
+            "Try closing and reopening the app if the issue persists."
+          ]
+        },
+        {
+          "id": "volume-inconsistent",
+          "title": "Volume levels are inconsistent between tracks",
+          "platform": "both",
+          "steps": [
+            "Wedding Player normalises volume automatically when you import a local file, bringing everything to a consistent level.",
+            "If a track still sounds noticeably louder or quieter, try removing and re-importing it.",
+            "On iOS, if Apple Music tracks vary in volume, check that Sound Check is enabled in Settings → Music on your iPhone."
+          ]
+        },
+        {
+          "id": "find-originals",
+          "title": "I can't find Wedding Player Originals",
+          "platform": "both",
+          "steps": [
+            "Originals are built into the app — no download required.",
+            "Open a moment, tap Edit, then tap + Add Tracks → Originals to browse and preview the full collection."
+          ]
+        },
+        {
+          "id": "drm-padlock",
+          "title": "A track has a padlock icon and won't play",
+          "platform": "ios",
+          "steps": [
+            "A padlock means the file has DRM protection and can't play outside Apple's own apps.",
+            "This affects music purchased from the iTunes Store before 2009, when Apple used FairPlay copy protection.",
+            "Check your iTunes purchase history — Apple has upgraded many older purchases to DRM-free versions you can re-download at no cost.",
+            "Alternatively, if the song is on Apple Music, add it directly inside Wedding Player without any file management."
+          ]
+        },
+        {
+          "id": "files-picker",
+          "title": "A file doesn't appear when I tap Add Files",
+          "platform": "ios",
+          "steps": [
+            "The Files picker only shows files visible to the iOS Files app.",
+            "Make sure your file is in iCloud Drive, On My iPhone, or a connected cloud service like Dropbox or Google Drive (with their iOS apps installed).",
+            "If the file shows a cloud icon (not yet downloaded to the device), tap it once in the Files app to download it before importing."
+          ]
+        },
+        {
+          "id": "restore-purchases",
+          "title": "Restore Purchases isn't working",
+          "platform": "both",
+          "steps": [
+            "Make sure you're signed in with the same account used for the original purchase.",
+            "Tap Restore Purchases in Settings → Account.",
+            "If it still doesn't work, contact support with your original purchase receipt."
+          ]
+        }
+      ]
+    }
+  ]
+}
