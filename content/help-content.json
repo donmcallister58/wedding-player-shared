@@ -59,10 +59,10 @@
           "title": "How do I add music to a moment?",
           "platform": "ios",
           "steps": [
-            "Tap any moment, then tap Edit.",
-            "Tap + Add Tracks, then choose Local Files to import from the Files app (MP3, M4A, WAV, AIFF).",
-            "Or choose Apple Music to search and add streaming tracks (an active subscription is required).",
-            "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Tap any moment, then tap + Add Tracks (or if you already have tracks in that moment, tap on the Tracks button on the moment row)",
+            "Then choose Add Local Files to import from the Files app (MP3, M4A, WAV, AIFF).",
+            "Or choose Add Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Or choose Add Apple Music to search and add Apple Music tracks (an active Apple Music subscription is required).",
             "Tracks play in order. Drag to reorder them within a moment."
           ]
         },
