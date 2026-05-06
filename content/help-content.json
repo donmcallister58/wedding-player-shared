@@ -28,6 +28,14 @@
             "Wedding Player comes with five default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Leaving and Wedding Breakfast. You can rename, reorder, add, or remove them to match your ceremony.",
             "Moments are grouped into Daytime and Evening sections, so the app stays organised for longer celebrations."
           ]
+        },
+        {
+          "id": "next-steps",
+          "title": "Next Steps",
+          "platform": "both",
+          "steps": [
+            "Follow the detailed instructions below to start personalising your moments and tracks to fit your ceremony."
+          ]
         }
       ]
     },
