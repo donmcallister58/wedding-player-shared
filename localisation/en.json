@@ -57,7 +57,9 @@
   "paywall.feature.offline.title":         "Offline Readiness",
   "paywall.feature.offline.detail":        "100% downloaded assurance for venues with no Wi-Fi. Never rely on the network.",
   "paywall.cta.purchase":                  "Unlock Lifetime Access",
+  "paywall.cta.purchase.compact":          "Unlock",
   "paywall.cta.purchase.withPrice":        "Unlock Lifetime Access: %@",
+  "paywall.cta.purchase.withPrice.compact": "Unlock: %@",
   "paywall.cta.restore":                   "Restore Purchases",
   "paywall.link.venue":                    "Professional Licence",
   "paywall.disclaimer":                    "One-time payment. No subscriptions. Access forever.",
@@ -134,6 +136,7 @@
   "general.edit":                              "EDIT",
 
   "transport.restartMoment":                   "RESTART MOMENT",
+  "transport.restartMoment.compact":           "RESTART",
   "transport.now":                             "NOW",
   "transport.next":                            "NEXT",
   "transport.cueing":                          "Cueing %@",
