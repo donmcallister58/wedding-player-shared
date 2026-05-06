@@ -4,6 +4,34 @@
   "version": "1.0",
   "sections": [
     {
+      "id": "about",
+      "title": "How Wedding Player Works",
+      "items": [
+        {
+          "id": "what-is-wedding-player",
+          "title": "What is Wedding Player?",
+          "platform": "both",
+          "steps": [
+            "Wedding Player is a ceremony music app designed for the day itself, not for streaming or discovery, but for reliable, offline playback when it matters most.",
+            "You build a playlist for each part of your ceremony (called a Moment), queue them in order, then hand the phone to your venue coordinator or a trusted friend.",
+            "On the day, one tap starts the music. No Wi-Fi required, no notifications, no surprises.",
+            "Wedding Player works with music from your own files, Apple Music, or our built-in collection of original ceremony tracks."
+          ]
+        },
+        {
+          "id": "what-is-a-moment",
+          "title": "What is a Moment?",
+          "platform": "both",
+          "steps": [
+            "A Moment is a named section of your ceremony, for example Walking Down The Aisle, Signing the Register, or Recessional.",
+            "Each Moment has its own playlist of music tracks that play in order. The right music plays at exactly the right time, without any manual switching. And when the Moment ends, the music can be faded out with a simple tap, just when it's needed. The next moment is lined up automatically, ready to play with a single tap.",
+            "Wedding Player comes with five default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Leaving and Wedding Breakfast. You can rename, reorder, add, or remove them to match your ceremony.",
+            "Moments are grouped into Daytime and Evening sections, so the app stays organised for longer celebrations."
+          ]
+        }
+      ]
+    },
+    {
       "id": "getting-started",
       "title": "Getting Started",
       "items": [
@@ -25,9 +53,9 @@
           "steps": [
             "Tap any moment, then tap Edit.",
             "Tap + Add Tracks, then choose Local Files to import from the Files app (MP3, M4A, WAV, AIFF).",
-            "Or choose Apple Music to search and add streaming tracks — these require an active subscription.",
+            "Or choose Apple Music to search and add streaming tracks (an active subscription is required).",
             "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
-            "Tracks play in order — drag to reorder them within a moment."
+            "Tracks play in order. Drag to reorder them within a moment."
           ]
         },
         {
@@ -38,7 +66,7 @@
             "Tap any moment, then tap Edit.",
             "Tap + Add Tracks to import MP3, M4A, or WAV files from your device storage.",
             "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
-            "Tracks play in order — drag to reorder them within a moment."
+            "Tracks play in order. Drag to reorder them within a moment."
           ]
         },
         {
@@ -47,7 +75,7 @@
           "platform": "both",
           "steps": [
             "Tap Go Live when you're ready to hand over control.",
-            "Wedding Player runs a pre-flight check first — it flags any missing tracks or offline issues before switching to the large-control interface.",
+            "Wedding Player runs a pre-flight check first, flagging any missing tracks or offline issues before switching to the large-control interface.",
             "Fix any warnings before the ceremony. Don't dismiss them and hope for the best.",
             "We recommend running through this during rehearsal so there are no surprises on the day."
           ]
@@ -59,8 +87,8 @@
           "steps": [
             "Open the Offline Readiness checklist (tap the cloud icon in the moment list).",
             "Any tracks not yet downloaded will show a warning.",
-            "Open the Music app and download the Wedding Player — Ceremony playlist. This playlist is created automatically for you.",
-            "Return to Wedding Player — each track should show a green tick.",
+            "Open the Music app and download the Wedding Player Ceremony playlist. This playlist is created automatically for you.",
+            "Return to Wedding Player. Each track should show a green tick.",
             "Test playback in Aeroplane Mode the day before, not on the morning of the ceremony."
           ]
         }
@@ -77,7 +105,7 @@
           "steps": [
             "The airplane icon shows whether Aeroplane Mode is on. When it's red, Aeroplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
             "Tap the icon to jump straight to Settings and switch Aeroplane Mode on. Once enabled, the indicator turns green.",
-            "Enable Aeroplane Mode before every ceremony — ideally during the pre-flight check when you first tap Go Live."
+            "Enable Aeroplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
           ]
         },
         {
@@ -85,7 +113,7 @@
           "title": "Can someone else control the music on the day?",
           "platform": "both",
           "steps": [
-            "Yes — that's what Live Mode is designed for. Hand the phone to your venue coordinator or a trusted friend once Live Mode is active.",
+            "Yes. Live Mode is designed exactly for this. Hand the phone to your venue coordinator or a trusted friend once Live Mode is active.",
             "The large-button interface is straightforward to use without any knowledge of how the app was set up.",
             "Brief them beforehand on which button starts each moment, and run a rehearsal so they're confident."
           ]
@@ -95,10 +123,10 @@
           "title": "How do I prepare for offline use on the day?",
           "platform": "both",
           "steps": [
-            "All local audio files work offline automatically — no action needed.",
+            "All local audio files work offline automatically. No action needed.",
             "For Apple Music tracks (iOS): download them via the Music app before the ceremony and verify with the Offline Readiness checklist.",
             "Enable Aeroplane Mode during the ceremony to block calls and notifications.",
-            "Charge your device fully the night before. Keep the app in the foreground — don't close it between moments."
+            "Charge your device fully the night before. Keep the app in the foreground and don't close it between moments."
           ]
         }
       ]
@@ -112,7 +140,7 @@
           "title": "No sound is playing",
           "platform": "both",
           "steps": [
-            "Check the volume slider inside the moment — it may be at zero.",
+            "Check the volume slider inside the moment; it may be at zero.",
             "Check your device's physical volume buttons.",
             "On iPhone, make sure the mute switch on the side of the device is off.",
             "If using Bluetooth or an external speaker, confirm it's connected and selected as the audio output."
@@ -154,7 +182,7 @@
           "title": "I can't find Wedding Player Originals",
           "platform": "both",
           "steps": [
-            "Originals are built into the app — no download required.",
+            "Originals are built into the app. No download required.",
             "Open a moment, tap Edit, then tap + Add Tracks → Originals to browse and preview the full collection."
           ]
         },
@@ -165,7 +193,7 @@
           "steps": [
             "A padlock means the file has DRM protection and can't play outside Apple's own apps.",
             "This affects music purchased from the iTunes Store before 2009, when Apple used FairPlay copy protection.",
-            "Check your iTunes purchase history — Apple has upgraded many older purchases to DRM-free versions you can re-download at no cost.",
+            "Check your iTunes purchase history. Apple has upgraded many older purchases to DRM-free versions you can re-download at no cost.",
             "Alternatively, if the song is on Apple Music, add it directly inside Wedding Player without any file management."
           ]
         },
