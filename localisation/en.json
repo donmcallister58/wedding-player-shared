@@ -441,10 +441,14 @@
   "postWedding.cta.review":                    "Leave a Review",
 
   "setupGuide.title":                          "GET STARTED",
+  "setupGuide.intro.title":                    "How Wedding Player works",
+  "setupGuide.intro.detail":                   "Create a moment for each part of your ceremony, add tracks to each moment, and play them at the right time. Fade out when you're ready to move on — the next moment lines up automatically, ready to be played.",
   "setupGuide.step1.title":                    "Customise your moments",
   "setupGuide.step1.detail":                   "Tap the Edit Moments button at the bottom of the screen to add, edit or delete moments.",
   "setupGuide.step2.title":                    "Add music to each moment",
   "setupGuide.step2.detail":                   "Tap on any moment below, and use the Tracks button to add local files, Originals or Apple Music tracks to each moment.",
+  "setupGuide.cta.start":                      "Start configuring your ceremony",
+  "setupGuide.cta.help":                       "View detailed instructions",
 
   "nowPlaying.upNext.track":                   "UP NEXT: %@",
   "nowPlaying.upNext.moment":                  "NEXT: %@",
