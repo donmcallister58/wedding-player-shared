@@ -60,8 +60,8 @@
           "title": "How do I add music to a moment?",
           "platform": "ios",
           "steps": [
-            "Tap any moment, then tap + Add Tracks (or if you already have tracks in that moment, tap on the Tracks button on the moment row)",
-            "Then choose Add Local Files to import from the Files app (MP3, M4A, WAV, AIFF).",
+            "Tap any moment, then tap + Edit Tracks",
+            "Then choose Add Local Files to import existing files from the Files app (MP3, M4A, WAV, AIFF).",
             "Or choose Add Originals to browse Wedding Player's built-in ceremony tracks.",
             "Or choose Add Apple Music to search and add Apple Music tracks (an active Apple Music subscription is required).",
             "Tracks play in order. Drag to reorder them within a moment."
@@ -73,7 +73,7 @@
           "platform": "android",
           "steps": [
             "Tap any moment, then tap Edit.",
-            "Tap + Add Tracks to import MP3, M4A, or WAV files from your device storage.",
+            "Tap + Edit Tracks to import MP3, M4A, or WAV files from your device storage.",
             "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
             "Tracks play in order. Drag to reorder them within a moment."
           ]
@@ -94,9 +94,9 @@
           "title": "How do I make Apple Music tracks available offline?",
           "platform": "ios",
           "steps": [
-            "Open the Offline Readiness checklist (tap the cloud icon in the moment list).",
+            "Open the Offline Readiness checklist in the Settings page.",
             "Any tracks not yet downloaded will show a warning.",
-            "Open the Music app and download the Wedding Player Ceremony playlist. This playlist is created automatically for you.",
+            "Open the Apple Music app and access the Wedding Player Ceremony playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
             "Return to Wedding Player. Each track should show a green tick.",
             "Test playback in Airplane Mode the day before, not on the morning of the ceremony."
           ]
@@ -112,7 +112,7 @@
           "title": "What is the airplane icon in Live Mode?",
           "platform": "both",
           "steps": [
-            "The airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
+            "The Airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
             "Tap the icon to jump straight to Settings and switch Airplane Mode on. Once enabled, the indicator turns green.",
             "Enable Airplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
           ]
@@ -122,7 +122,7 @@
           "title": "Can someone else control the music on the day?",
           "platform": "both",
           "steps": [
-            "Yes. Live Mode is designed exactly for this. Hand the phone to your venue coordinator or a trusted friend once Live Mode is active.",
+            "Yes. Live Mode is designed exactly for this. Hand your device to your venue coordinator or a trusted friend once Live Mode is active.",
             "The large-button interface is straightforward to use without any knowledge of how the app was set up.",
             "Brief them beforehand on which button starts each moment, and run a rehearsal so they're confident."
           ]
@@ -149,9 +149,8 @@
           "title": "No sound is playing",
           "platform": "both",
           "steps": [
-            "Check the volume slider inside the moment; it may be at zero.",
             "Check your device's physical volume buttons.",
-            "On iPhone, make sure the mute switch on the side of the device is off.",
+            "Make sure the mute switch on the side of the device is off.",
             "If using Bluetooth or an external speaker, confirm it's connected and selected as the audio output."
           ]
         },
@@ -179,7 +178,7 @@
         {
           "id": "volume-inconsistent",
           "title": "Volume levels are inconsistent between tracks",
-          "platform": "both",
+          "platform": "ios",
           "steps": [
             "Wedding Player normalises volume automatically when you import a local file, bringing everything to a consistent level.",
             "If a track still sounds noticeably louder or quieter, try removing and re-importing it.",
@@ -187,12 +186,12 @@
           ]
         },
         {
-          "id": "find-originals",
-          "title": "I can't find Wedding Player Originals",
-          "platform": "both",
+          "id": "volume-inconsistent-android",
+          "title": "Volume levels are inconsistent between tracks",
+          "platform": "android",
           "steps": [
-            "Originals are built into the app. No download required.",
-            "Open a moment, tap Edit, then tap + Add Tracks → Originals to browse and preview the full collection."
+            "Wedding Player normalises volume automatically when you import a local file, bringing everything to a consistent level.",
+            "If a track still sounds noticeably louder or quieter, try removing and re-importing it."
           ]
         },
         {
@@ -213,6 +212,16 @@
           "steps": [
             "The Files picker only shows files visible to the iOS Files app.",
             "Make sure your file is in iCloud Drive, On My iPhone, or a connected cloud service like Dropbox or Google Drive (with their iOS apps installed).",
+            "If the file shows a cloud icon (not yet downloaded to the device), tap it once in the Files app to download it before importing."
+          ]
+        },
+        {
+          "id": "files-picker-android",
+          "title": "A file doesn't appear when I tap Add Files",
+          "platform": "android",
+          "steps": [
+            "The Files picker only shows files visible on your device.",
+            "Make sure your file is in on your device, or a connected cloud service like Dropbox or Google Drive.",
             "If the file shows a cloud icon (not yet downloaded to the device), tap it once in the Files app to download it before importing."
           ]
         },
@@ -278,7 +287,7 @@
         {
           "icon": "info",
           "label": "Check the airplane indicator",
-          "context": "Top of the screen shows whether Airplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
+          "context": "Top of the screen shows whether Aeroplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
         },
         {
           "icon": "moments",
@@ -487,8 +496,8 @@
         },
         {
           "icon": "play",
-          "label": "Test in Airplane Mode",
-          "context": "Once everything shows green, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
+          "label": "Test in Aeroplane Mode",
+          "context": "Once everything shows green, switch on Aeroplane Mode and play through every moment. Do this the day before — not the morning of."
         }
       ]
     },
