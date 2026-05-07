@@ -98,7 +98,7 @@
             "Any tracks not yet downloaded will show a warning.",
             "Open the Music app and download the Wedding Player Ceremony playlist. This playlist is created automatically for you.",
             "Return to Wedding Player. Each track should show a green tick.",
-            "Test playback in Aeroplane Mode the day before, not on the morning of the ceremony."
+            "Test playback in Airplane Mode the day before, not on the morning of the ceremony."
           ]
         }
       ]
@@ -112,9 +112,9 @@
           "title": "What is the airplane icon in Live Mode?",
           "platform": "both",
           "steps": [
-            "The airplane icon shows whether Aeroplane Mode is on. When it's red, Aeroplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
-            "Tap the icon to jump straight to Settings and switch Aeroplane Mode on. Once enabled, the indicator turns green.",
-            "Enable Aeroplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
+            "The airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
+            "Tap the icon to jump straight to Settings and switch Airplane Mode on. Once enabled, the indicator turns green.",
+            "Enable Airplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
           ]
         },
         {
@@ -134,7 +134,7 @@
           "steps": [
             "All local audio files work offline automatically. No action needed.",
             "For Apple Music tracks (iOS): download them via the Music app before the ceremony and verify with the Offline Readiness checklist.",
-            "Enable Aeroplane Mode during the ceremony to block calls and notifications.",
+            "Enable Airplane Mode during the ceremony to block calls and notifications.",
             "Charge your device fully the night before. Keep the app in the foreground and don't close it between moments."
           ]
         }
@@ -278,7 +278,7 @@
         {
           "icon": "info",
           "label": "Check the airplane indicator",
-          "context": "Top of the screen shows whether Aeroplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
+          "context": "Top of the screen shows whether Airplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
         },
         {
           "icon": "moments",
@@ -487,8 +487,8 @@
         },
         {
           "icon": "play",
-          "label": "Test in Aeroplane Mode",
-          "context": "Once everything shows green, switch on Aeroplane Mode and play through every moment. Do this the day before — not the morning of."
+          "label": "Test in Airplane Mode",
+          "context": "Once everything shows green, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
         }
       ]
     },
