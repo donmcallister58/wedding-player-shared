@@ -1,7 +1,8 @@
 {
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
-  "version": "1.0",
+  "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
+  "version": "1.1",
   "sections": [
     {
       "id": "about",
@@ -224,6 +225,293 @@
             "Tap Restore Purchases in Settings → Account.",
             "If it still doesn't work, contact support with your original purchase receipt."
           ]
+        }
+      ]
+    }
+  ],
+  "screenTips": [
+    {
+      "id": "main-player-setup",
+      "screenName": "Main Player — Rehearsal Mode",
+      "title": "Building your ceremony",
+      "platform": "both",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "info",
+          "label": "Rehearsal Screen",
+          "context": "This is the main screen where you build your ceremony from."
+        },
+        {
+          "icon": "edit",
+          "label": "First - Edit your moments",
+          "context": "Each moment is a separate row or block - Tap Edit Moments at the bottom of the screen to add, rename, reorder, or delete the moments of your ceremony."
+        },
+        {
+          "icon": "tracks",
+          "label": "Next - Add music to each moment",
+          "context": "Tap Edit Tracks on each moment to add or delete tracks from your local files, Wedding Player Originals or from Apple Music. "
+        },
+        {
+          "icon": "play",
+          "label": "Play Through",
+          "context": "Once you're arranged your moments and added music tracks, you can rehearse your full ceremony. Tap the big button to play and tap again to fade out. If you have multiple tracks, use the Next Track button to jump to the next track in the moment."
+        },
+        {
+          "icon": "info",
+          "label": "Switch to Live Mode",
+          "context": "When you're ready for the day, tap Go Live for a simplifed version of this screen, without the editing controls."
+        }
+      ]
+    },
+    {
+      "id": "main-player-live",
+      "screenName": "Main Player — Live Mode",
+      "title": "Running the ceremony",
+      "platform": "both",
+      "actions": [
+        {
+          "icon": "play",
+          "label": "Play the current moment",
+          "context": "The big play button starts the music for whatever moment is showing. One tap — hand the phone over and trust it."
+        },
+        {
+          "icon": "info",
+          "label": "Check the airplane indicator",
+          "context": "Top of the screen shows whether Aeroplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
+        },
+        {
+          "icon": "moments",
+          "label": "Move to the next moment",
+          "context": "When a moment finishes, tap Next Moment. The current track can fade out first if it's still playing."
+        },
+        {
+          "icon": "settings",
+          "label": "Exit Live Mode",
+          "context": "Tap Exit Live to return to setup. Useful during rehearsal — not on the day itself."
+        }
+      ]
+    },
+    {
+      "id": "moment-manager",
+      "screenName": "Moment Manager (Edit Moments)",
+      "title": "Customising your moments",
+      "platform": "both",
+      "actions": [
+        {
+          "icon": "add",
+          "label": "Add a new moment",
+          "context": "Tap + Add Moment to create a section like 'First Dance' or 'Speeches'. Pick whether it sits in the Daytime or Evening segment."
+        },
+        {
+          "icon": "edit",
+          "label": "Rename or move a moment",
+          "context": "Tap any moment to open it. Rename it, change its short name (used on tabs), or switch its segment."
+        },
+        {
+          "icon": "moments",
+          "label": "Reorder your running order",
+          "context": "Drag moments up or down. The order here is the order Live Mode plays them in."
+        },
+        {
+          "icon": "info",
+          "label": "Delete unused moments",
+          "context": "Swipe left to remove. Live Mode hides empty moments automatically, but deleting keeps your setup clean."
+        }
+      ]
+    },
+    {
+      "id": "playlist-editor",
+      "screenName": "Playlist Editor (Tracks for a moment)",
+      "title": "Editing tracks for this moment",
+      "platform": "both",
+      "cardPosition": "top",
+      "actions": [
+        {
+          "icon": "add",
+          "label": "Add tracks",
+          "context": "Use the buttons at the bottom of the screen to add music tracks from those sources "
+        },
+        {
+          "icon": "edit",
+          "label": "Loop track",
+          "context": "If you have a single track, a loop toggle appears - Once switched on, the track will play in a loop until cancelled - you will see a red looping indicator on playback."
+        },
+        {
+          "icon": "tracks",
+          "label": "Move track to another moment",
+          "context": "Tap on the icon to the left of the delete icon to move the track to another moment."
+        },
+        {
+          "icon": "info",
+          "label": "Reorder tracks",
+          "context": "If you have multiple tracks in the moment, just drag them into any order using the three line icon on the right of the row,"
+        }
+      ]
+    },
+    {
+      "id": "music-search",
+      "screenName": "Apple Music Search",
+      "title": "Finding music in Apple Music",
+      "platform": "ios",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "apple-music",
+          "label": "Apple Music Integration",
+          "context": "Use the tabs above to Search for Tracks, Access Your Playlists and Browse Apple Music Collections - Note an Apple Music Subscription is required. "
+        },
+        {
+          "icon": "search",
+          "label": "Search the Apple Music catalogue",
+          "context": "Type a song title, artist, or album. Requires an active Apple Music subscription."
+        },
+        {
+          "icon": "search",
+          "label": "Browse your palylists",
+          "context": "Tap My Playlists to see music you've already added or downloaded in the Music app."
+        },
+        {
+          "icon": "search",
+          "label": "Browse",
+          "context": "Tap Browse to access Apples Prebuilt Wedding Collections"
+        },
+        {
+          "icon": "download",
+          "label": "Download for offline use",
+          "context": "After adding tracks, open Offline Readiness in Settings and download the auto-created Wedding Player Ceremony playlist via the Music app."
+        }
+      ]
+    },
+    {
+      "id": "originals-picker",
+      "screenName": "Originals Picker (built-in catalogue)",
+      "title": "Wedding Player Originals",
+      "platform": "both",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "tracks",
+          "label": "Browse Originals ",
+          "context": "Originals are exclusive tracks bundled with the app. Tap to open the Originals catalogue to preview and download tracks."
+        },
+        {
+          "icon": "tracks",
+          "label": "Browse More Originals",
+          "context": "Tap on Browse More Originals to preview and download further tracks."
+        },
+        {
+          "icon": "add",
+          "label": "Multi-select to add several",
+          "context": "If you have some tracks downloaded, they will appear on the screen. Tap to select the track(s) you want to add; the Done button shows the count of tracks selected. Tap 'Add N tracks' to import them all at once into the current moment."
+        },
+        {
+          "icon": "info",
+          "label": "Already-used tracks are locked",
+          "context": "Tracks you've already added to another moment show 'Used in [Moment]' and can't be picked twice. This prevents accidental duplicates in the ceremony."
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "screenName": "Settings",
+      "title": "Settings overview",
+      "platform": "both",
+      "actions": [
+        {
+          "icon": "moments",
+          "label": "Manage moments",
+          "context": "Edit Moments takes you straight to the Moment Manager — add, rename, reorder, delete."
+        },
+        {
+          "icon": "apple-music",
+          "label": "Apple Music setup",
+          "context": "Connect Apple Music, see subscription status, and check what's downloaded for offline playback."
+        },
+        {
+          "icon": "download",
+          "label": "Offline Readiness",
+          "context": "See which tracks are ready without Wi-Fi. Run this check the day before the ceremony."
+        },
+        {
+          "icon": "info",
+          "label": "Version + support",
+          "context": "Your build number, contact details, and the full Help screen all live at the bottom of Settings."
+        }
+      ]
+    },
+    {
+      "id": "help-screen",
+      "screenName": "Help & Support (in Settings)",
+      "title": "How to use Help",
+      "platform": "both",
+      "actions": [
+        {
+          "icon": "search",
+          "label": "Browse by topic",
+          "context": "Help is grouped into How It Works, Getting Started, On The Day, and Troubleshooting. Tap a question to expand its steps."
+        },
+        {
+          "icon": "info",
+          "label": "Looking for something specific?",
+          "context": "If a topic isn't here, weddingplayer.app has the full guide — and you can email support if you're still stuck."
+        },
+        {
+          "icon": "settings",
+          "label": "Per-screen tips elsewhere",
+          "context": "Most screens have a ? button in the corner for a quick tip card. Use those in-flow; come here for the full reference."
+        }
+      ]
+    },
+    {
+      "id": "offline-readiness",
+      "screenName": "Offline Readiness checklist",
+      "title": "Preparing for offline use",
+      "platform": "ios",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "settings",
+          "label": "Apple Music setup steps",
+          "context": "To ensure all Apple Music tracks will download, follow the two instructions in this section. "
+        },
+        {
+          "icon": "info",
+          "label": "Check all files are showing as Ready ",
+          "context": "If a file is marked as Ready, it means it has downloaded. "
+        },
+        {
+          "icon": "info",
+          "label": "Files showing Download",
+          "context": "Make sure the Apple Music Setup steps are completed. Open Apple Music and navigate to the Wedding Player playlist. Tap the download arrow to download all tracks."
+        },
+        {
+          "icon": "play",
+          "label": "Test in Aeroplane Mode",
+          "context": "Once everything shows green, switch on Aeroplane Mode and play through every moment. Do this the day before — not the morning of."
+        }
+      ]
+    },
+    {
+      "id": "personalisation",
+      "screenName": "Personalisation (couple names, date)",
+      "title": "Personalising your ceremony",
+      "platform": "both",
+      "actions": [
+        {
+          "icon": "edit",
+          "label": "Add couple names",
+          "context": "Enter the names that show on the player's header, e.g. 'Emma & James'. Visible during setup and on the rehearsal banner."
+        },
+        {
+          "icon": "info",
+          "label": "Set the ceremony date",
+          "context": "The date drives the post-wedding rating prompt and the personalised header. Change it any time."
+        },
+        {
+          "icon": "settings",
+          "label": "Other personalisation",
+          "context": "Custom text size, app appearance (light / dark / system), and audio engine settings live under the main Settings screen."
         }
       ]
     }
