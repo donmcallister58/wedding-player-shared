@@ -1,0 +1,18 @@
+{
+  "_comment": "Platform-agnostic icon vocabulary used by screen tips and (future) other shared UI content. Build fails if a content reference uses a token not in this file.",
+  "_comment2": "Adding a new icon: pick a platform-neutral token (lowercase, hyphen-separated), then map to an SF Symbol (iOS) and a Material icon (Android).",
+  "version": "1.0",
+  "icons": {
+    "tracks":      { "ios": "music.note.list",     "android": "QueueMusic" },
+    "moments":     { "ios": "slider.horizontal.3", "android": "Tune" },
+    "play":        { "ios": "play.circle.fill",   "android": "PlayCircle" },
+    "add":         { "ios": "plus.circle.fill",   "android": "AddCircle" },
+    "edit":        { "ios": "pencil",              "android": "Edit" },
+    "info":        { "ios": "info.circle",         "android": "Info" },
+    "search":      { "ios": "magnifyingglass",     "android": "Search" },
+    "apple-music": { "ios": "applelogo",           "android": "LibraryMusic" },
+    "browse":      { "ios": "square.grid.2x2",     "android": "GridView" },
+    "download":    { "ios": "arrow.down.circle",   "android": "Download" },
+    "settings":    { "ios": "gearshape",           "android": "Settings" }
+  }
+}

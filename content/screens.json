@@ -1,0 +1,18 @@
+{
+  "_comment": "Canonical registry of named screens that can have a tip card attached. Source of truth for the help-editor's 'screen name' picker. Build-time validation will eventually fail if a Swift/Kotlin call site references an id not in this file.",
+  "_comment2": "Adding a screen: pick a slug id (lowercase, hyphens) and a human-readable screenName. The id is what code calls .screenTip(id:) with; the screenName is what shows in the help-editor list and to authors choosing which screen to tip.",
+  "version": "1.0",
+  "screens": [
+    { "id": "main-player-setup",  "screenName": "Main Player — Rehearsal Mode" },
+    { "id": "main-player-live",   "screenName": "Main Player — Live Mode" },
+    { "id": "moment-manager",     "screenName": "Moment Manager (Edit Moments)" },
+    { "id": "playlist-editor",    "screenName": "Playlist Editor (Tracks for a moment)" },
+    { "id": "music-search",       "screenName": "Apple Music Search" },
+    { "id": "originals-picker",   "screenName": "Originals Picker (built-in catalogue)" },
+    { "id": "manage-originals",   "screenName": "Manage Originals (preview + download)" },
+    { "id": "settings",           "screenName": "Settings" },
+    { "id": "help-screen",        "screenName": "Help & Support (in Settings)" },
+    { "id": "offline-readiness",  "screenName": "Offline Readiness checklist" },
+    { "id": "personalisation",    "screenName": "Personalisation (couple names, date)" }
+  ]
+}

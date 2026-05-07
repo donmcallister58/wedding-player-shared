@@ -248,7 +248,7 @@
   "settings.fadeOut.min":                      "2s",
   "settings.fadeOut.max":                      "15s",
 
-  "settings.originals.title":                  "Manage Originals",
+  "settings.originals.title":                  "Manage WP Originals",
   "settings.originals.subtitle.empty":         "Download ceremony tracks: %d available",
   "settings.originals.subtitle.partial":       "%d of %d tracks downloaded",
 
@@ -270,6 +270,7 @@
   "settings.venueUpsell.subtitle":             "Subscribe for unlimited resets between couples",
 
   "settings.contactSupport":                   "Contact Support",
+  "settings.leaveReview":                      "Leave a review",
   "settings.appVersion":                       "App Version",
 
   "settings.licence.reset.title":              "Set Up for New Wedding",
@@ -372,7 +373,7 @@
   "catalogue.empty.cta":                       "Browse Originals",
 
   "getMusic.title.add":                        "Add from Originals",
-  "getMusic.title.manage":                     "Manage Originals",
+  "getMusic.title.manage":                     "Manage WP Originals",
   "getMusic.delete":                           "Delete",
   "getMusic.empty.downloaded":                 "No downloaded tracks yet",
   "getMusic.empty.category":                   "No tracks in this category",
@@ -442,13 +443,10 @@
 
   "setupGuide.title":                          "GET STARTED",
   "setupGuide.intro.title":                    "How Wedding Player works",
-  "setupGuide.intro.detail":                   "Create a moment for each part of your ceremony, add tracks to each moment, and play them at the right time. Fade out when you're ready to move on — the next moment lines up automatically, ready to be played.",
-  "setupGuide.step1.title":                    "Customise your moments",
-  "setupGuide.step1.detail":                   "Tap the Edit Moments button at the bottom of the screen to add, edit or delete moments.",
-  "setupGuide.step2.title":                    "Add music to each moment",
-  "setupGuide.step2.detail":                   "Tap on any moment below, and use the Tracks button to add local files, Originals or Apple Music tracks to each moment.",
+  "setupGuide.intro.detail":                   "Create a moment for each part of your ceremony, then add music tracks to each one. Once organised, you can tap on the big play button to start the playback, and tap it again to fade out the music at the right time. The next moment lines up automatically, ready to be played when you are ready.",
+  "setupGuide.tips.title":                     "Tip cards on every screen",
+  "setupGuide.tips.detail":                    "The first time you visit a screen, a tip card appears to help you setup Wedding Player. Dismiss it when you're done by tapping the x in the top right corner of the card. Bring it back any time by tapping the ? icon at the top of the screen.",
   "setupGuide.cta.start":                      "Start configuring your ceremony",
-  "setupGuide.cta.help":                       "View detailed instructions",
 
   "nowPlaying.upNext.track":                   "UP NEXT: %@",
   "nowPlaying.upNext.moment":                  "NEXT: %@",
