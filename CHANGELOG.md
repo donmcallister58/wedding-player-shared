@@ -6,6 +6,22 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.33 — 2026-05-08
+
+Folds the last three iOS hardcoded-copy overrides back into shared content so iOS and Android stay in sync.
+
+### Localisation (`localisation/en.json`)
+- `onboarding.personalise.body` — value updated to "Tell us who's getting married and roughly when. We'll personalise the walkthrough so it reads as your ceremony." (was the older "Just your names and roughly when…" stub which iOS had been overriding inline).
+- `nowPlaying.finalTrack` — value updated from "FINAL TRACK" to "CEREMONY ENDS AFTER THIS". Reads the moment as well as the track context: when there is no further populated moment to advance to, this *is* the end of the ceremony's audio.
+- `setupGuide.tips.body.prefix` / `setupGuide.tips.body.suffix` — new pair flanking an inline `?` SF Symbol in the SetupGuideCard tip-cards section.
+- `setupGuide.darkMode.title` / `setupGuide.darkMode.body.prefix` / `setupGuide.darkMode.body.suffix` — new keys for the SetupGuideCard dark-mode section, with the body split around an inline settings-icon SF Symbol.
+
+`setupGuide.tips.detail` is left in place but unused on iOS; Android can adopt the same prefix/suffix split when it picks up the SetupGuideCard.
+
+### Verification
+- `swiftc -parse` clean on regenerated `SharedContent.generated.swift`.
+- iOS swap of remaining hardcoded strings to `String.shared("…")` lands in the same iOS commit that bumps the submodule pin.
+
 ## v1.0.31 — 2026-05-08
 
 Onboarding redesign — content side. Adds the strings and the cross-platform telemetry contract for the new role-aware first-run flow shipping in iOS Build 48 (Phases 2–6) and the Android port.

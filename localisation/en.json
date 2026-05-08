@@ -103,7 +103,7 @@
   "onboarding.role.pro.body":                 "Walk through a sample ceremony for Nicola & Alex and see how the reset works between weddings.",
 
   "onboarding.personalise.title":             "Make it yours",
-  "onboarding.personalise.body":              "Just your names and roughly when. The demo will use these so you can see how the app feels for your day.",
+  "onboarding.personalise.body":              "Tell us who's getting married and roughly when. We'll personalise the walkthrough so it reads as your ceremony.",
   "onboarding.personalise.section.names":     "Names",
   "onboarding.personalise.section.date":      "Wedding date",
   "onboarding.personalise.partner1.placeholder": "Partner 1",
@@ -477,13 +477,17 @@
   "setupGuide.intro.title":                    "How Wedding Player works",
   "setupGuide.intro.detail":                   "Create a moment for each part of your ceremony, then add music tracks to each one. Once organised, you can tap on the big play button to start the playback, and tap it again to fade out the music at the right time. The next moment lines up automatically, ready to be played when you are ready.",
   "setupGuide.tips.title":                     "Tip cards on every screen",
-  "setupGuide.tips.detail":                    "The first time you visit a screen, a tip card appears to help you setup Wedding Player. Dismiss it when you're done by tapping the x in the top right corner of the card. Bring it back any time by tapping the ? icon at the top of the screen.",
+  "setupGuide.tips.body.prefix":               "You can access detailed help on all aspects of Wedding Player by tapping on the ",
+  "setupGuide.tips.body.suffix":               " at the top of most screens.",
+  "setupGuide.darkMode.title":                 "Dark Mode",
+  "setupGuide.darkMode.body.prefix":           "You can switch back to Light or System Mode via the Settings menu ",
+  "setupGuide.darkMode.body.suffix":           ".",
   "setupGuide.cta.start":                      "Start configuring your ceremony",
 
   "nowPlaying.upNext.track":                   "UP NEXT: %@",
   "nowPlaying.upNext.moment":                  "NEXT: %@",
   "nowPlaying.lastTrackLooping":               "LAST TRACK · WILL LOOP",
-  "nowPlaying.finalTrack":                     "FINAL TRACK",
+  "nowPlaying.finalTrack":                     "CEREMONY ENDS AFTER THIS",
 
   "transport.nextTrack":                       "Next Track",
   "transport.fadeAndEnd":                      "Fade & End",
