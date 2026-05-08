@@ -36,8 +36,10 @@ Use these strings everywhere a `role` payload is sent. Do not abbreviate (`pro`,
 
 | Event | Payload | Fires when |
 |---|---|---|
-| `splash_shown` | `is_first_launch: "true"\|"false"` | `AnimatedSplashView` appears (every cold launch). |
-| `splash_skipped` | `elapsed_ms: <int>` | User taps splash before the auto-dismiss timer. |
+| `splash_v2_shown` | `is_first_launch: "true"\|"false"` | `AnimatedSplashViewV2` / `AnimatedSplashScreenV2` appears (every cold launch). |
+| `splash_v2_skipped` | `elapsed_ms: <int>` | User taps splash before the auto-dismiss timer. |
+
+Event names carry the `_v2` suffix because the V1 splash (gold ring + 8 confetti dots, light theme) shipped on iOS Build 48 and was deleted in iOS commit `38dcda4` before any production telemetry accumulated. The suffix keeps a clean separation if a V3 design ever lands.
 
 ### Role gate
 
@@ -81,7 +83,7 @@ Use these strings everywhere a `role` payload is sent. Do not abbreviate (`pro`,
 
 ## Funnels worth building
 
-- **First-run conversion** — cold launches → `splash_shown` → `role_gate_shown` → `role_selected` → (couple branch: `personalisation_completed`) → `demo_completed` → `paywall_shown` → `purchase_completed`. Watch drop-off at each step.
+- **First-run conversion** — cold launches → `splash_v2_shown` → `role_gate_shown` → `role_selected` → (couple branch: `personalisation_completed`) → `demo_completed` → `paywall_shown` → `purchase_completed`. Watch drop-off at each step.
 - **Role split** — count `role_selected` by `role`. Tells you the audience mix and informs how much copy / paywall energy to spend on each.
 - **Demo replay rate** — `demo_complete_action{action:replay}` ÷ `demo_completed`. High replay = compelling demo or confusing CTAs; low replay + low setup = a cliff.
 - **Pro reset vs keep** — split of `demo_complete_action{role:wedding_professional}` between `reset` and `keep_demo`. Informs whether to reorder the Pro CTAs.

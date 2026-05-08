@@ -6,6 +6,18 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.34 — 2026-05-08
+
+Telemetry contract correction — splash events renamed to match what both platforms actually send. No localisation, content, or codegen output changes.
+
+### Docs (`docs/onboarding-events.md`)
+- Renamed `splash_shown` → `splash_v2_shown`. Renamed `splash_skipped` → `splash_v2_skipped`. Both iOS and Android already send the `_v2` variants in code; the contract was the outlier.
+- Updated the "First-run conversion" funnel to reference `splash_v2_shown`.
+- Added a footnote explaining the `_v2` suffix: the V1 splash (gold ring + 8 confetti dots, light theme) shipped briefly on iOS Build 48 and was deleted in iOS commit `38dcda4` before any production telemetry accumulated. The suffix keeps a clean separation if a V3 design ever lands.
+
+### Verification
+- No code in either platform repo references the renamed events — the contract was previously documenting names that were never fired. Both platforms send `splash_v2_skipped` today; both will start sending `splash_v2_shown` in the same iOS / Android commits that bump this submodule pin.
+
 ## v1.0.33 — 2026-05-08
 
 Folds the last three iOS hardcoded-copy overrides back into shared content so iOS and Android stay in sync.
