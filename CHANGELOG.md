@@ -6,6 +6,27 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.31 — 2026-05-08
+
+Onboarding redesign — content side. Adds the strings and the cross-platform telemetry contract for the new role-aware first-run flow shipping in iOS Build 48 (Phases 2–6) and the Android port.
+
+### Localisation (`localisation/en.json`)
+- `onboarding.splash.subtitle` — "Ceremony Music" (gold subtitle on the new animated splash).
+- `onboarding.role.*` — six keys covering the role-gate header, body, and the two card titles + bodies (couple / wedding-professional).
+- `onboarding.personalise.*` — eleven keys covering the new single-screen `CouplePersonalisationView` (header, body, section labels, name placeholders, date-mode toggle, CTA, footnote).
+- `onboarding.pro.demoComplete.*` — nine keys covering the Wedding-Professional variant of the demo-complete view (header, body, two option rows with title/body, three CTAs).
+- `demo.couple.partner1` / `partner2` — "Nicola" / "Alex" — canonical demo couple names so iOS auto-personalisation and Android auto-personalisation match.
+- `paywall.link.couple` — "I'm just planning my own wedding →" — reciprocal cross-link added to `VenuePaywallView`.
+
+All additions; no existing keys touched.
+
+### Docs
+- `docs/onboarding-events.md` — full TelemetryDeck contract for the new flow. Documents the canonical `UserRole` raw values (`couple`, `wedding_professional`), the demo-complete action raw values (`setup`, `replay`, `reset`, `keep_demo`), every event name + payload schema, the `source` values for paywall events, and the funnels worth building. **Both platforms must follow this verbatim** — TelemetryDeck aggregates by string match.
+
+### Verification
+- `swiftc -parse` clean on regenerated `SharedContent.generated.swift`.
+- iOS Build 48 swap of hardcoded strings to `String.shared("…")` lands in the same iOS PR that bumps the submodule pin.
+
 ## v1.0.0 — 2026-05-03
 
 Initial release. First cut of the shared-content repo, consumable from both iOS and Android via submodule + build-time codegen.

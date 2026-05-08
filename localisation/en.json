@@ -93,6 +93,41 @@
   "onboarding.demo.body":                "The demo walks you through a real ceremony: tracks organised into moments, played and managed exactly as you would on the day.",
   "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why.",
 
+  "onboarding.splash.subtitle":               "Ceremony Music",
+
+  "onboarding.role.title":                    "Welcome to Wedding Player",
+  "onboarding.role.body":                     "Tell us a little about you so we can set the app up the right way.",
+  "onboarding.role.couple.title":             "I'm planning my own wedding",
+  "onboarding.role.couple.body":              "We'll personalise the app with your names and date so the demo feels like your day.",
+  "onboarding.role.pro.title":                "I'm a Wedding Professional",
+  "onboarding.role.pro.body":                 "Walk through a sample ceremony for Nicola & Alex and see how the reset works between weddings.",
+
+  "onboarding.personalise.title":             "Make it yours",
+  "onboarding.personalise.body":              "Just your names and roughly when. The demo will use these so you can see how the app feels for your day.",
+  "onboarding.personalise.section.names":     "Names",
+  "onboarding.personalise.section.date":      "Wedding date",
+  "onboarding.personalise.partner1.placeholder": "Partner 1",
+  "onboarding.personalise.partner2.placeholder": "Partner 2",
+  "onboarding.personalise.dateMode.approximate": "Approximate",
+  "onboarding.personalise.dateMode.tbc":      "Date TBC",
+  "onboarding.personalise.cta.continue":      "Continue",
+  "onboarding.personalise.disclaimer":        "You can change any of this later in Settings.",
+
+  "onboarding.pro.demoComplete.title":        "That's the demo for Nicola & Alex",
+  "onboarding.pro.demoComplete.body":         "Pick how you'd like to set the app up for your first real ceremony.",
+  "onboarding.pro.demoComplete.option.reset.title": "Reset for next wedding",
+  "onboarding.pro.demoComplete.option.reset.body":  "Clears the demo couple and tracks — the same workflow you'll run between real ceremonies.",
+  "onboarding.pro.demoComplete.option.keep.title":  "Keep demo as my starter",
+  "onboarding.pro.demoComplete.option.keep.body":   "Preserves the demo moments + tracks so you can edit your way to your first ceremony instead of starting blank.",
+  "onboarding.pro.demoComplete.cta.reset":    "Reset for next wedding",
+  "onboarding.pro.demoComplete.cta.keep":     "Keep demo as my starter",
+  "onboarding.pro.demoComplete.cta.replay":   "Replay demo",
+
+  "demo.couple.partner1":                     "Nicola",
+  "demo.couple.partner2":                     "Alex",
+
+  "paywall.link.couple":                      "I'm just planning my own wedding →",
+
   "demo.complete.title":                       "Demo Complete!",
   "demo.complete.benefit.moments":             "Separate moments for each part of the ceremony: aisle, signing, and exit.",
   "demo.complete.benefit.playback":            "Each moment played its tracks in order, with seamless fades to the next moment with a tap.",
