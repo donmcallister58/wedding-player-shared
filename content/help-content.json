@@ -79,6 +79,30 @@
           ]
         },
         {
+          "id": "getting-music-on-device-ios",
+          "title": "How do I get music files onto my iPhone or iPad?",
+          "platform": "ios",
+          "steps": [
+            "Wedding Player plays MP3, M4A, WAV, and AIFF files stored on your device. Three easy ways to get them there:",
+            "iCloud Drive — Drop your music files into iCloud Drive on your Mac. They'll appear in the Files app on your iPhone or iPad and in Wedding Player's file picker.",
+            "AirDrop — Right-click a file on your Mac and AirDrop it to your phone. iOS will offer to save it to Files.",
+            "Mac Finder — Connect your iPhone or iPad to your Mac with a cable, open Finder, select your device in the sidebar, then drag music files into the Files section.",
+            "Tip: keep everything in a dedicated 'Wedding Music' folder in Files so it's easy to find on the day."
+          ]
+        },
+        {
+          "id": "getting-music-on-device-android",
+          "title": "How do I get music files onto my Android device?",
+          "platform": "android",
+          "steps": [
+            "Wedding Player plays MP3, M4A, WAV, and AIFF files stored on your phone. Three easy ways to get them there:",
+            "Google Drive — On your computer, go to drive.google.com and upload your files. In Wedding Player's file picker, tap the menu icon (≡) and choose Google Drive — your files will appear there.",
+            "USB cable — Connect your phone to your computer with a USB cable. Swipe down on your phone and tap the USB notification, then choose File Transfer. Your phone appears as a drive on the computer; drag music into Music or Downloads.",
+            "Files by Google — Install Files by Google from the Play Store (free). Use it to move files from Downloads into a Music folder, or to open files directly from cloud services.",
+            "Tip: keep everything in a dedicated 'Wedding Music' folder so it's easy to find on the day."
+          ]
+        },
+        {
           "id": "enable-live-mode",
           "title": "How do I switch to Live Mode for the ceremony?",
           "platform": "both",
