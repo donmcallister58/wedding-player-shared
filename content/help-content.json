@@ -446,6 +446,35 @@
       ]
     },
     {
+      "id": "manage-originals",
+      "screenName": "Manage Originals (preview + download)",
+      "title": "Wedding Player Originals",
+      "platform": "both",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "play",
+          "label": "Preview a track",
+          "context": "Tap the play circle to hear a 15-second preview. Use the category chips to filter by ceremony moment."
+        },
+        {
+          "icon": "download",
+          "label": "Download a track",
+          "context": "Tap the download arrow to save the full track. Once downloaded, it's available offline and the play circle plays the whole track."
+        },
+        {
+          "icon": "add",
+          "label": "Add to your moments",
+          "context": "Open any moment, tap Add Originals, and pick from the tracks you've downloaded. One track can only be used in a single moment."
+        },
+        {
+          "icon": "info",
+          "label": "Free up space",
+          "context": "Tap the red trash icon next to a downloaded track to remove it. You can re-download later from the same screen."
+        }
+      ]
+    },
+    {
       "id": "settings",
       "screenName": "Settings",
       "title": "Settings overview",
