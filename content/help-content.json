@@ -311,7 +311,7 @@
         {
           "icon": "info",
           "label": "Check the airplane indicator",
-          "context": "Top of the screen shows whether Aeroplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
+          "context": "Top of the screen shows whether Airplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
         },
         {
           "icon": "moments",
@@ -549,8 +549,8 @@
         },
         {
           "icon": "play",
-          "label": "Test in Aeroplane Mode",
-          "context": "Once everything shows green, switch on Aeroplane Mode and play through every moment. Do this the day before — not the morning of."
+          "label": "Test in Airplane Mode",
+          "context": "Once everything shows green, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
         }
       ]
     },

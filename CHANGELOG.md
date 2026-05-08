@@ -6,6 +6,16 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.35 — 2026-05-08
+
+Last three "Aeroplane Mode" residues swept from `content/help-content.json`. The v1.0.27 sweep covered the body copy but left two screen-tip `context` fields and one `label` referring to the British spelling. Reads inconsistently with the system "Airplane Mode" label and the body text on the same screens.
+
+### Content (`content/help-content.json`)
+- Main Player tip — "Top of the screen shows whether **Airplane Mode** is on…" (was Aeroplane).
+- Offline Readiness tip — `label` "Test in **Airplane** Mode" + matching `context` body (both were Aeroplane).
+
+No `version` field bump on the JSON itself — the codegen pulls strings, not the file's `version`. Shared VERSION bumped 1.0.34 → 1.0.35 so platforms can pin a stable point.
+
 ## v1.0.34 — 2026-05-08
 
 Telemetry contract correction — splash events renamed to match what both platforms actually send. No localisation, content, or codegen output changes.
