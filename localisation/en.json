@@ -93,7 +93,7 @@
   "onboarding.demo.body":                "The demo walks you through a real ceremony: tracks organised into moments, played and managed exactly as you would on the day.",
   "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why.",
 
-  "onboarding.splash.subtitle":               "Ceremony Music",
+  "onboarding.splash.subtitle":               "Your Ceremony Music Deserves More Than Just a Playlist",
 
   "onboarding.role.title":                    "Welcome to Wedding Player",
   "onboarding.role.body":                     "Tell us a little about you so we can set the app up the right way.",
@@ -113,10 +113,10 @@
   "onboarding.personalise.cta.continue":      "Continue",
   "onboarding.personalise.disclaimer":        "You can change any of this later in Settings.",
 
-  "onboarding.pro.demoComplete.title":        "That's the demo for Nicola & Alex",
+  "onboarding.pro.demoComplete.title":        "That's a run through of a sample ceremony",
   "onboarding.pro.demoComplete.body":         "Pick how you'd like to set the app up for your first real ceremony.",
   "onboarding.pro.demoComplete.option.reset.title": "Reset for next wedding",
-  "onboarding.pro.demoComplete.option.reset.body":  "Clears the demo couple and tracks — the same workflow you'll run between real ceremonies.",
+  "onboarding.pro.demoComplete.option.reset.body":  "Clears the demo couple and tracks. This is the same workflow you'll run between real ceremonies.",
   "onboarding.pro.demoComplete.option.keep.title":  "Keep demo as my starter",
   "onboarding.pro.demoComplete.option.keep.body":   "Preserves the demo moments + tracks so you can edit your way to your first ceremony instead of starting blank.",
   "onboarding.pro.demoComplete.cta.reset":    "Reset for next wedding",
@@ -134,29 +134,32 @@
   "demo.complete.benefit.advance":             "Moments advanced automatically. The next one was always cued up and ready.",
   "demo.complete.benefit.edit":                "Edit the default moments, rename them, or add new ones, including evening moments like drinks and party.",
   "demo.complete.benefit.live":                "On the day, Live Mode gives you large, easy-to-tap controls. Zero stress.",
-  "demo.complete.cta.setup":                   "Ready to set up your Wedding...",
-  "demo.complete.cta.replay":                  "Replay Demo",
+  "demo.complete.cta.setup":                   "Start fresh with my own songs",
+  "demo.complete.cta.keepDemo":                "Keep the demo songs to practise",
+  "demo.complete.cta.replay":                  "Replay demo",
+  "demo.ceremonyComplete.continue":            "Continue",
 
   "demo.tip.label":                            "TIP",
 
+  "demo.tip.entrance.stopped.action":          "Tap the big blue button above to start the track",
+  "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the bride's walk down the aisle.",
+  "demo.tip.entrance.stopped.tip":             "When they are ready to make their entrance, just tap the Play button to start the track",
   "demo.tip.entrance.playing.action":          "The music for the %@ moment is now playing",
-  "demo.tip.entrance.playing.context":         "The wedding party walks down the aisle to this track.",
-  "demo.tip.entrance.playing.tip":             "Let it play to the end, or tap Fade out to move on.",
-  "demo.tip.entrance.stopped.action":          "Press Start %@",
-  "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the wedding party's walk down the aisle.",
-  "demo.tip.entrance.stopped.tip":             "When it finishes, the next moment is automatically cued up and ready to go with one tap.",
+  "demo.tip.entrance.playing.context":         "The bride starts walking down the aisle to this track.",
+  "demo.tip.entrance.playing.tip":             "When the time is right, and only then, just simply tap Fade out to gracefully stop the track and seamlessly cue up the next moment.",
+
 
   "demo.tip.register.playing.action":          "%@ is now playing",
   "demo.tip.register.playing.context":         "Multiple tracks keep the music flowing while the register is signed.",
-  "demo.tip.register.playing.tip":             "Let it play to the end, or tap Fade out when the signing is done.",
-  "demo.tip.register.stopped.action":          "Press Start %@",
-  "demo.tip.register.stopped.context":         "Background music for signing the register. %d tracks play in sequence, filling however long it takes.",
-  "demo.tip.register.stopped.tip":             "Tap Fade out when you're ready to move on.",
+  "demo.tip.register.playing.tip":             "Just tap Fade out when the signing is done. You don't have to worry how long it takes.",
+  "demo.tip.register.stopped.action":          "Tap the big blue button above to start the track",
+  "demo.tip.register.stopped.context":         "Background music for signing the register. %d tracks play in sequence, filling however long it takes. Or if you have a single track, Wedding Player allows you to loop the track indefinitely.",
+  "demo.tip.register.stopped.tip":             "Looping is set within the Moment editor.",
 
   "demo.tip.exit.playing.action":              "%@ is now playing!",
   "demo.tip.exit.playing.context":             "The newlyweds walk back down the aisle to this celebration track.",
-  "demo.tip.exit.playing.tip":                 "Let it play out, or tap Fade & End to bring the ceremony to a close.",
-  "demo.tip.exit.stopped.action":              "Press Start %@",
+  "demo.tip.exit.playing.tip":                 "Let it play out to the end, or tap Fade & End to bring the ceremony to a close.",
+  "demo.tip.exit.stopped.action":              "Tap the big blue button above to start the track",
   "demo.tip.exit.stopped.context":             "The exit music: the grand finale as the newlyweds walk back down the aisle.",
   "demo.tip.exit.stopped.tip":                 "Everything is pre-loaded and ready. One tap and the music plays. That's the power of Wedding Player.",
 
@@ -195,7 +198,7 @@
   "live.looping":                              "LOOPING",
   "live.rehearsalMode":                        "REHEARSAL MODE",
   "live.goLive":                               "Go Live",
-  "live.goLive.locked":                        "Go Live: Tap to unlock",
+  "live.goLive.locked":                        "Trial Mode · Tap to Unlock",
 
   "momentSwitch.switchNow":                    "Switch Now",
   "momentSwitch.keepPlaying":                  "Keep Playing",
@@ -228,7 +231,7 @@
   "iPad.empty.selectMoment":                   "Select your moments in the sidebar, or add new moments using the settings icon.",
 
   "nowPlaying.empty":                          "No tracks yet",
-  "nowPlaying.editButton":                     "Edit",
+  "nowPlaying.editButton":                     "Add Tracks",
   "nowPlaying.moreTracks":                     "and %d more",
   "nowPlaying.a11y.progress":                  "Playback progress",
 
@@ -308,6 +311,21 @@
   "settings.licence.reset.title":              "Set Up for New Wedding",
   "settings.licence.reset.subtitle":           "Clear all names, dates, tracks, and moments to start fresh for a new couple.",
 
+  "settings.section.share":                    "Share Wedding Player",
+  "settings.share.row.title":                  "Show QR Code & Link",
+  "settings.share.row.subtitle":               "Share with couples, planners, friends",
+  "settings.share.sheet.title":                "Share Wedding Player",
+  "settings.share.body":                       "Show this QR code or share the link with couples you're working with, friends planning a ceremony, or other event professionals. Works for any cued event, not just weddings.",
+  "settings.share.copyLink":                   "Copy Link",
+  "settings.share.linkCopied":                 "Link copied",
+  "settings.share.shareLink":                  "Share Link",
+
+  "settings.section.proTrial":                 "Wedding Professional Trial",
+  "settings.proTrial.reset.title":             "Try Reset for Next Wedding",
+  "settings.proTrial.reset.subtitle":          "One-time trial of the full Pro reset workflow. Clears the current ceremony so you can experience starting fresh before unlocking.",
+  "settings.proTrial.resetUsed.title":         "Trial Reset Used",
+  "settings.proTrial.resetUsed.subtitle":      "Unlock Wedding Professional Licence for unlimited resets between couples.",
+
   "settings.demo.exit.title":                  "Exit Demo Mode",
   "settings.demo.exit.subtitle":               "Clear all demo tracks and start building your own ceremony playlist.",
 
@@ -326,6 +344,10 @@
   "alert.reset.title":                         "Set Up for New Wedding",
   "alert.reset.confirm":                       "Reset Everything",
   "alert.reset.message":                       "This will permanently delete all couple names, wedding date, tracks, playlists, and custom moments. Your theme, purchase status, and app settings will be kept.\n\nThis cannot be undone.",
+
+  "alert.proTrialReset.title":                 "Try Reset (one-time)",
+  "alert.proTrialReset.confirm":               "Reset Now",
+  "alert.proTrialReset.message":               "One-time trial of the full Pro reset feature. This clears the current couple, dates, tracks, and moments so you can experience setting up the next wedding from scratch.\n\nAfter this, the reset feature requires the Wedding Professional Licence.",
   "alert.exitDemo.title":                      "Exit Demo Mode",
   "alert.exitDemo.confirm":                    "Exit Demo",
   "alert.exitDemo.message":                    "This will remove all demo tracks and let you start building your own ceremony playlist from scratch.",
@@ -458,9 +480,13 @@
 
   "trial.title":                               "TRIAL MODE",
   "trial.tagline":                             "CEREMONY MUSIC",
-  "trial.body":                                "Playback is limited to 30 seconds in trial mode. Try before you buy.",
-  "trial.cta.preview":                         "Play Preview (30 sec)",
-  "trial.cta.unlock":                          "Unlock unlimited playback",
+  "trial.body":                                "Each track previews for 15 seconds — long enough to check the song fits the moment. When you're ready to use Wedding Player on your day, unlock Full Access.",
+  "trial.cta.preview":                         "Continue with Trial",
+  "trial.cta.unlock":                          "Or unlock unlimited playback",
+  "trial.banner.title":                        "TRIAL MODE",
+  "trial.banner.label":                        "Playback limited to 15 seconds",
+  "trial.nowPlaying.subtitle":                 "Playback limited to 15 seconds in Trial Mode",
+  "trial.banner.cta":                          "Tap to unlock",
 
   "rating.prompt.title":                       "Enjoying Wedding Player?",
   "rating.prompt.body":                        "Your feedback helps other couples find us",
@@ -482,7 +508,23 @@
   "setupGuide.darkMode.title":                 "Dark Mode",
   "setupGuide.darkMode.body.prefix":           "You can switch back to Light or System Mode via the Settings menu ",
   "setupGuide.darkMode.body.suffix":           ".",
+  "setupGuide.textSize.title":                 "Larger Text",
+  "setupGuide.textSize.body.prefix":           "Prefer bigger text? Open the Settings menu ",
+  "setupGuide.textSize.body.suffix":           " and turn on Custom Text Size to scale the type throughout the app.",
   "setupGuide.cta.start":                      "Start configuring your ceremony",
+
+  "predemo.couple.eyebrow":                    "BEFORE THE DEMO",
+  "predemo.couple.title":                      "Your big day. Your music.",
+  "predemo.couple.body":                       "You've spent weeks picking the perfect tracks for each moment: walking down the aisle, signing the register, and your exit.\n\nOn the day, you'll hand the phone to a friend and hope they don't fumble it or the venue Wi-Fi cuts out.\n\nWedding Player works offline and guides them through every cue. It's about to guide you through this short demo the same way.",
+  "predemo.couple.tipCardsNote":               "You'll see tip cards along the way explaining what's happening. In Live Mode on the day, those cards disappear so the screen stays clean for whoever's running it.",
+  "predemo.couple.cta":                        "Show me how it works",
+
+  "predemo.pro.eyebrow":                       "BEFORE THE DEMO",
+  "predemo.pro.title":                         "Every ceremony, exactly to plan.",
+  "predemo.pro.body":                          "You've coordinated dozens of weddings. The music is the one thing nobody notices when it's right and everyone hears when it's wrong.\n\nWedding Player runs each cue in order, fades cleanly between moments, and never needs your attention mid-ceremony. Tap the button below to run through a sample ceremony.",
+  "predemo.pro.tipCardsNote":                  "The sample ceremony shows tip cards as it plays so you know what each control does. In Live Mode at a real ceremony they're hidden. Just the controls you need, nothing else on screen.",
+  "predemo.pro.cta":                           "Run the sample ceremony",
+
 
   "nowPlaying.upNext.track":                   "UP NEXT: %@",
   "nowPlaying.upNext.moment":                  "NEXT: %@",
@@ -529,7 +571,7 @@
   "downloads.diagnostic.value.notDetected":    "Not detected",
 
   "downloads.action.bullet1":                  "Apple Music tracks won't play without internet unless downloaded first",
-  "downloads.action.bullet2":                  "A **\"Wedding Player — Ceremony\"** playlist has been created in Apple Music",
+  "downloads.action.bullet2":                  "A **\"Wedding Player Ceremony\"** playlist has been created in Apple Music",
   "downloads.action.bullet3":                  "Open Apple Music, find the playlist, and tap the download icon",
 
   "catalogue.category.prelude":                "Prelude",
