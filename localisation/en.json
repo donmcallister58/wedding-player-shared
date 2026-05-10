@@ -231,7 +231,7 @@
   "review.banner":                             "Love Wedding Player? Leave a review",
 
   "iPad.empty.addMusic":                       "Tap **Add Local Files** to import MP3, M4A, and WAV files from your device, **Add Originals** for free ceremony-ready tracks, or **Add Apple Music** to search your subscription.",
-  "iPad.empty.selectMoment":                   "Select your moments in the sidebar, or add new moments using the settings icon.",
+  "iPad.empty.selectMoment":                   "Select your moments in the sidebar, or add new moments using the **Edit Moments** button at the bottom of the sidebar.",
 
   "nowPlaying.empty":                          "No tracks yet",
   "nowPlaying.editButton":                     "Add Tracks",
