@@ -26,7 +26,7 @@
           "steps": [
             "A Moment is a named section of your ceremony, for example Walking Down The Aisle, Signing the Register, or Recessional.",
             "Each Moment has its own playlist of music tracks that play in order. The right music plays at exactly the right time, without any manual switching. And when the Moment ends, the music can be faded out with a simple tap, just when it's needed. The next moment is lined up automatically, ready to play with a single tap.",
-            "Wedding Player comes with five default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Leaving and Wedding Breakfast. You can rename, reorder, add, or remove them to match your ceremony.",
+            "Wedding Player comes with six default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Exit and Wedding Breakfast in the Daytime segment, plus Drinks Reception in the Evening segment. You can rename, reorder, add, or remove them to match your ceremony.",
             "Moments are grouped into Daytime and Evening sections, so the app stays organised for longer celebrations."
           ]
         },
@@ -49,9 +49,9 @@
           "title": "How do I set up my ceremony moments?",
           "platform": "both",
           "steps": [
-            "Tap the \"Edit Moments\" button next to Rehearsal Mode to open the Moment Manager.",
-            "You'll see the current list of moments organised into Daytime and Evening Sections. From this screen, you can delete a moment or drag to re-order.",
-            "To add a new moment, tap the \"+ Add Moment\" button.",
+            "Tap the \"Edit Moments\" button next to Rehearsal Mode to open the Edit Moments screen.",
+            "You'll see the current list of moments organised into Daytime and Evening Sections. From this screen, you can delete a moment by tapping the trash icon at the end of the row, or drag to re-order.",
+            "To add a new moment, tap the \"Add Moment\" button.",
             "Tap any moment to open it to rename it, or to move it to Daytime or Evening Segment and tap \"Save Changes\""
           ]
         },
@@ -60,7 +60,7 @@
           "title": "How do I add music to a moment?",
           "platform": "ios",
           "steps": [
-            "Tap any moment, then tap + Edit Tracks",
+            "Tap any moment, then tap \"Add Tracks\" (on an empty moment) or \"Edit Tracks\" (once it has any).",
             "Then choose Add Local Files to import existing files from the Files app (MP3, M4A, WAV, AIFF).",
             "Or choose Add Originals to browse Wedding Player's built-in ceremony tracks.",
             "Or choose Add Apple Music to search and add Apple Music tracks (an active Apple Music subscription is required).",
@@ -131,6 +131,18 @@
       "id": "on-the-day",
       "title": "On The Day",
       "items": [
+        {
+          "id": "pre-ceremony-readiness",
+          "title": "What does the Pre-Ceremony Readiness check do?",
+          "platform": "both",
+          "steps": [
+            "When you tap Go Live, Wedding Player shows a Pre-Ceremony Readiness sheet before switching to the large-button operator interface. It flags anything that could cause a silent failure on the day, then asks you to confirm a short operator checklist.",
+            "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, or a segment with no playable moments. Worth-checking items (lighter shade) are informational: a moment with no tracks, or a battery below 30% and not charging.",
+            "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill — there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
+            "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Ceremony playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
+            "Start the Ceremony activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
+          ]
+        },
         {
           "id": "airplane-mode",
           "title": "What is the airplane icon in Live Mode?",
@@ -298,6 +310,35 @@
       ]
     },
     {
+      "id": "pre-ceremony-readiness",
+      "screenName": "Pre-Ceremony Readiness",
+      "title": "Before going Live",
+      "platform": "both",
+      "cardPosition": "bottom",
+      "actions": [
+        {
+          "icon": "info",
+          "label": "Review warnings first",
+          "context": "Critical items (burgundy) will likely cause silent playback failure — missing tracks, no Apple Music access. Fix these before Live. Worth-checking items are lighter and informational."
+        },
+        {
+          "icon": "edit",
+          "label": "Confirm each operator check",
+          "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm — toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm."
+        },
+        {
+          "icon": "tracks",
+          "label": "Open Apple Music if needed",
+          "context": "When tracks aren't downloaded, the Open Apple Music button takes you to the Wedding Player Ceremony playlist. Download, return to Wedding Player, and the row refreshes automatically."
+        },
+        {
+          "icon": "play",
+          "label": "Start the Ceremony",
+          "context": "The button activates once every checklist row is satisfied — it turns gold and lifts slightly. One tap hands you over to Live Mode."
+        }
+      ]
+    },
+    {
       "id": "main-player-live",
       "screenName": "Main Player — Live Mode",
       "title": "Running the ceremony",
@@ -316,12 +357,12 @@
         {
           "icon": "moments",
           "label": "Move to the next moment",
-          "context": "When a moment finishes, tap Next Moment. The current track can fade out first if it's still playing."
+          "context": "When the moment finishes, the big button fades the current track and cues the next moment. Tap once to fade out, then again to start the next."
         },
         {
           "icon": "settings",
           "label": "Exit Live Mode",
-          "context": "Tap Exit Live to return to setup. Useful during rehearsal — not on the day itself."
+          "context": "Tap the LIVE MODE banner at the top of the screen, then confirm Exit. Useful during rehearsal — not on the day itself."
         }
       ]
     },
@@ -334,7 +375,7 @@
         {
           "icon": "add",
           "label": "Add a new moment",
-          "context": "Tap + Add Moment to create a section like 'First Dance' or 'Speeches'. Pick whether it sits in the Daytime or Evening segment."
+          "context": "Tap Add Moment to create a section like 'First Dance' or 'Speeches'. Pick whether it sits in the Daytime or Evening segment."
         },
         {
           "icon": "edit",
@@ -349,7 +390,7 @@
         {
           "icon": "info",
           "label": "Delete unused moments",
-          "context": "Swipe left to remove. Live Mode hides empty moments automatically, but deleting keeps your setup clean."
+          "context": "Tap the trash icon at the end of the row. Live Mode hides empty moments automatically, but deleting keeps your setup clean."
         }
       ]
     },
@@ -401,7 +442,7 @@
         },
         {
           "icon": "search",
-          "label": "Browse your palylists",
+          "label": "Browse your playlists",
           "context": "Tap My Playlists to see music you've already added or downloaded in the Music app."
         },
         {
@@ -436,7 +477,7 @@
         {
           "icon": "add",
           "label": "Multi-select to add several",
-          "context": "If you have some tracks downloaded, they will appear on the screen. Tap to select the track(s) you want to add; the Done button shows the count of tracks selected. Tap 'Add N tracks' to import them all at once into the current moment."
+          "context": "If you have some tracks downloaded, they will appear on the screen. Tap to select the track(s) you want to add. The trailing button label switches to 'Add N tracks' once anything is selected. Tap it to import them all at once into the current moment."
         },
         {
           "icon": "info",
