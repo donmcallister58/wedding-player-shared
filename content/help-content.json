@@ -149,7 +149,7 @@
           "platform": "both",
           "steps": [
             "The Airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
-            "Tap the icon to jump straight to Settings and switch Airplane Mode on. Once enabled, the indicator turns green.",
+            "Tap the icon to open Settings, then switch Airplane Mode on yourself (iOS no longer allows apps to deep-link to that toggle). The indicator turns green once it's active.",
             "Enable Airplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
           ]
         },
@@ -466,8 +466,8 @@
       "actions": [
         {
           "icon": "tracks",
-          "label": "Browse Originals ",
-          "context": "Originals are exclusive tracks bundled with the app. Tap to open the Originals catalogue to preview and download tracks."
+          "label": "Browse Originals",
+          "context": "Originals are exclusive tracks bundled with Wedding Player. Tap any track to preview, or tap the download arrow to add it to your library."
         },
         {
           "icon": "tracks",
@@ -560,7 +560,7 @@
           "context": "If a topic isn't here, weddingplayer.app has the full guide — and you can email support if you're still stuck."
         },
         {
-          "icon": "settings",
+          "icon": "info",
           "label": "Per-screen tips elsewhere",
           "context": "Most screens have a ? button in the corner for a quick tip card. Use those in-flow; come here for the full reference."
         }
