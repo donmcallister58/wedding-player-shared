@@ -121,7 +121,7 @@
             "Open the Offline Readiness checklist in the Settings page.",
             "Any tracks not yet downloaded will show a warning.",
             "Open the Apple Music app and access the Wedding Player Ceremony playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
-            "Return to Wedding Player. Each track should show a green tick.",
+            "Return to Wedding Player. Each track should show a gold tick.",
             "Test playback in Airplane Mode the day before, not on the morning of the ceremony."
           ]
         }
@@ -169,7 +169,7 @@
           "platform": "both",
           "steps": [
             "All local audio files work offline automatically. No action needed.",
-            "For Apple Music tracks (iOS): download them via the Music app before the ceremony and verify with the Offline Readiness checklist.",
+            "For Apple Music tracks (iOS): open the Offline Readiness page in Settings and follow the instructions there to download every track and verify it's ready for offline playback.",
             "Enable Airplane Mode during the ceremony to block calls and notifications.",
             "Charge your device fully the night before. Keep the app in the foreground and don't close it between moments."
           ]
@@ -322,14 +322,14 @@
           "context": "Critical items (burgundy) will likely cause silent playback failure — missing tracks, no Apple Music access. Fix these before Live. Worth-checking items are lighter and informational."
         },
         {
+          "icon": "tracks",
+          "label": "Open Apple Music if needed",
+          "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Ceremony playlist. Download the track(s) and return to Wedding Player — the row refreshes automatically."
+        },
+        {
           "icon": "edit",
           "label": "Confirm each operator check",
           "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm — toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm."
-        },
-        {
-          "icon": "tracks",
-          "label": "Open Apple Music if needed",
-          "context": "When tracks aren't downloaded, the Open Apple Music button takes you to the Wedding Player Ceremony playlist. Download, return to Wedding Player, and the row refreshes automatically."
         },
         {
           "icon": "play",
@@ -591,7 +591,7 @@
         {
           "icon": "play",
           "label": "Test in Airplane Mode",
-          "context": "Once everything shows green, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
+          "context": "Once everything shows a gold tick, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
         }
       ]
     },
