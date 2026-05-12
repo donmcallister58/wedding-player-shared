@@ -452,7 +452,7 @@
 
   "downloads.title":                           "Offline Readiness",
   "downloads.allClear.title":                  "All Clear",
-  "downloads.allClear.body":                   "All your tracks are local files: they'll work offline with no issues.",
+  "downloads.allClear.body":                   "All your tracks are stored on this device: they'll work offline with no issues.",
   "downloads.openAppleMusic":                  "OPEN APPLE MUSIC",
   "downloads.verify":                          "VERIFY ALL TRACKS",
   "downloads.verify.checking":                 "Verifying...",
