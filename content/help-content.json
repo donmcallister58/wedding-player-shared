@@ -441,6 +441,16 @@
           "context": "Use the buttons at the bottom of the screen to add music tracks from those sources "
         },
         {
+          "icon": "scissors",
+          "label": "Trim and fade",
+          "context": "Tap a track to open the trim editor. Set custom start and end points, add smooth fade-ins and fade-outs at each end. Tap the ? button inside the editor for more detail."
+        },
+        {
+          "icon": "trash",
+          "label": "Delete a track",
+          "context": "Swipe a track row left to reveal the delete button, or tap the trash icon on the row. Removes the track from this moment - the original file or Apple Music track is unaffected."
+        },
+        {
           "icon": "edit",
           "label": "Loop track",
           "context": "If you have a single track, a loop toggle appears - Once switched on, the track will play in a loop until cancelled - you will see a red looping indicator on playback."
