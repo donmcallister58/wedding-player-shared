@@ -446,24 +446,24 @@
           "context": "Tap a track to open the trim editor. Set custom start and end points, add smooth fade-ins and fade-outs at each end. Tap the ? button inside the editor for more detail."
         },
         {
-          "icon": "trash",
-          "label": "Delete a track",
-          "context": "Swipe a track row left to reveal the delete button, or tap the trash icon on the row. Removes the track from this moment - the original file or Apple Music track is unaffected."
-        },
-        {
-          "icon": "edit",
-          "label": "Loop track",
-          "context": "If you have a single track, a loop toggle appears - Once switched on, the track will play in a loop until cancelled - you will see a red looping indicator on playback."
-        },
-        {
           "icon": "tracks",
           "label": "Move track to another moment",
           "context": "Tap on the icon to the left of the delete icon to move the track to another moment."
         },
         {
+          "icon": "trash",
+          "label": "Delete a track",
+          "context": "Tap the trash icon on the right of the row to remove the track from this moment. The original file or Apple Music track is unaffected."
+        },
+        {
           "icon": "info",
           "label": "Reorder tracks",
           "context": "If you have multiple tracks in the moment, just drag them into any order using the three line icon on the right of the row,"
+        },
+        {
+          "icon": "edit",
+          "label": "Loop track",
+          "context": "If you have a single track, a loop toggle appears - Once switched on, the track will play in a loop until cancelled - you will see a red looping indicator on playback."
         }
       ]
     },
