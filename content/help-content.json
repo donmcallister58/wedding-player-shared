@@ -276,6 +276,40 @@
   ],
   "screenTips": [
     {
+      "id": "trim-editor",
+      "screenName": "Trim Editor",
+      "title": "Trim and fade this track",
+      "platform": "both",
+      "cardPosition": "top",
+      "actions": [
+        {
+          "icon": "scissors",
+          "label": "Set start and end points",
+          "context": "Drag the gold and burgundy sliders to clip the track to the part you want. Or type exact mm:ss values into the timestamp fields. Sliders auto-enable the matching fade the first time you touch them."
+        },
+        {
+          "icon": "tracks",
+          "label": "Fade in and fade out",
+          "context": "Toggle the fade switches to ramp from silence at the start and fade to silence at the end. Fade duration is set in Settings under Playback."
+        },
+        {
+          "icon": "play",
+          "label": "Preview your trim",
+          "context": "Three preview buttons let you hear From in-point (first 10s), To out-point (last 10s), or the Full trimmed clip end-to-end. For Apple Music tracks the preview uses the main player briefly — the Now Playing card will show the previewed track."
+        },
+        {
+          "icon": "edit",
+          "label": "Reset trim",
+          "context": "At the bottom of the editor: clears all trim points and fade settings on this track. Asks for confirmation first."
+        },
+        {
+          "icon": "info",
+          "label": "Save your edits",
+          "context": "Tap Save to apply your changes; Cancel discards them. Trim points and fade settings persist with the track across app launches."
+        }
+      ]
+    },
+    {
       "id": "main-player-setup",
       "screenName": "Main Player — Rehearsal Mode",
       "title": "Building your ceremony",

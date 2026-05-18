@@ -13,6 +13,7 @@
     "apple-music": { "ios": "applelogo",           "android": "LibraryMusic" },
     "browse":      { "ios": "square.grid.2x2",     "android": "GridView" },
     "download":    { "ios": "arrow.down.circle",   "android": "Download" },
-    "settings":    { "ios": "gearshape",           "android": "Settings" }
+    "settings":    { "ios": "gearshape",           "android": "Settings" },
+    "scissors":    { "ios": "scissors",             "android": "ContentCut" }
   }
 }

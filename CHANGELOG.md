@@ -6,6 +6,19 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.43 — 2026-05-18
+
+Trim editor help content for 2.1.4 (Build 50). New `?` button on the TrimEditSheet surfaces this content via `ScreenTipState.shared.show("trim-editor")`.
+
+### Content (`content/help-content.json`)
+- New `screenTips` entry `trim-editor` — five actions covering: set start/end points (sliders + mm:ss fields, auto-enable-fade-on-touch), fade in/out toggles (and where fade duration is set), preview buttons (From in-point / To out-point / Full trimmed clip, plus the AM-uses-main-player note), Reset Trim button (Build 50 #264), Save/Cancel persistence.
+
+### Icons (`content/icons.json`)
+- New `scissors` token — `ios: scissors` / `android: ContentCut`. Used by the new trim-editor screen tip; available for other surfaces that surface trim state.
+
+### Not in this bump
+- Hardcoded English strings from CHANGELOG #234, #236, #237, #240, #241 and the recent #257/#258/#260/#261/#262/#263/#264 still pending extraction to `localisation/en.json`. Logged for the next bump; functionality ships on iOS while strings stay inline.
+
 ## v1.0.35 — 2026-05-08
 
 Last three "Aeroplane Mode" residues swept from `content/help-content.json`. The v1.0.27 sweep covered the body copy but left two screen-tip `context` fields and one `label` referring to the British spelling. Reads inconsistently with the system "Airplane Mode" label and the body text on the same screens.
