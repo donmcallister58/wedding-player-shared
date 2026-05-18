@@ -140,6 +140,24 @@
 
   "paywall.couple.stress.line":                         "One-time purchase. No subscription. No renewals.",
 
+  "trialInfo.title":                                    "Welcome to Wedding Player",
+  "trialInfo.subtitle":                                 "Here's what you can do for free, and what unlocks with full access.",
+  "trialInfo.free.header":                              "FREE",
+  "trialInfo.free.row1":                                "Configure your moments",
+  "trialInfo.free.row2":                                "Add tracks from your library and Apple Music",
+  "trialInfo.free.row3":                                "Trim and fade any track",
+  "trialInfo.free.row4":                                "Hear each track for 15 seconds",
+  "trialInfo.unlock.header":                            "FULL ACCESS",
+  "trialInfo.unlock.row1":                              "Play every track in full",
+  "trialInfo.unlock.row2":                              "Live Mode for the ceremony day",
+  "trialInfo.unlock.row3":                              "Crossfade transitions between moments",
+  "trialInfo.couple.priceQualifier":                    "ONE-TIME PURCHASE",
+  "trialInfo.couple.stress":                            "No subscription. No renewals. No surprise charges.",
+  "trialInfo.pro.priceQualifier":                       "ANNUAL SUBSCRIPTION",
+  "trialInfo.pro.value":                                "Unlimited weddings. No per-event fees.",
+  "trialInfo.cta.unlock":                               "Unlock Now",
+  "trialInfo.cta.continue":                             "Continue with trial",
+
   "demo.couple.partner1":                     "Nicola",
   "demo.couple.partner2":                     "Alex",
 
