@@ -209,8 +209,8 @@
   "general.done":                              "Done",
   "general.edit":                              "EDIT",
 
-  "transport.restartMoment":                   "RESTART MOMENT",
-  "transport.restartMoment.compact":           "RESTART",
+  "transport.restartMoment":                   "STOP AND RESTART MOMENT",
+  "transport.restartMoment.compact":           "STOP & RESTART",
   "transport.now":                             "NOW",
   "transport.next":                            "NEXT",
   "transport.cueing":                          "Cueing %@",
