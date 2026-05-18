@@ -126,6 +126,20 @@
   "onboarding.pro.demoComplete.cta.keep":     "Keep demo as my starter",
   "onboarding.pro.demoComplete.cta.replay":   "Replay demo",
 
+  "onboarding.demoComplete.unlockBlock.title":          "Wedding Player Full Access",
+  "onboarding.demoComplete.unlockBlock.priceQualifier": "ONE-TIME PURCHASE",
+  "onboarding.demoComplete.unlockBlock.stress":         "No subscription. No renewals. No surprise charges.",
+  "onboarding.demoComplete.unlockBlock.trialNote":      "Configure for free. In trial mode, every track plays for 15 seconds.",
+  "onboarding.demoComplete.unlockBlock.cta":            "Unlock Now",
+
+  "onboarding.pro.demoComplete.unlockBlock.title":          "Wedding Player Pro",
+  "onboarding.pro.demoComplete.unlockBlock.priceQualifier": "ANNUAL SUBSCRIPTION",
+  "onboarding.pro.demoComplete.unlockBlock.value":          "Unlimited weddings. No per-event fees.",
+  "onboarding.pro.demoComplete.unlockBlock.trialNote":      "Set up free. In trial mode, every track plays for 15 seconds.",
+  "onboarding.pro.demoComplete.unlockBlock.cta":            "Unlock Now",
+
+  "paywall.couple.stress.line":                         "One-time purchase. No subscription. No renewals.",
+
   "demo.couple.partner1":                     "Nicola",
   "demo.couple.partner2":                     "Alex",
 

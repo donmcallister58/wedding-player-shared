@@ -348,5 +348,55 @@
     "filename": "wp_036.mp3",
     "sourceHash": "859644dc10c36a07ad5fee9f6754176ecb86a26dfdb223d7000b6d72a56e8c68",
     "previewVersion": 4
+  },
+  {
+    "id": "wp_037",
+    "title": "A Thousand Tomorrows",
+    "style": "Acoustic Folk Vocal",
+    "category": "PROCESSIONAL",
+    "durationSecs": 115,
+    "filename": "wp_037.mp3",
+    "sourceHash": "54d6cdb1b710fd4bc0e2ac1597adf2295ebccad8bf6ab96f8da87969801a72b1",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_038",
+    "title": "As We Sign Our Names",
+    "style": "Soft Piano Vocal",
+    "category": "SIGNING",
+    "durationSecs": 92,
+    "filename": "wp_038.mp3",
+    "sourceHash": "56fe1fae8fbfd161e59adbc45a8054e8a37b8aba2884fbef4e8e3f9d5a03e8d0",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_039",
+    "title": "Perfect Enough",
+    "style": "Acoustic Vocal Ballad",
+    "category": "SIGNING",
+    "durationSecs": 93,
+    "filename": "wp_039.mp3",
+    "sourceHash": "cdf493b82425e2b0963b8df436e2fd06136cf70f1198f6619bfadaefb9609621",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_040",
+    "title": "Quiet Hands, Steady Hearts",
+    "style": "Tender Folk Vocal",
+    "category": "SIGNING",
+    "durationSecs": 140,
+    "filename": "wp_040.mp3",
+    "sourceHash": "f0bee748ceccf0c3b54de5293feefa31db6bedff53e36cbc69abb1a48b4752d7",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_041",
+    "title": "From This Day On",
+    "style": "Uplifting Vocal Anthem",
+    "category": "RECESSIONAL",
+    "durationSecs": 178,
+    "filename": "wp_041.mp3",
+    "sourceHash": "72572648cf7545016b5039921bfe775b9ee2a39d60fb541f9efba99c6af04080",
+    "previewVersion": 1
   }
 ]
