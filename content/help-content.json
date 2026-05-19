@@ -141,7 +141,7 @@
           "title": "How do I trim a track or add fade-in and fade-out?",
           "platform": "ios",
           "steps": [
-            "In setup mode, tap Edit Tracks on the moment, then tap the scissors icon on any track row.",
+            "In rehearsal mode, tap Edit Tracks on the moment, then tap the scissors icon on any track row.",
             "Drag the IN-POINT slider to set where the track should start playing, and the OUT-POINT slider to set where it should stop. The Duration field shows the length of the trimmed window.",
             "Fade in at in-point ramps from silence to full volume over the duration set in Settings → Playback (default 5 seconds). Fade out at out-point does the reverse before the out-point.",
             "Use From in-point and To out-point to spot-check the first or last 10 seconds, or Full trimmed clip to hear the whole edit with both fades applied. The countdown inside each button shows time remaining.",
@@ -671,7 +671,7 @@
         {
           "icon": "edit",
           "label": "Add couple names",
-          "context": "Enter the names that show on the player's header, e.g. 'Emma & James'. Visible during setup and on the rehearsal banner."
+          "context": "Enter the names that show on the player's header, e.g. 'Emma & James'. Visible during rehearsal and on the live banner."
         },
         {
           "icon": "info",

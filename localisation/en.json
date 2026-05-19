@@ -228,7 +228,7 @@
   "live.modeBadge":                            "LIVE MODE",
   "live.tapToExit":                            "Tap here to exit",
   "live.exit.title":                           "Exit Live Mode?",
-  "live.exit.message":                         "Return to setup mode.",
+  "live.exit.message":                         "Return to rehearsal mode.",
   "live.exit.cancel":                          "Cancel",
   "live.exit.confirm":                         "Exit",
   "live.looping":                              "LOOPING",
