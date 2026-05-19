@@ -124,6 +124,29 @@
             "Return to Wedding Player. Each track should show a gold tick.",
             "Test playback in Airplane Mode the day before, not on the morning of the ceremony."
           ]
+        },
+        {
+          "id": "why-no-spotify",
+          "title": "Why isn't Spotify supported?",
+          "platform": "both",
+          "steps": [
+            "Spotify doesn't allow third-party apps to play full-length tracks. Their developer terms restrict playback to 30-second previews unless the app is the Spotify app itself — which means a ceremony player built on Spotify would cut every track short before the meaningful moment.",
+            "Apple Music, by contrast, provides MusicKit, an Apple framework that gives third-party apps full-track playback for subscribers, including offline downloads. That's what Wedding Player uses on iOS.",
+            "If your music collection lives in Spotify, the workaround is to find each track on Apple Music (a one-month free trial covers a wedding) and add it through Add Apple Music inside Wedding Player.",
+            "Alternatively, export the tracks you own as MP3 or M4A files and import them via Add Local Files. Tracks you purchase outright (iTunes, Bandcamp, or a CD rip) work the same as any other local file."
+          ]
+        },
+        {
+          "id": "trim-and-fade",
+          "title": "How do I trim a track or add fade-in and fade-out?",
+          "platform": "ios",
+          "steps": [
+            "In setup mode, tap Edit Tracks on the moment, then tap the scissors icon on any track row.",
+            "Drag the IN-POINT slider to set where the track should start playing, and the OUT-POINT slider to set where it should stop. The Duration field shows the length of the trimmed window.",
+            "Fade in at in-point ramps from silence to full volume over the duration set in Settings → Playback (default 5 seconds). Fade out at out-point does the reverse before the out-point.",
+            "Use From in-point and To out-point to spot-check the first or last 10 seconds, or Full trimmed clip to hear the whole edit with both fades applied. The countdown inside each button shows time remaining.",
+            "Tap Reset Trim at the bottom to clear everything and start over. Tap Save when you're happy. The original file or Apple Music track is unaffected — Wedding Player only stores your trim points."
+          ]
         }
       ]
     },
