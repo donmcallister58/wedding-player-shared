@@ -99,10 +99,10 @@
   "onboarding.splash.subtitle":               "Your Ceremony Music Deserves More Than Just a Playlist",
 
   "onboarding.role.title":                    "Welcome to Wedding Player",
-  "onboarding.role.body":                     "Tell us a little about you so we can set the app up the right way.",
-  "onboarding.role.couple.title":             "I'm planning my own wedding",
+  "onboarding.role.body":                     "Choose how you'll use Wedding Player.",
+  "onboarding.role.couple.title":             "Planning my own wedding",
   "onboarding.role.couple.body":              "We'll personalise the app with your names and date so the demo feels like your day.",
-  "onboarding.role.pro.title":                "I'm a Wedding Professional",
+  "onboarding.role.pro.title":                "I'm a wedding professional",
   "onboarding.role.pro.body":                 "Walk through a sample ceremony for Nicola & Alex and see how the reset works between weddings.",
 
   "onboarding.personalise.title":             "Make it yours",
