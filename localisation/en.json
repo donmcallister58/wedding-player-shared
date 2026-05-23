@@ -243,7 +243,7 @@
   "battery.warning.low":                       "Battery low: plug in before the ceremony",
 
   "momentInfo.section":                        "MOMENT INFO",
-  "momentInfo.loopTrack":                      "Loop Track",
+  "momentInfo.loopTrack":                      "Loop Moment",
   "momentInfo.loopTrack.detail":               "Repeat until you fade to the next moment",
   "momentInfo.crossfade":                      "Crossfade %ds",
 
