@@ -4,399 +4,758 @@
     "title": "Harp & Violin",
     "style": "Lush Melodic Duo",
     "category": "PRELUDE",
+    "genre": "Classical",
+    "mood": [
+      "Romantic",
+      "Serene"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 113,
+    "dateAdded": "2026-04-14",
     "filename": "wp_002.mp3",
-    "sourceHash": "991a7df6e9d36d691fa762db9e51f4d6d39105c6f01328460883d29f0ffb6c66",
-    "previewVersion": 5
+    "sourceHash": "7e76d90507a0f51333aa739cad07229c6ec1dd55f3a22c8b5831c67bab03f1dc",
+    "previewVersion": 7
   },
   {
     "id": "wp_003",
     "title": "Acoustic Folk Guitar",
     "style": "Slow Fingerstyle",
     "category": "PRELUDE",
+    "genre": "Acoustic",
+    "mood": [
+      "Serene",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 160,
+    "dateAdded": "2026-04-14",
     "filename": "wp_003.mp3",
-    "sourceHash": "02eee10309f5d655c45f19ce11edc6c71d387409190469e61e345c9317249308",
-    "previewVersion": 4
+    "sourceHash": "b07353eae6bdcee6608e732f6a4602c5fee9aa1a334eb4d999783230c667eb9b",
+    "previewVersion": 6
   },
   {
     "id": "wp_004",
     "title": "Light Jazz Piano",
     "style": "Cool jazz piano",
     "category": "PRELUDE",
+    "genre": "Jazz",
+    "mood": [
+      "Reflective",
+      "Tender"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 178,
+    "dateAdded": "2026-04-14",
     "filename": "wp_004.mp3",
-    "sourceHash": "61dfb906a660957067cbaed84021cde6258cab5ef0038586f1d7cdf7343f73fd",
-    "previewVersion": 4
+    "sourceHash": "e020e06ba4f2e10b370865c532106456bcaaf76ed94236ebadd0303762672c05",
+    "previewVersion": 6
   },
   {
     "id": "wp_005",
     "title": "Celtic Harp",
     "style": "Traditional Irish",
     "category": "PRELUDE",
+    "genre": "Celtic",
+    "mood": [
+      "Serene",
+      "Tender"
+    ],
+    "instrumentation": "Harp",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 190,
+    "dateAdded": "2026-04-14",
     "filename": "wp_005.mp3",
-    "sourceHash": "7890eff3bf564fa30f6d9438250816b85142f95dcc767e72c8f4012a182585cb",
-    "previewVersion": 4
+    "sourceHash": "7b6d927e886492ccbef6267b8614336a39574afbc9ab42ea13203c27e2bc57cb",
+    "previewVersion": 6
   },
   {
     "id": "wp_006",
     "title": "Ambient Modern Classical",
     "style": "Ambient neoclassical",
     "category": "PRELUDE",
+    "genre": "Ambient",
+    "mood": [
+      "Serene",
+      "Reflective"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 183,
+    "dateAdded": "2026-04-14",
     "filename": "wp_006.mp3",
-    "sourceHash": "179eeb480b863b3f6e3e6c8c36149407937d1b684d1edd034a5308b1f0430e7e",
-    "previewVersion": 4
+    "sourceHash": "aa849f1a9dc6acb73f089b8eeb46d73cc6f046a148342514a2500afee49756c7",
+    "previewVersion": 6
   },
   {
     "id": "wp_007",
     "title": "Solo Violin and Piano",
     "style": "Classical duet",
     "category": "PRELUDE",
+    "genre": "Classical",
+    "mood": [
+      "Reflective",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 182,
+    "dateAdded": "2026-04-14",
     "filename": "wp_007.mp3",
     "sourceHash": "20c91a43caaa6454c606413bc9fa6497151460213ed87c512bdac3baa29801f7",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_008",
     "title": "Indie Folk Instrumental",
     "style": "Indie folk instrumental",
     "category": "PRELUDE",
+    "genre": "Folk",
+    "mood": [
+      "Tender",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 112,
+    "dateAdded": "2026-04-14",
     "filename": "wp_008.mp3",
-    "sourceHash": "ba05da9bc6b137ee1d9db5d713b466371d8a50a8e1dcf9a21a2b1abcdc45a1fd",
-    "previewVersion": 4
+    "sourceHash": "7042331096878290024bbcebaf974a3b92944cb5b64566b0d04c08260b22c305",
+    "previewVersion": 6
   },
   {
     "id": "wp_009",
     "title": "Bridal Chorus",
     "style": "Wagner style",
     "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Ceremonial"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 114,
+    "dateAdded": "2026-04-14",
     "filename": "wp_009.mp3",
-    "sourceHash": "aa37a81d85683b7ec4b6e38e446d3ff7fe00f492b16d1a995db6c447122c18d7",
-    "previewVersion": 4
+    "sourceHash": "6cbd07ee3e0f38497a2a1dcea6bf1e934995ea115ff2c71596008685f15cf2ff",
+    "previewVersion": 6
   },
   {
     "id": "wp_010",
     "title": "Cinematic Orchestral",
     "style": "Cinematic orchestral",
     "category": "PROCESSIONAL",
+    "genre": "Cinematic",
+    "mood": [
+      "Romantic",
+      "Triumphant"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 184,
+    "dateAdded": "2026-04-14",
     "filename": "wp_010.mp3",
-    "sourceHash": "51575117b202a0070ac91eb3edbb4032e9ad121474743a6f78dc5a629133f104",
-    "previewVersion": 4
+    "sourceHash": "56b29376c4cdbbbe50b9e15298e559b85f7b2e206a1aae89dcdd054eee7dc50e",
+    "previewVersion": 6
   },
   {
     "id": "wp_011",
     "title": "Air on G String",
     "style": "Bach style",
     "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Reflective",
+      "Uplifting"
+    ],
+    "instrumentation": "Strings",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 172,
+    "dateAdded": "2026-04-14",
     "filename": "wp_011.mp3",
-    "sourceHash": "969d07bc6d4fe4cfb1262828265765e6d5578e6a849a573676c9a4a6341c559f",
-    "previewVersion": 4
+    "sourceHash": "f7b0586a37a4caa9c4f116b04623a656c460752cb36941c3b5c679d5bf4d156e",
+    "previewVersion": 6
   },
   {
     "id": "wp_012",
     "title": "String Quartet",
     "style": "Contemporary classical",
     "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Romantic",
+      "Reflective"
+    ],
+    "instrumentation": "Strings",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 137,
+    "dateAdded": "2026-04-14",
     "filename": "wp_012.mp3",
-    "sourceHash": "390a5756bb0a017324bb2754a1f6099607938b8c67f5060a2fbf57c9adf7cc2e",
-    "previewVersion": 4
+    "sourceHash": "c0311f9c1e9a36a3440fea10d07d4e41e201cb827edb55a920fdd6f3fd06748e",
+    "previewVersion": 6
   },
   {
     "id": "wp_013",
     "title": "Acoustic Guitar Duo",
     "style": "Folk style",
     "category": "PROCESSIONAL",
+    "genre": "Folk",
+    "mood": [
+      "Tender",
+      "Joyful"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 128,
+    "dateAdded": "2026-04-14",
     "filename": "wp_013.mp3",
-    "sourceHash": "dc232ea00b104b714f50141a41276eb419156b3edef1d48bf5785472d6363380",
-    "previewVersion": 4
+    "sourceHash": "c4aa842ba83faf01b3af6924e8d5483e2ccf9dd5a538d4daf9716625c5c30589",
+    "previewVersion": 6
   },
   {
     "id": "wp_014",
     "title": "Classical Piano",
     "style": "Processional",
     "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Ceremonial",
+      "Reflective"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 148,
+    "dateAdded": "2026-04-14",
     "filename": "wp_014.mp3",
-    "sourceHash": "ede254c4ca298ad9067d6dd67b98949bc6d3df5291241ba5deac02a88167912d",
-    "previewVersion": 4
+    "sourceHash": "0c26b22fe082cd945a171e53da064f2a6b3d0f6198af861d648b86e54fe829b8",
+    "previewVersion": 6
   },
   {
     "id": "wp_015",
     "title": "Minimal Modern Piano",
     "style": "Minimal contemporary piano",
     "category": "SIGNING",
+    "genre": "Piano",
+    "mood": [
+      "Reflective",
+      "Serene"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 184,
+    "dateAdded": "2026-04-14",
     "filename": "wp_015.mp3",
-    "sourceHash": "bf5d11c144d5ac81c1fe52d7ec0998d8d12e2953c4279da835b4f5e3b5161cbb",
-    "previewVersion": 4
+    "sourceHash": "ccba18662330a1e2881ca695b7e065bf1b56fc86ca7b8a983200c8c1e275fcc7",
+    "previewVersion": 6
   },
   {
     "id": "wp_016",
     "title": "Solo Acoustic Guitar",
     "style": "Spanish guitar",
     "category": "SIGNING",
+    "genre": "Acoustic",
+    "mood": [
+      "Romantic",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 158,
+    "dateAdded": "2026-04-14",
     "filename": "wp_016.mp3",
-    "sourceHash": "8dd04bb563bfe85e6e2d184eb234286f91c516427c218967a2f1de42f5c1cc52",
-    "previewVersion": 4
+    "sourceHash": "a56993061ee8cf9ab200f2a250625fb23f4b06ad6d3ac6d18a0153f8cda8b054",
+    "previewVersion": 6
   },
   {
     "id": "wp_017",
     "title": "Piano and Strings",
     "style": "Modern post-classical",
     "category": "SIGNING",
+    "genre": "Classical",
+    "mood": [
+      "Reflective",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 188,
+    "dateAdded": "2026-04-14",
     "filename": "wp_017.mp3",
-    "sourceHash": "c2e54cd3f1ab8eca90cdb2eb2abb02fb94017dc942b74ce55d9fc1ee62fc4aba",
-    "previewVersion": 4
+    "sourceHash": "54d15edee5edb2769773ae6bf16510d368a284f15cd18b5cfac2c5c1c76790eb",
+    "previewVersion": 6
   },
   {
     "id": "wp_018",
     "title": "Trumpet Voluntary",
     "style": "Clarke baroque",
     "category": "SIGNING",
+    "genre": "Classical",
+    "mood": [
+      "Ceremonial",
+      "Joyful"
+    ],
+    "instrumentation": "Brass",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 134,
+    "dateAdded": "2026-04-14",
     "filename": "wp_018.mp3",
-    "sourceHash": "433a773878582dfdf74b5241c8cf60411e1efa0b50d3e8d4a2c4cd903b3ccd75",
-    "previewVersion": 4
+    "sourceHash": "c46ba76e22782b47fe983b6d74eebe7dcf6576c2b5f166c6f3dea1c6dd35c058",
+    "previewVersion": 6
   },
   {
     "id": "wp_019",
     "title": "Intimate Jazz Piano",
     "style": "Slow jazz piano",
     "category": "SIGNING",
+    "genre": "Jazz",
+    "mood": [
+      "Tender",
+      "Reflective"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 178,
+    "dateAdded": "2026-04-14",
     "filename": "wp_019.mp3",
-    "sourceHash": "de72018062b22550edabebf755467dc5509574b0b0898ba76dd609b9691b9979",
-    "previewVersion": 4
+    "sourceHash": "739b003d3ef35c0045f32bb5484596b4bcf22179f41e9fa4975b9d3347a6c5dc",
+    "previewVersion": 6
   },
   {
     "id": "wp_020",
     "title": "Acoustic Pop",
     "style": "Piano and strings",
     "category": "SIGNING",
+    "genre": "Pop",
+    "mood": [
+      "Romantic",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 133,
+    "dateAdded": "2026-04-14",
     "filename": "wp_020.mp3",
-    "sourceHash": "7ddf449face634f0165d8146831c63c68a445ce1ccc5a61169ee555bc1113efe",
-    "previewVersion": 4
+    "sourceHash": "6813baa10ac50b9c380cf0e61f3ee068d948d7424da35f7858d67be2b1ca33c8",
+    "previewVersion": 6
   },
   {
     "id": "wp_021",
     "title": "Wedding March",
     "style": "Mendelssohn style",
     "category": "RECESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Triumphant",
+      "Ceremonial"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Lively",
+    "vocal": false,
     "durationSecs": 123,
+    "dateAdded": "2026-04-14",
     "filename": "wp_021.mp3",
-    "sourceHash": "0ec9cec7def76899605a8b2ac947b1fef6cedc59db296161662521299fe0c687",
-    "previewVersion": 4
+    "sourceHash": "837e4ca2c06927363055bc9d812a7ee95d54b161f3c80f83b01d169454543e27",
+    "previewVersion": 6
   },
   {
     "id": "wp_022",
     "title": "Soul and Brass",
     "style": "New Orleans style",
     "category": "RECESSIONAL",
+    "genre": "Jazz",
+    "mood": [
+      "Joyful",
+      "Triumphant"
+    ],
+    "instrumentation": "Brass",
+    "tempo": "Lively",
+    "vocal": false,
     "durationSecs": 123,
+    "dateAdded": "2026-04-14",
     "filename": "wp_022.mp3",
     "sourceHash": "e6e48cd56e0f5ad1e891d86e1c80d54b7c73a66bbc51e02fd3046bc4548bdfdc",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_023",
     "title": "Modern Pop Strings",
     "style": "Orchestral pop",
     "category": "RECESSIONAL",
+    "genre": "Pop",
+    "mood": [
+      "Joyful",
+      "Uplifting"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 139,
+    "dateAdded": "2026-04-14",
     "filename": "wp_023.mp3",
-    "sourceHash": "568753834e30306db6ffaa26015f70bc7cc5af0e70640e9ef0b07a184ccc0c0a",
-    "previewVersion": 4
+    "sourceHash": "312dce4b5362389db0be2e6332bc866a4eaee6c645888bf92a4c63f2b2bc15e0",
+    "previewVersion": 6
   },
   {
     "id": "wp_024",
     "title": "Classical Fanfare",
     "style": "Handel style",
     "category": "RECESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Triumphant",
+      "Joyful"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Lively",
+    "vocal": false,
     "durationSecs": 91,
+    "dateAdded": "2026-04-14",
     "filename": "wp_024.mp3",
-    "sourceHash": "52b5159b713c341ab4f82e742cfccc1f56bbb46c873702b0d57fdb7e51743323",
-    "previewVersion": 4
+    "sourceHash": "266315525651999baa03a14e2bcb401b2b18000feb5f7bc05ad17e93b50b48a8",
+    "previewVersion": 6
   },
   {
     "id": "wp_025",
     "title": "Acoustic Pop Prelude",
     "style": "Acoustic pop",
     "category": "PRELUDE",
+    "genre": "Pop",
+    "mood": [
+      "Joyful",
+      "Tender"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 122,
+    "dateAdded": "2026-04-14",
     "filename": "wp_025.mp3",
-    "sourceHash": "ae5089ec2245306e448952aed79097850bc4f2d72d55a67739017df1481863b6",
-    "previewVersion": 4
+    "sourceHash": "b41f279bb1006f2caa491f421eee65816b5eff6220ad87901fc549bb79e0361a",
+    "previewVersion": 6
   },
   {
     "id": "wp_026",
     "title": "Indie Folk Morning",
     "style": "Indie folk",
     "category": "PRELUDE",
+    "genre": "Folk",
+    "mood": [
+      "Serene",
+      "Tender"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 74,
+    "dateAdded": "2026-04-14",
     "filename": "wp_026.mp3",
-    "sourceHash": "bc95098f52bcb8a0246b8a683d8bc1ad2efd995b2a8e8817d471bef39d4302bc",
-    "previewVersion": 4
+    "sourceHash": "a2a726758652277eaab9a2d1ead6f3569d0bdc68a94aee2372fad83ba6208c00",
+    "previewVersion": 6
   },
   {
     "id": "wp_027",
     "title": "Bossa Nova Café",
     "style": "Bossa nova",
     "category": "PRELUDE",
+    "genre": "Jazz",
+    "mood": [
+      "Romantic",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 139,
+    "dateAdded": "2026-04-14",
     "filename": "wp_027.mp3",
     "sourceHash": "9e891e35e2157fb9aaad63498d4b6ca4351cc98e167d5fb71f9b0f58b63ada78",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_028",
     "title": "Ukulele and Strings",
     "style": "Ukulele pop",
     "category": "PRELUDE",
+    "genre": "Pop",
+    "mood": [
+      "Joyful",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 71,
+    "dateAdded": "2026-04-14",
     "filename": "wp_028.mp3",
-    "sourceHash": "054218a3975a546541e598c9b44985e2c92fb23c96d9704a08184ca40461aa0c",
-    "previewVersion": 4
+    "sourceHash": "bd76eed0734562b95cd6f39ea5cc6e8e57c3a1a4c26c269b2bf64e818992f5cd",
+    "previewVersion": 6
   },
   {
     "id": "wp_029",
     "title": "Modern Pop Processional",
     "style": "Orchestral pop",
     "category": "PROCESSIONAL",
+    "genre": "Pop",
+    "mood": [
+      "Uplifting",
+      "Romantic"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 173,
+    "dateAdded": "2026-04-14",
     "filename": "wp_029.mp3",
-    "sourceHash": "6344ce89fbc37ae5c605874b0c38685e4ce9d55f0d3e18257cfdc5f272874125",
-    "previewVersion": 4
+    "sourceHash": "5e77fcf6366e322be0226429c3d3f85dc9baaabbe6bcfba68fcab6a31cc7735a",
+    "previewVersion": 6
   },
   {
     "id": "wp_030",
     "title": "Electric Soul Processional",
     "style": "Soul RnB",
     "category": "PROCESSIONAL",
+    "genre": "R&B/Soul",
+    "mood": [
+      "Romantic",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 164,
+    "dateAdded": "2026-04-14",
     "filename": "wp_030.mp3",
     "sourceHash": "0df10572117ae8e3055b38dd4d67fb1ae83a4fd3ef9665646cd9cef65f8fc1f8",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_031",
     "title": "Acoustic Sunshine",
     "style": "Folk pop",
     "category": "PROCESSIONAL",
+    "genre": "Folk",
+    "mood": [
+      "Joyful",
+      "Uplifting"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 74,
+    "dateAdded": "2026-04-14",
     "filename": "wp_031.mp3",
-    "sourceHash": "cd4c328a46c63bc5936b12c2f6f8a6db04ceff9f481673a38421c0bc525adb6c",
-    "previewVersion": 4
+    "sourceHash": "6fcb7cf2b5c9f2faa9a5eb095037bdc5b42386cfc98a8f4a246e9746ee65885f",
+    "previewVersion": 6
   },
   {
     "id": "wp_032",
     "title": "Country Pop Strings",
     "style": "Country pop processional",
     "category": "PROCESSIONAL",
+    "genre": "Country",
+    "mood": [
+      "Joyful",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 134,
+    "dateAdded": "2026-04-14",
     "filename": "wp_032.mp3",
-    "sourceHash": "feefa458d96e59e173b8027a0387f4c4611af366c646f5ad59377c461a28a4a0",
-    "previewVersion": 5
+    "sourceHash": "424f07264cf80e5e46f9084c727643f592d2abce46b5b3feceffdf7f215e2454",
+    "previewVersion": 7
   },
   {
     "id": "wp_033",
     "title": "Acoustic Country Ballad",
     "style": "Acoustic country",
     "category": "SIGNING",
+    "genre": "Country",
+    "mood": [
+      "Tender",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 139,
+    "dateAdded": "2026-04-14",
     "filename": "wp_033.mp3",
-    "sourceHash": "d993bddd4fc4fc5721c0502389995d12cc829a26faba368a032bbaac6d210cf0",
-    "previewVersion": 5
+    "sourceHash": "a59db07cbb9d4a83d23c71c1fa2d6c1745d5d9832443ddb2b6f0c49f23d8524e",
+    "previewVersion": 7
   },
   {
     "id": "wp_034",
     "title": "Swing Celebration",
     "style": "Swing jazz",
     "category": "RECESSIONAL",
+    "genre": "Jazz",
+    "mood": [
+      "Joyful",
+      "Triumphant"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Lively",
+    "vocal": false,
     "durationSecs": 122,
+    "dateAdded": "2026-04-14",
     "filename": "wp_034.mp3",
     "sourceHash": "005d788f23a90c742d53cbee45027ea8f9e733df0e83992fc454b2d1a3c19bd7",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_035",
     "title": "Funk Brass Recessional",
     "style": "Funk brass",
     "category": "RECESSIONAL",
+    "genre": "R&B/Soul",
+    "mood": [
+      "Joyful",
+      "Triumphant"
+    ],
+    "instrumentation": "Brass",
+    "tempo": "Lively",
+    "vocal": false,
     "durationSecs": 55,
+    "dateAdded": "2026-04-14",
     "filename": "wp_035.mp3",
     "sourceHash": "c9fcc77db2423bbbfc0561b425e1e4837890fda0d3cc48530580d85fb3e1911f",
-    "previewVersion": 4
+    "previewVersion": 5
   },
   {
     "id": "wp_036",
     "title": "Pop Strings Finale",
     "style": "Slow Build",
     "category": "RECESSIONAL",
+    "genre": "Pop",
+    "mood": [
+      "Triumphant",
+      "Uplifting"
+    ],
+    "instrumentation": "Strings",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 108,
+    "dateAdded": "2026-04-14",
     "filename": "wp_036.mp3",
-    "sourceHash": "859644dc10c36a07ad5fee9f6754176ecb86a26dfdb223d7000b6d72a56e8c68",
-    "previewVersion": 4
+    "sourceHash": "280cd5eda91ba62e10dba8a4acb4f2780ec88f41218889dfa6d92d5c3f96ea7b",
+    "previewVersion": 6
   },
   {
     "id": "wp_037",
     "title": "A Thousand Tomorrows",
     "style": "Acoustic Folk Vocal",
     "category": "PROCESSIONAL",
+    "genre": "Folk",
+    "mood": [
+      "Tender",
+      "Romantic"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 115,
+    "dateAdded": "2026-05-17",
     "filename": "wp_037.mp3",
-    "sourceHash": "54d6cdb1b710fd4bc0e2ac1597adf2295ebccad8bf6ab96f8da87969801a72b1",
-    "previewVersion": 1
+    "sourceHash": "14d05aedebb53f0e2f64546602b47a7bf7da38808e22fc4a2a58269f2e661a64",
+    "previewVersion": 3
   },
   {
     "id": "wp_038",
     "title": "As We Sign Our Names",
     "style": "Soft Piano Vocal",
     "category": "SIGNING",
+    "genre": "Pop",
+    "mood": [
+      "Tender",
+      "Romantic"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 92,
+    "dateAdded": "2026-05-17",
     "filename": "wp_038.mp3",
-    "sourceHash": "56fe1fae8fbfd161e59adbc45a8054e8a37b8aba2884fbef4e8e3f9d5a03e8d0",
-    "previewVersion": 1
+    "sourceHash": "d8ced00c96b972f2d0e2d72fe323566c82ec81220e58c47e040c4d9442cede69",
+    "previewVersion": 3
   },
   {
     "id": "wp_039",
     "title": "Perfect Enough",
     "style": "Acoustic Vocal Ballad",
     "category": "SIGNING",
+    "genre": "Pop",
+    "mood": [
+      "Romantic",
+      "Tender"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 93,
+    "dateAdded": "2026-05-17",
     "filename": "wp_039.mp3",
-    "sourceHash": "cdf493b82425e2b0963b8df436e2fd06136cf70f1198f6619bfadaefb9609621",
-    "previewVersion": 1
+    "sourceHash": "e633cf5ea5cd3f1831e077838962f4157c51a2578eb70786f38f43aabf9d4416",
+    "previewVersion": 3
   },
   {
     "id": "wp_040",
     "title": "Quiet Hands, Steady Hearts",
     "style": "Tender Folk Vocal",
     "category": "SIGNING",
+    "genre": "Folk",
+    "mood": [
+      "Tender",
+      "Serene"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Slow",
+    "vocal": false,
     "durationSecs": 140,
+    "dateAdded": "2026-05-17",
     "filename": "wp_040.mp3",
-    "sourceHash": "f0bee748ceccf0c3b54de5293feefa31db6bedff53e36cbc69abb1a48b4752d7",
-    "previewVersion": 1
+    "sourceHash": "d1ab446895b46c963dd309339d6810d9ff66af883b0a670009d2f82f3a0269ef",
+    "previewVersion": 3
   },
   {
     "id": "wp_041",
     "title": "From This Day On",
     "style": "Uplifting Vocal Anthem",
     "category": "RECESSIONAL",
+    "genre": "Pop",
+    "mood": [
+      "Uplifting",
+      "Triumphant"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
     "durationSecs": 178,
+    "dateAdded": "2026-05-17",
     "filename": "wp_041.mp3",
-    "sourceHash": "72572648cf7545016b5039921bfe775b9ee2a39d60fb541f9efba99c6af04080",
-    "previewVersion": 1
+    "sourceHash": "f1e3c74ad82f0741d08b5d9021b0b9ddba432f75bf9ff04a59d1782b68592d5e",
+    "previewVersion": 3
   }
 ]

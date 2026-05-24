@@ -6,6 +6,18 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.58 - 2026-05-24
+
+Wedding Player Originals catalogue metadata expansion. Adds six new fields per track (`genre`, `mood`, `instrumentation`, `tempo`, `vocal`, `dateAdded`) and refreshes every track's `sourceHash` and `previewVersion` to the latest preview generation. Powers the filterable browse view on `weddingplayer.app/music`. iOS and Android consumers can pick this up at any time; the new fields are additive and platforms ignore unknown keys.
+
+### Catalogue (`catalogue/catalogue.json`)
+- 36+ tracks now carry: `genre` (Classical, Acoustic, Folk, Pop, etc.), `mood` (array, e.g. Romantic + Serene), `instrumentation` (Piano, Guitar, Mixed, etc.), `tempo` (Slow / Moderate / Fast), `vocal` (boolean), `dateAdded` (YYYY-MM-DD).
+- Every `sourceHash` and `previewVersion` refreshed to the latest CDN preview generation (e.g. wp_002 v5 to v7).
+- Net change: +433 lines, -74 lines.
+
+### Companion
+- `weddingplayer.app/music` page goes live with working filters once the website submodule is bumped to v1.0.58.
+
 ## v1.0.57 - 2026-05-24
 
 New help section "Where to Find Music" covering DRM-free on-device track purchases for couples without an Apple Music subscription. Surfaces in iOS Help & Support, Android Help, and the website support page (after consumer submodule bumps).
