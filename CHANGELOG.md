@@ -6,6 +6,24 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.57 - 2026-05-24
+
+New help section "Where to Find Music" covering DRM-free on-device track purchases for couples without an Apple Music subscription. Surfaces in iOS Help & Support, Android Help, and the website support page (after consumer submodule bumps).
+
+### Content (`content/help-content.json`)
+- `version` bumped 1.1 to 1.2.
+- New section `where-to-find-music` with 5 items:
+  - `buy-music-no-subscription` (both): "I don't have Apple Music. Where can I buy tracks?" Explains DRM-free, points to walkthrough.
+  - `buy-music-itunes-store-ios` (ios): Buying on the built-in iTunes Store app.
+  - `buy-music-amazon-mp3` (both): Buying on amazon.co.uk/music/MP3 via Safari/Chrome.
+  - `buy-music-qobuz` (both): Buying via the native Qobuz app.
+  - `buy-music-other-stores` (both): 7digital and file-format guidance (MP3/M4A both platforms, FLAC Android only).
+- All items link to the full walkthrough at weddingplayer.app/blog/buy-drm-free-music-iphone-android.
+
+### Companion deliverables (separate repos, not in this bump)
+- New blog post `buy-drm-free-music-iphone-android.md` on the weddingplayer-site repo.
+- Pointer added from existing post `how-to-add-your-own-music-files-to-wedding-player.md`.
+
 ## v1.0.43 — 2026-05-18
 
 Trim editor help content for 2.1.4 (Build 50). New `?` button on the TrimEditSheet surfaces this content via `ScreenTipState.shared.show("trim-editor")`.

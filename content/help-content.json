@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.1",
+  "version": "1.2",
   "sections": [
     {
       "id": "about",
@@ -146,6 +146,67 @@
             "Fade in at in-point ramps from silence to full volume over the duration set in Settings → Playback (default 5 seconds). Fade out at out-point does the reverse before the out-point.",
             "Use From in-point and To out-point to spot-check the first or last 10 seconds, or Full trimmed clip to hear the whole edit with both fades applied. The countdown inside each button shows time remaining.",
             "Tap Reset Trim at the bottom to clear everything and start over. Tap Save when you're happy. The original file or Apple Music track is unaffected — Wedding Player only stores your trim points."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-to-find-music",
+      "title": "Where to Find Music",
+      "items": [
+        {
+          "id": "buy-music-no-subscription",
+          "title": "I don't have Apple Music. Where can I buy tracks?",
+          "platform": "both",
+          "steps": [
+            "You don't need an Apple Music subscription to use Wedding Player. Tracks you own as MP3 or M4A files work just as well, and you can buy them outright from several stores directly on your phone.",
+            "DRM-free means the file is yours: no subscription, no copy-protection, no ongoing payment to keep it playable. Once downloaded, it lives on your device and Wedding Player imports it the same way it imports any local file.",
+            "The next items cover the easiest stores on iPhone and Android. Most chart tracks cost roughly 99p to £1.29 each, with full albums around £7.99 to £9.99.",
+            "For the full walkthrough with screenshots and step-by-step instructions, see weddingplayer.app/blog/buy-drm-free-music-iphone-android."
+          ]
+        },
+        {
+          "id": "buy-music-itunes-store-ios",
+          "title": "Buying tracks from the iTunes Store (iPhone)",
+          "platform": "ios",
+          "steps": [
+            "The iTunes Store app is built into every iPhone and iPad. If you don't see it on your Home Screen, swipe down and search for iTunes Store.",
+            "Open it, tap Search, and find the track or album you want. Tap the price next to a song to buy and download it. You'll be asked for Face ID or your Apple ID password.",
+            "Once purchased, the track lives in the Apple Music app under Library. iTunes Store purchases are DRM-free AAC files and have been since 2009, so the file is genuinely yours, with or without an Apple Music subscription.",
+            "To import into Wedding Player: open a moment, tap Add Tracks, choose Add Apple Music, and look for the track in your Library. The full walkthrough at weddingplayer.app/blog/buy-drm-free-music-iphone-android covers what to do if it doesn't appear."
+          ]
+        },
+        {
+          "id": "buy-music-amazon-mp3",
+          "title": "Buying tracks from Amazon UK MP3 Store",
+          "platform": "both",
+          "steps": [
+            "Amazon sells DRM-free MP3s through its UK MP3 Store. You buy via your phone's web browser (Safari on iPhone, Chrome on Android), not the Amazon Music app, because the in-app rules on both platforms block direct music sales inside the app.",
+            "Go to amazon.co.uk/music/MP3, sign in, and search for the track or album you want. Tap Buy MP3 next to a song. The track downloads as an MP3 file.",
+            "On iPhone, the file lands in Files under Downloads. On Android, it lands in your Downloads folder.",
+            "To import into Wedding Player: open a moment, tap Add Tracks (iPhone) or Edit Tracks (Android), choose Add Local Files, and pick the file from Downloads."
+          ]
+        },
+        {
+          "id": "buy-music-qobuz",
+          "title": "Buying tracks from Qobuz",
+          "platform": "both",
+          "steps": [
+            "Qobuz is a UK-friendly music store with a strong mainstream catalogue including chart pop, classical, jazz and more. The Qobuz app on iPhone and Android lets you buy individual tracks directly, with no subscription required.",
+            "Install the Qobuz app from the App Store or Play Store and create a free account. Use the Store tab to search and buy tracks. MP3 is the safest choice for Wedding Player on both platforms (Qobuz also offers FLAC and Hi-Res, but iPhone doesn't accept FLAC).",
+            "Downloads land in the Qobuz library on your device. The Qobuz app then lets you export the downloaded MP3 to Files (iPhone) or your Downloads folder (Android).",
+            "In Wedding Player, open a moment, tap Add Tracks or Edit Tracks, choose Add Local Files, and pick the exported file."
+          ]
+        },
+        {
+          "id": "buy-music-other-stores",
+          "title": "Other DRM-free music stores",
+          "platform": "both",
+          "steps": [
+            "If none of the stores above has the track you want, 7digital (7digital.com) is a UK store that sells DRM-free MP3 and FLAC downloads through the web browser on both platforms.",
+            "On iPhone, choose MP3 or M4A downloads (iPhone doesn't accept FLAC). On Android, MP3, M4A or FLAC all work.",
+            "All purchases are yours to keep, with no subscription needed to keep playing them.",
+            "Full walkthrough for every store, with screenshots: weddingplayer.app/blog/buy-drm-free-music-iphone-android."
           ]
         }
       ]
