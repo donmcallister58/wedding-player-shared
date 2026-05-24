@@ -162,7 +162,7 @@
             "You don't need an Apple Music subscription to use Wedding Player. Tracks you own as MP3 or M4A files work just as well, and you can buy them outright from several stores directly on your phone.",
             "DRM-free means the file is yours: no subscription, no copy-protection, no ongoing payment to keep it playable. Once downloaded, it lives on your device and Wedding Player imports it the same way it imports any local file.",
             "The next items cover the easiest stores on iPhone and Android. Most chart tracks cost roughly 99p to £1.29 each, with full albums around £7.99 to £9.99.",
-            "For the full walkthrough with screenshots and step-by-step instructions, see weddingplayer.app/blog/buy-drm-free-music-iphone-android."
+            "For the full walkthrough with screenshots and step-by-step instructions, see weddingplayer.app/blog/how-to-add-music-to-wedding-player."
           ]
         },
         {
@@ -173,18 +173,18 @@
             "The iTunes Store app is built into every iPhone and iPad. If you don't see it on your Home Screen, swipe down and search for iTunes Store.",
             "Open it, tap Search, and find the track or album you want. Tap the price next to a song to buy and download it. You'll be asked for Face ID or your Apple ID password.",
             "Once purchased, the track lives in the Apple Music app under Library. iTunes Store purchases are DRM-free AAC files and have been since 2009, so the file is genuinely yours, with or without an Apple Music subscription.",
-            "To import into Wedding Player: open a moment, tap Add Tracks, choose Add Apple Music, and look for the track in your Library. The full walkthrough at weddingplayer.app/blog/buy-drm-free-music-iphone-android covers what to do if it doesn't appear."
+            "To import into Wedding Player: open a moment, tap Add Tracks, choose Add Apple Music, and look for the track in your Library. The full walkthrough at weddingplayer.app/blog/how-to-add-music-to-wedding-player covers what to do if it doesn't appear."
           ]
         },
         {
-          "id": "buy-music-amazon-mp3",
-          "title": "Buying tracks from Amazon UK MP3 Store",
+          "id": "buy-music-amazon",
+          "title": "Buying tracks from Amazon Music",
           "platform": "both",
           "steps": [
-            "Amazon sells DRM-free MP3s through its UK MP3 Store. You buy via your phone's web browser (Safari on iPhone, Chrome on Android), not the Amazon Music app, because the in-app rules on both platforms block direct music sales inside the app.",
-            "Go to amazon.co.uk/music/MP3, sign in, and search for the track or album you want. Tap Buy MP3 next to a song. The track downloads as an MP3 file.",
-            "On iPhone, the file lands in Files under Downloads. On Android, it lands in your Downloads folder.",
-            "To import into Wedding Player: open a moment, tap Add Tracks (iPhone) or Edit Tracks (Android), choose Add Local Files, and pick the file from Downloads."
+            "Amazon still sells individual MP3s, but the standalone storefront URL is no longer signposted. You buy through the Amazon Music web player in your phone's web browser (Safari on iPhone, Chrome on Android), not the Amazon Music app, because in-app purchase rules on both platforms block direct music sales inside that app.",
+            "Go to amazon.co.uk/music/player/ (or your country's Amazon Music site) and sign in with your Amazon account. Search for the track you want, then tap the three-dot menu next to it to open the sub-menu. You'll find a link to purchase the MP3.",
+            "Once purchased, download the file to your device. On iPhone, the file lands in Files under Downloads. On Android, it lands in your Downloads folder.",
+            "To import into Wedding Player: open a moment, tap Add Tracks or Edit Tracks, choose Add Local Files, and pick the file from Downloads."
           ]
         },
         {
@@ -206,7 +206,7 @@
             "If none of the stores above has the track you want, 7digital (7digital.com) is a UK store that sells DRM-free MP3 and FLAC downloads through the web browser on both platforms.",
             "On iPhone, choose MP3 or M4A downloads (iPhone doesn't accept FLAC). On Android, MP3, M4A or FLAC all work.",
             "All purchases are yours to keep, with no subscription needed to keep playing them.",
-            "Full walkthrough for every store, with screenshots: weddingplayer.app/blog/buy-drm-free-music-iphone-android."
+            "Full walkthrough for every store, with screenshots: weddingplayer.app/blog/how-to-add-music-to-wedding-player."
           ]
         }
       ]

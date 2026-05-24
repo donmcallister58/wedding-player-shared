@@ -292,6 +292,10 @@
   "playlist.delete.confirm":                   "Remove",
   "playlist.delete.message":                   "This removes the track from this moment. Local files and Originals stay on your device.",
 
+  "getMoreMusic.buttonLabel":                  "Get more music",
+  "getMoreMusic.sheetTitle":                   "GET MORE MUSIC",
+  "getMoreMusic.readFullGuide":                "Read the full guide",
+
   "settings.title":                            "Settings",
   "settings.section.wedding":                  "The Wedding",
   "settings.section.appearance":               "Appearance",
