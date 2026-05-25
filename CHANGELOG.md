@@ -6,6 +6,14 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.63 - 2026-05-25
+
+Reword the first step of the `where-to-find-music-breadcrumb` Help item to be more action-oriented (calls out the actual buttons) and less specific about the in-app layout (which can change). Was "Open any moment in setup mode and tap Get more music below the Add Tracks pills."; now "Tap Add or Edit Tracks on a moment and tap Get more music at the bottom of the screen."
+
+### Content (`content/help-content.json`)
+- `where-to-find-music-breadcrumb` step 1 reworded.
+- `version` bumped 1.6 -> 1.7.
+
 ## v1.0.62 - 2026-05-25
 
 Trim the `where-to-find-music-breadcrumb` Help item from three steps to two. The third step ("Each route has a Guide button that opens the full walkthrough at weddingplayer.app/music with screenshots and step-by-step instructions.") felt redundant: users following the breadcrumb to the Get-more-music sheet will see the per-section Guide pills directly, and don't need to be told about them in advance.
