@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.3",
+  "version": "1.4",
   "sections": [
     {
       "id": "about",
@@ -545,9 +545,9 @@
           "context": "If you have multiple tracks in the moment, just drag them into any order using the three line icon on the right of the row,"
         },
         {
-          "icon": "edit",
-          "label": "Loop track",
-          "context": "If you have a single track, a loop toggle appears - Once switched on, the track will play in a loop until cancelled - you will see a red looping indicator on playback."
+          "icon": "loop",
+          "label": "Loop Moment",
+          "context": "Use the Loop Moment toggle in the moment editor. Once switched on, the moment plays in a loop until you fade and end. With multiple tracks all play in order, then wrap back to the first. A red looping indicator shows during playback."
         }
       ]
     },

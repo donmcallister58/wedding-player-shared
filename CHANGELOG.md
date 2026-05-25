@@ -6,6 +6,20 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.60 - 2026-05-25
+
+Loop copy sweep after Build 55 #345/#229 enabled Loop on multi-track moments. Two help/demo strings still spoke about Loop as a single-track-only feature with track-level semantics. Now updated to reflect the moment-level reality and match the in-app toggle label "Loop Moment".
+
+### Content (`content/help-content.json`)
+- Playlist-editor screen tip `Loop track` -> `Loop Moment`: icon `edit` -> new `loop` token, context rewritten to describe the moment-level wrap behaviour (all tracks play in order, then wrap back to the first) with the red looping indicator on playback.
+- `version` bumped 1.3 -> 1.4.
+
+### Icons (`content/icons.json`)
+- New `loop` token: iOS `repeat`, Android `Repeat`. Matches the in-app loop indicator SF Symbol on iOS.
+
+### Localisation (`localisation/en.json`)
+- `demo.tip.register.stopped.context`: dropped the "if you have a single track" caveat; now mentions Loop Moment + multi-track wrap behaviour.
+
 ## v1.0.59 - 2026-05-25
 
 Help-content URL refresh after the weddingplayer.app music-hub revamp. The three remaining `weddingplayer.app/blog/how-to-add-music-to-wedding-player` references in `where-to-find-music` now point to dedicated music-hub sub-pages instead of the redirected hub overview, so couples land directly on the relevant content.

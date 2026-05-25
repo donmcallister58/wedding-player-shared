@@ -189,7 +189,7 @@
   "demo.tip.register.playing.context":         "Multiple tracks keep the music flowing while the register is signed.",
   "demo.tip.register.playing.tip":             "Just tap Fade out when the signing is done. You don't have to worry how long it takes.",
   "demo.tip.register.stopped.action":          "Tap the big blue button above to start the track",
-  "demo.tip.register.stopped.context":         "Background music for signing the register. %d tracks play in sequence, filling however long it takes. Or if you have a single track, Wedding Player allows you to loop the track indefinitely.",
+  "demo.tip.register.stopped.context":         "Background music for signing the register. %d tracks play in sequence, filling however long it takes. You can also turn on Loop Moment to keep playing indefinitely (when the last track finishes, playback wraps back to the first).",
   "demo.tip.register.stopped.tip":             "Looping is set within the Moment editor.",
 
   "demo.tip.exit.playing.action":              "%@ is now playing!",

@@ -15,6 +15,7 @@
     "download":    { "ios": "arrow.down.circle",   "android": "Download" },
     "settings":    { "ios": "gearshape",           "android": "Settings" },
     "scissors":    { "ios": "scissors",             "android": "ContentCut" },
-    "trash":       { "ios": "trash",                "android": "Delete" }
+    "trash":       { "ios": "trash",                "android": "Delete" },
+    "loop":        { "ios": "repeat",               "android": "Repeat" }
   }
 }
