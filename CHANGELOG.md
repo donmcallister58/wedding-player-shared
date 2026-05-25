@@ -6,6 +6,14 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.62 - 2026-05-25
+
+Trim the `where-to-find-music-breadcrumb` Help item from three steps to two. The third step ("Each route has a Guide button that opens the full walkthrough at weddingplayer.app/music with screenshots and step-by-step instructions.") felt redundant: users following the breadcrumb to the Get-more-music sheet will see the per-section Guide pills directly, and don't need to be told about them in advance.
+
+### Content (`content/help-content.json`)
+- `where-to-find-music-breadcrumb` steps trimmed from 3 to 2.
+- `version` bumped 1.5 -> 1.6.
+
 ## v1.0.61 - 2026-05-25
 
 Collapse the `where-to-find-music` section to a single breadcrumb item now that the new in-app Get-more-music sheet (iOS commit `3480a61`, with per-section `/music/*` Guide pills shipped in #352) is the natural discovery surface for this content. Five long item walkthroughs (~50 lines of help-content) duplicated what the sheet plus the website music topic hub already cover better.

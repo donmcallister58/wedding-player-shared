@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.5",
+  "version": "1.6",
   "sections": [
     {
       "id": "about",
@@ -160,8 +160,7 @@
           "platform": "both",
           "steps": [
             "Open any moment in setup mode and tap Get more music below the Add Tracks pills.",
-            "The tip card lists three on-device routes: buying individual tracks outright (iTunes Store, Bandcamp, Qobuz, 7digital, Amazon Music), free music libraries (Pixabay, Free Music Archive, ccMixter, Incompetech), and adding files you already own from iCloud Drive, Files, AirDrop, or an email attachment.",
-            "Each route has a Guide button that opens the full walkthrough at weddingplayer.app/music with screenshots and step-by-step instructions."
+            "The tip card lists three on-device routes: buying individual tracks outright (iTunes Store, Bandcamp, Qobuz, 7digital, Amazon Music), free music libraries (Pixabay, Free Music Archive, ccMixter, Incompetech), and adding files you already own from iCloud Drive, Files, AirDrop, or an email attachment."
           ]
         }
       ]
