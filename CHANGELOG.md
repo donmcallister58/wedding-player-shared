@@ -6,6 +6,19 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.59 - 2026-05-25
+
+Help-content URL refresh after the weddingplayer.app music-hub revamp. The three remaining `weddingplayer.app/blog/how-to-add-music-to-wedding-player` references in `where-to-find-music` now point to dedicated music-hub sub-pages instead of the redirected hub overview, so couples land directly on the relevant content.
+
+### Content (`content/help-content.json`)
+- `buy-music-no-subscription` overview link: `/blog/how-to-add-music-to-wedding-player` -> `/music/individual-tracks`.
+- `buy-music-itunes-store-ios` "if it doesn't appear" link: `/blog/how-to-add-music-to-wedding-player` -> `/music/apple-music` (closer topical match: the troubleshooting is about Apple Music Library sync, not buying).
+- `buy-music-other-stores` walkthrough link: `/blog/how-to-add-music-to-wedding-player` -> `/music/individual-tracks`.
+- `version` bumped 1.2 -> 1.3.
+
+### Companion
+- Carried alongside 080d61c (already on main, untagged before this release): Amazon UK MP3 URL replacement in `en.json`. Bundled into v1.0.59.
+
 ## v1.0.58 - 2026-05-24
 
 Wedding Player Originals catalogue metadata expansion. Adds six new fields per track (`genre`, `mood`, `instrumentation`, `tempo`, `vocal`, `dateAdded`) and refreshes every track's `sourceHash` and `previewVersion` to the latest preview generation. Powers the filterable browse view on `weddingplayer.app/music`. iOS and Android consumers can pick this up at any time; the new fields are additive and platforms ignore unknown keys.
