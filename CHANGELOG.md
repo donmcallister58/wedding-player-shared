@@ -6,6 +6,17 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.61 - 2026-05-25
+
+Collapse the `where-to-find-music` section to a single breadcrumb item now that the new in-app Get-more-music sheet (iOS commit `3480a61`, with per-section `/music/*` Guide pills shipped in #352) is the natural discovery surface for this content. Five long item walkthroughs (~50 lines of help-content) duplicated what the sheet plus the website music topic hub already cover better.
+
+### Content (`content/help-content.json`)
+- Removed: `buy-music-no-subscription`, `buy-music-itunes-store-ios`, `buy-music-amazon`, `buy-music-qobuz`, `buy-music-other-stores` (the five original Build 49 items).
+- Added: single `where-to-find-music-breadcrumb` item titled "Where do I find more music?" pointing users at the in-app Get-more-music sheet plus the weddingplayer.app/music hub.
+- `version` bumped 1.4 -> 1.5.
+
+Help & Support stays focused on in-app mechanics; purchase walkthroughs live on the website where they can be updated without an app review cycle.
+
 ## v1.0.60 - 2026-05-25
 
 Loop copy sweep after Build 55 #345/#229 enabled Loop on multi-track moments. Two help/demo strings still spoke about Loop as a single-track-only feature with track-level semantics. Now updated to reflect the moment-level reality and match the in-app toggle label "Loop Moment".
