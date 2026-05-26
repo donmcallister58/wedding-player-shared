@@ -6,6 +6,15 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.64 - 2026-05-26
+
+Reword the demo "tap the big blue button" tip-card prompts to be colour-agnostic. The play button now tints with the active moment's colour, so calling it "blue" is stale across roughly half the moments. Affects iOS + Android demo flows.
+
+### Localisation (`localisation/en.json`)
+- `demo.tip.entrance.stopped.action`: "Tap the big blue button" to "Tap the big play button".
+- `demo.tip.register.stopped.action`: same change.
+- `demo.tip.exit.stopped.action`: same change.
+
 ## v1.0.63 - 2026-05-25
 
 Reword the first step of the `where-to-find-music-breadcrumb` Help item to be more action-oriented (calls out the actual buttons) and less specific about the in-app layout (which can change). Was "Open any moment in setup mode and tap Get more music below the Add Tracks pills."; now "Tap Add or Edit Tracks on a moment and tap Get more music at the bottom of the screen."
