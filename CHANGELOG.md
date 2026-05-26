@@ -6,6 +6,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.65 - 2026-05-26
+
+Reword the demo Signing The Register tip card's looping instruction. Was "Looping is set within the Moment editor." which read as a reference to the Edit Moments management view; users actually toggle Loop Moment inside each moment's Edit Tracks screen. Now reads "Tap Edit Tracks on the moment to turn Loop Moment on." for concrete action-pointing.
+
+### Localisation (`localisation/en.json`)
+- `demo.tip.register.stopped.tip`: clarified looping path.
+
 ## v1.0.64 - 2026-05-26
 
 Reword the demo "tap the big blue button" tip-card prompts to be colour-agnostic. The play button now tints with the active moment's colour, so calling it "blue" is stale across roughly half the moments. Affects iOS + Android demo flows.
