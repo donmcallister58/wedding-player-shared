@@ -35,7 +35,10 @@ DAILY_CATEGORY_MIX = ["PRELUDE"] * 4 + ["PROCESSIONAL"] * 4 + ["SIGNING"] * 4 + 
 # ---------------------------------------------------------------------------
 # Pools
 # ---------------------------------------------------------------------------
-# Each pool entry is (style, instrumentation, mood, bpm_range, vocal, public_domain, notes).
+# Each pool entry carries a Suno-facing description (style, instrumentation,
+# mood, bpm) plus the closed-vocabulary catalogue facets (genre, moods,
+# instr_facet) that get written into catalogue.json on approval and drive the
+# public /music page filters.
 
 @dataclass
 class StyleSpec:
@@ -43,59 +46,98 @@ class StyleSpec:
     instrumentation: str
     mood: str
     bpm: str
+    genre: str = ""                       # closed vocab, catalogue facet
+    moods: tuple[str, ...] = ()            # closed vocab, catalogue facet
+    instr_facet: str = ""                  # coarse instrumentation facet
     vocal: bool = False
     public_domain: bool = False
     notes: str = ""
 
 # Public-domain classics - AI-re-recorded. Composition is PD; performance is ours.
 PD_CLASSICS = [
-    StyleSpec("Pachelbel Canon in D", "string quartet", "stately, hopeful", "60-66", public_domain=True,
-              notes="Faithful arrangement, ~3 min."),
-    StyleSpec("Wagner Bridal Chorus", "pipe organ + soft brass", "ceremonial, processional", "72-80", public_domain=True,
-              notes="Traditional 'Here Comes the Bride' melody."),
-    StyleSpec("Mendelssohn Wedding March", "full orchestra", "triumphant, recessional", "100-110", public_domain=True,
-              notes="The classic exit march."),
-    StyleSpec("Bach Jesu Joy of Man's Desiring", "piano + soft strings", "serene, devotional", "60-66", public_domain=True),
-    StyleSpec("Clarke Trumpet Voluntary", "trumpet + organ", "regal, joyful", "80-88", public_domain=True,
-              notes="aka Prince of Denmark's March."),
-    StyleSpec("Schubert Ave Maria", "harp + solo violin", "sacred, tender", "60-72", public_domain=True,
-              notes="Instrumental - no vocals."),
-    StyleSpec("Bach Air on the G String", "string ensemble", "soaring, contemplative", "54-60", public_domain=True),
-    StyleSpec("Handel Hornpipe (Water Music)", "baroque orchestra", "bright, ceremonial", "92-100", public_domain=True),
+    StyleSpec("Pachelbel Canon in D", "string quartet", "stately, hopeful", "60-66",
+              genre="Classical", moods=("Ceremonial", "Joyful"), instr_facet="Strings",
+              public_domain=True, notes="Faithful arrangement, ~3 min."),
+    StyleSpec("Wagner Bridal Chorus", "pipe organ + soft brass", "ceremonial, processional", "72-80",
+              genre="Classical", moods=("Ceremonial",), instr_facet="Mixed",
+              public_domain=True, notes="Traditional 'Here Comes the Bride' melody."),
+    StyleSpec("Mendelssohn Wedding March", "full orchestra", "triumphant, recessional", "100-110",
+              genre="Classical", moods=("Triumphant", "Ceremonial"), instr_facet="Orchestra",
+              public_domain=True, notes="The classic exit march."),
+    StyleSpec("Bach Jesu Joy of Man's Desiring", "piano + soft strings", "serene, devotional", "60-66",
+              genre="Classical", moods=("Serene", "Tender"), instr_facet="Mixed",
+              public_domain=True),
+    StyleSpec("Clarke Trumpet Voluntary", "trumpet + organ", "regal, joyful", "80-88",
+              genre="Classical", moods=("Ceremonial", "Joyful"), instr_facet="Brass",
+              public_domain=True, notes="aka Prince of Denmark's March."),
+    StyleSpec("Schubert Ave Maria", "harp + solo violin", "sacred, tender", "60-72",
+              genre="Classical", moods=("Tender", "Serene"), instr_facet="Mixed",
+              public_domain=True, notes="Instrumental - no vocals."),
+    StyleSpec("Bach Air on the G String", "string ensemble", "soaring, contemplative", "54-60",
+              genre="Classical", moods=("Uplifting", "Reflective"), instr_facet="Strings",
+              public_domain=True),
+    StyleSpec("Handel Hornpipe (Water Music)", "baroque orchestra", "bright, ceremonial", "92-100",
+              genre="Classical", moods=("Joyful", "Ceremonial"), instr_facet="Orchestra",
+              public_domain=True),
 ]
 
 # Under-represented genres - push the catalogue beyond the safe centre.
 ROTATING_GENRES = [
-    StyleSpec("Gospel Choir Wedding Hymn", "full gospel choir + piano + Hammond organ", "uplifting, soulful", "68-76", vocal=True),
-    StyleSpec("Celtic Wedding", "Irish whistle + Celtic harp + bodhran", "lyrical, hopeful", "70-80"),
-    StyleSpec("Jazz Combo Ceremony", "upright bass + piano + brushed drums + muted trumpet", "warm, intimate", "70-84"),
-    StyleSpec("Latin Acoustic", "nylon-string guitar + cajon + light percussion", "romantic, sun-warmed", "76-88"),
-    StyleSpec("Indian Classical Fusion", "sitar + tabla + bansuri + soft pads", "graceful, contemplative", "60-72"),
-    StyleSpec("Choral Sacred", "mixed SATB choir a cappella", "reverent, glowing", "60-68", vocal=True,
+    StyleSpec("Gospel Choir Wedding Hymn", "full gospel choir + piano + Hammond organ", "uplifting, soulful", "68-76",
+              genre="Gospel", moods=("Uplifting", "Joyful"), instr_facet="Choir", vocal=True),
+    StyleSpec("Celtic Wedding", "Irish whistle + Celtic harp + bodhran", "lyrical, hopeful", "70-80",
+              genre="Celtic", moods=("Joyful", "Tender"), instr_facet="Mixed"),
+    StyleSpec("Jazz Combo Ceremony", "upright bass + piano + brushed drums + muted trumpet", "warm, intimate", "70-84",
+              genre="Jazz", moods=("Tender", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Latin Acoustic", "nylon-string guitar + cajon + light percussion", "romantic, sun-warmed", "76-88",
+              genre="World", moods=("Romantic", "Joyful"), instr_facet="Guitar"),
+    StyleSpec("Indian Classical Fusion", "sitar + tabla + bansuri + soft pads", "graceful, contemplative", "60-72",
+              genre="World", moods=("Serene", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Choral Sacred", "mixed SATB choir a cappella", "reverent, glowing", "60-68",
+              genre="Choral", moods=("Ceremonial", "Uplifting"), instr_facet="Choir", vocal=True,
               notes="Wordless ahs/oohs only - no specific language."),
-    StyleSpec("World Percussion Processional", "frame drum + kalimba + low strings", "earthy, anticipatory", "80-92"),
-    StyleSpec("Ambient Electronic", "warm synth pads + subtle arpeggio + soft piano", "dreamlike, modern", "70-82"),
-    StyleSpec("Indie Folk Acoustic", "fingerpicked acoustic guitar + soft mandolin + cello", "tender, hand-written", "72-84"),
-    StyleSpec("Country Wedding", "acoustic guitar + dobro + light steel + brush kit", "warm, plain-spoken", "76-88"),
-    StyleSpec("R&B Wedding Ballad", "Rhodes piano + sub bass + soft strings + light vocal", "smooth, devoted", "62-72", vocal=True),
+    StyleSpec("World Percussion Processional", "frame drum + kalimba + low strings", "earthy, anticipatory", "80-92",
+              genre="World", moods=("Ceremonial", "Joyful"), instr_facet="Mixed"),
+    StyleSpec("Ambient Electronic", "warm synth pads + subtle arpeggio + soft piano", "dreamlike, modern", "70-82",
+              genre="Ambient", moods=("Serene", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Indie Folk Acoustic", "fingerpicked acoustic guitar + soft mandolin + cello", "tender, hand-written", "72-84",
+              genre="Folk", moods=("Tender", "Reflective"), instr_facet="Guitar"),
+    StyleSpec("Country Wedding", "acoustic guitar + dobro + light steel + brush kit", "warm, plain-spoken", "76-88",
+              genre="Country", moods=("Tender", "Joyful"), instr_facet="Guitar"),
+    StyleSpec("R&B Wedding Ballad", "Rhodes piano + sub bass + soft strings + light vocal", "smooth, devoted", "62-72",
+              genre="R&B/Soul", moods=("Romantic", "Tender"), instr_facet="Mixed", vocal=True),
 ]
 
 # Mainstream wedding styles - the safe centre, rotated to avoid dupes.
 MAINSTREAM = [
-    StyleSpec("Cinematic Orchestral", "full strings + soft horns + harp + light timpani", "sweeping, romantic", "72-84"),
-    StyleSpec("Acoustic Fingerstyle Guitar", "solo steel-string acoustic guitar", "gentle, contemplative", "70-80"),
-    StyleSpec("Light Jazz Piano", "solo grand piano with subtle bass", "warm, conversational", "76-88"),
-    StyleSpec("Modern Classical", "piano + cello + violin", "luminous, neoclassical", "66-76"),
-    StyleSpec("Vocal Ballad", "piano + acoustic guitar + tender lead vocal", "heartfelt, devoted", "68-78", vocal=True),
-    StyleSpec("Harp Solo", "concert harp solo", "ethereal, ceremonial", "60-70"),
-    StyleSpec("String Quartet Romantic", "violin + viola + cello quartet", "lush, classic", "66-76"),
-    StyleSpec("Pop Ballad Recessional", "piano + strings + soaring lead vocal + light drums", "triumphant, joyful", "82-92", vocal=True),
-    StyleSpec("Acoustic Piano Solo", "solo grand piano", "reflective, gentle", "60-72"),
-    StyleSpec("Ambient Modern Classical", "piano + soft pads + reverbed strings", "spacious, peaceful", "60-68"),
-    StyleSpec("Bossa Nova Ceremony", "nylon guitar + soft brushes + warm bass", "breezy, romantic", "84-96"),
-    StyleSpec("Folk Strings Duo", "violin + acoustic guitar", "intimate, hand-played", "72-82"),
-    StyleSpec("Brass Quintet Processional", "2 trumpets + horn + trombone + tuba", "stately, ceremonial", "76-88"),
-    StyleSpec("Soft Choir Pad", "choir 'aahs' + piano + light strings", "celestial, slow", "58-68"),
+    StyleSpec("Cinematic Orchestral", "full strings + soft horns + harp + light timpani", "sweeping, romantic", "72-84",
+              genre="Cinematic", moods=("Romantic", "Triumphant"), instr_facet="Orchestra"),
+    StyleSpec("Acoustic Fingerstyle Guitar", "solo steel-string acoustic guitar", "gentle, contemplative", "70-80",
+              genre="Acoustic", moods=("Serene", "Reflective"), instr_facet="Guitar"),
+    StyleSpec("Light Jazz Piano", "solo grand piano with subtle bass", "warm, conversational", "76-88",
+              genre="Jazz", moods=("Tender", "Reflective"), instr_facet="Piano"),
+    StyleSpec("Modern Classical", "piano + cello + violin", "luminous, neoclassical", "66-76",
+              genre="Classical", moods=("Uplifting", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Vocal Ballad", "piano + acoustic guitar + tender lead vocal", "heartfelt, devoted", "68-78",
+              genre="Pop", moods=("Romantic", "Tender"), instr_facet="Mixed", vocal=True),
+    StyleSpec("Harp Solo", "concert harp solo", "ethereal, ceremonial", "60-70",
+              genre="Classical", moods=("Serene", "Ceremonial"), instr_facet="Harp"),
+    StyleSpec("String Quartet Romantic", "violin + viola + cello quartet", "lush, classic", "66-76",
+              genre="Classical", moods=("Romantic", "Reflective"), instr_facet="Strings"),
+    StyleSpec("Pop Ballad Recessional", "piano + strings + soaring lead vocal + light drums", "triumphant, joyful", "82-92",
+              genre="Pop", moods=("Triumphant", "Joyful"), instr_facet="Mixed", vocal=True),
+    StyleSpec("Acoustic Piano Solo", "solo grand piano", "reflective, gentle", "60-72",
+              genre="Piano", moods=("Reflective", "Serene"), instr_facet="Piano"),
+    StyleSpec("Ambient Modern Classical", "piano + soft pads + reverbed strings", "spacious, peaceful", "60-68",
+              genre="Ambient", moods=("Serene", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Bossa Nova Ceremony", "nylon guitar + soft brushes + warm bass", "breezy, romantic", "84-96",
+              genre="Jazz", moods=("Romantic", "Joyful"), instr_facet="Guitar"),
+    StyleSpec("Folk Strings Duo", "violin + acoustic guitar", "intimate, hand-played", "72-82",
+              genre="Folk", moods=("Tender", "Reflective"), instr_facet="Mixed"),
+    StyleSpec("Brass Quintet Processional", "2 trumpets + horn + trombone + tuba", "stately, ceremonial", "76-88",
+              genre="Classical", moods=("Ceremonial", "Triumphant"), instr_facet="Brass"),
+    StyleSpec("Soft Choir Pad", "choir 'aahs' + piano + light strings", "celestial, slow", "58-68",
+              genre="Ambient", moods=("Serene", "Tender"), instr_facet="Choir"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -136,6 +178,9 @@ def build_brief(date: dt.date) -> list[dict]:
             "instrumentation": style.instrumentation,
             "mood": style.mood,
             "bpm": style.bpm,
+            "genre": style.genre,
+            "moods": list(style.moods),
+            "instrFacet": style.instr_facet,
             "vocal": style.vocal,
             "publicDomain": style.public_domain,
             "durationTargetSecs": [dur_min, dur_max],
@@ -165,6 +210,7 @@ Wedding ceremony music. Smooth, well-mixed, professional production.
 ```
 
   - Category: **{card['category']}**
+  - Genre: {card['genre']}  |  Moods: {', '.join(card['moods'])}
   - Target duration: {duration}
   - Instrumentation: {card['instrumentation']}
   - Mood: {card['mood']}

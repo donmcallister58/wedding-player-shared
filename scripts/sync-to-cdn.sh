@@ -8,6 +8,10 @@
 # `.uploaded.json` sidecar that records the sourceHash + previewVersion
 # of the last successful upload per track. Re-run safely.
 #
+# After a successful catalogue.json upload it fires the weddingplayer-site
+# Cloudflare Pages deploy hook (URL from a gitignored `.deploy-hook` file
+# next to this script) so the public /music page rebuilds automatically.
+#
 # Usage:
 #   scripts/sync-to-cdn.sh [--source DIR] [--dry-run] [--force] [--only wp_NNN]
 #
@@ -26,6 +30,7 @@ set -euo pipefail
 BUCKET="weddingplayer-music"
 KEY_PREFIX="music"
 DEFAULT_SOURCE="$HOME/Library/CloudStorage/GoogleDrive-don@playerapps.uk/My Drive/Wedding Player Catalogue Assets"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 SOURCE_DIR=""
 DRY_RUN=0
@@ -38,7 +43,7 @@ while [[ $# -gt 0 ]]; do
     --dry-run) DRY_RUN=1; shift ;;
     --force)   FORCE=1; shift ;;
     --only)    ONLY="$2"; shift 2 ;;
-    -h|--help) sed -n '2,25p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+    -h|--help) sed -n '2,29p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
     *) echo "Unknown arg: $1" >&2; exit 1 ;;
   esac
 done
@@ -91,6 +96,30 @@ record_uploaded() {
   jq --arg id "$id" --arg h "$src_hash" --arg v "$preview_ver" \
     '.[$id] = {sourceHash: $h, previewVersion: ($v|tonumber)}' \
     "$SIDECAR" > "${SIDECAR}.next" && mv "${SIDECAR}.next" "$SIDECAR"
+}
+
+# Fire the Cloudflare Pages deploy hook so the public /music page rebuilds
+# against the freshly-uploaded catalogue. The hook URL is a secret: it lives
+# in a gitignored `.deploy-hook` file next to this script. Missing or empty
+# file = skip with a warning (the CDN upload itself still succeeded).
+trigger_site_rebuild() {
+  local hook_file="$SCRIPT_DIR/.deploy-hook"
+  if [[ ! -f "$hook_file" ]]; then
+    echo "  ⚠ no .deploy-hook file - skipping site rebuild trigger"
+    echo "    create $hook_file with the Cloudflare Pages deploy hook URL"
+    return 0
+  fi
+  local hook_url
+  hook_url="$(tr -d '[:space:]' < "$hook_file")"
+  if [[ -z "$hook_url" ]]; then
+    echo "  ⚠ .deploy-hook is empty - skipping site rebuild trigger"
+    return 0
+  fi
+  if curl -fsS -X POST "$hook_url" >/dev/null; then
+    echo "  ⤴ triggered weddingplayer-site rebuild"
+  else
+    echo "  ⚠ deploy hook POST failed - catalogue uploaded OK, rebuild the site manually" >&2
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -154,6 +183,9 @@ if [[ $UPLOADED -gt 0 || $FORCE -eq 1 ]]; then
   echo
   echo "catalogue.json:"
   put "$MANIFEST" "$KEY_PREFIX/catalogue.json" "application/json"
+  if [[ $DRY_RUN -eq 0 ]]; then
+    trigger_site_rebuild
+  fi
 else
   echo
   echo "catalogue.json: skipped (no track changes; manifest already matches)"

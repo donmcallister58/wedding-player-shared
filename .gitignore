@@ -8,3 +8,6 @@
 /build/
 /generated/
 /tmp/
+
+# Deploy-hook secret: Cloudflare Pages deploy hook URL read by scripts/sync-to-cdn.sh
+.deploy-hook

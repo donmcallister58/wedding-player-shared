@@ -2,19 +2,22 @@
 #
 # generate-previews.sh
 #
-# Builds 15-second audition clips for every track in the Wedding Player
+# Builds 30-second audition clips for every track in the Wedding Player
 # catalogue, updates the manifest with sha256 source hashes + preview
 # versions, and (optionally) uploads the result to the CDN.
 #
 # Idempotent: re-running with no source changes does nothing.
 #
 # Usage:
-#   scripts/generate-previews.sh [--source DIR] [--upload]
+#   scripts/generate-previews.sh [--source DIR] [--upload] [--force]
 #
 # Defaults:
 #   --source: prompts you to confirm a directory containing wp_*.mp3
 #   --upload: skipped unless flag passed; always prints the upload command
 #             so you can run it manually if you'd rather not wire credentials
+#   --force:  regenerate every preview regardless of sourceHash. Needed when
+#             the preview spec changes (e.g. clip length) without the source
+#             MP3s changing, since that does not alter the hash.
 #
 # Requirements: ffmpeg, jq, shasum (preinstalled on macOS).
 
@@ -26,15 +29,17 @@ set -euo pipefail
 
 SOURCE_DIR=""
 DO_UPLOAD=0
-PREVIEW_LEN=15
+FORCE=0
+PREVIEW_LEN=30
 TARGET_BITRATE="128k"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --source) SOURCE_DIR="$2"; shift 2 ;;
     --upload) DO_UPLOAD=1; shift ;;
+    --force)  FORCE=1; shift ;;
     -h|--help)
-      sed -n '2,18p' "$0" | sed 's/^# \{0,1\}//'
+      sed -n '2,21p' "$0" | sed 's/^# \{0,1\}//'
       exit 0 ;;
     *) echo "Unknown arg: $1" >&2; exit 1 ;;
   esac
@@ -203,7 +208,7 @@ for ((i=0; i<TRACK_COUNT; i++)); do
   NEW_HASH=$(shasum -a 256 "$SRC" | awk '{print $1}')
   PREVIEW="$PREVIEW_DIR/$FILENAME"
 
-  if [[ "$NEW_HASH" == "$OLD_HASH" && -f "$PREVIEW" ]]; then
+  if [[ $FORCE -eq 0 && "$NEW_HASH" == "$OLD_HASH" && -f "$PREVIEW" ]]; then
     continue  # unchanged, preview present
   fi
 

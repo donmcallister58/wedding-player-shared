@@ -6,6 +6,17 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.66 - 2026-06-01
+
+Catalogue-pipeline and CDN tooling polish. Scripts only: no change to any app-facing content, localisation, help, palette, or catalogue data, so iOS and Android codegen inputs are byte-identical to v1.0.65.
+
+### Tooling (`scripts/`)
+- `catalogue-pipeline/brief.py`: add closed-vocabulary catalogue facets (genre, moods, instrumentation) to StyleSpec and emit them into brief.json and the markdown brief. These drive the public /music page filters once a track is approved.
+- `catalogue-pipeline/review.py`: write the new facet fields (genre, mood, instrumentation, tempo, vocal, dateAdded) onto approved catalogue rows, and capture hidden artist-search aliases into the website repo's private style-refs.json (never uploaded to the CDN, never shown).
+- `catalogue-pipeline/intake.sh`, `generate-previews.sh`: lengthen audition preview clips from 15 seconds to 30 seconds; add `--force` to regenerate previews when the clip spec changes without the source MP3 changing.
+- `sync-to-cdn.sh`: fire the weddingplayer-site Cloudflare Pages deploy hook (read from a gitignored `.deploy-hook` file) after a catalogue upload so the /music page rebuilds.
+- `.gitignore`: ignore `.deploy-hook` so the deploy-hook URL can never be committed.
+
 ## v1.0.65 - 2026-05-26
 
 Reword the demo Signing The Register tip card's looping instruction. Was "Looping is set within the Moment editor." which read as a reference to the Edit Moments management view; users actually toggle Loop Moment inside each moment's Edit Tracks screen. Now reads "Tap Edit Tracks on the moment to turn Loop Moment on." for concrete action-pointing.

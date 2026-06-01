@@ -6,7 +6,7 @@
 #   1. Strips Suno ID3 tags, sets artist/album_artist = "Wedding Player"
 #      and title = the candidate's proposed title (from brief.json)
 #   2. Measures duration + peak dBFS via ffprobe / ffmpeg
-#   3. Renders a 15-second preview clip into the same folder as
+#   3. Renders a 30-second preview clip into the same folder as
 #      cand_<slug>_preview.mp3
 #   4. Updates brief.json with status="intaken", durationSecs, peakDb
 #
@@ -100,18 +100,18 @@ for src in "${NEW_CANDIDATES[@]}"; do
           | awk -F': ' '/max_volume/ {gsub(/ dB/, "", $2); print $2}')
   [[ -z "$peak" ]] && peak="0.0"
 
-  # 3. Generate 15s preview with category-aware start + fades.
+  # 3. Generate 30s preview with category-aware start + fades.
   case "$(echo "$category" | tr '[:upper:]' '[:lower:]')" in
     prelude|signing) offset=20 ;;
     processional|recessional) offset=10 ;;
     *) offset=15 ;;
   esac
-  # If the track is shorter than offset+15, start at 0.
-  if (( dur_int < offset + 15 )); then offset=0; fi
+  # If the track is shorter than offset+30, start at 0.
+  if (( dur_int < offset + 30 )); then offset=0; fi
 
   ffmpeg -y -hide_banner -loglevel error \
-    -ss "$offset" -t 15 -i "$src" \
-    -af "afade=t=in:st=0:d=0.4,afade=t=out:st=14.5:d=0.5" \
+    -ss "$offset" -t 30 -i "$src" \
+    -af "afade=t=in:st=0:d=0.4,afade=t=out:st=29.5:d=0.5" \
     -b:a 128k \
     "$preview"
 
