@@ -140,11 +140,11 @@
 
   "paywall.couple.stress.line":                         "One-time purchase. No subscription. No renewals.",
 
-  "trialInfo.title":                                    "Welcome to Wedding Player",
-  "trialInfo.subtitle":                                 "Here's what you can do for free, and what unlocks with full access.",
+  "trialInfo.title":                                    "Free and full access",
+  "trialInfo.subtitle":                                 "You can start setting up your ceremony for free. Full access unlocks the features needed for full playback and Go Live mode.",
   "trialInfo.free.header":                              "FREE",
-  "trialInfo.free.row1":                                "Add, Delete and Configure your moments",
-  "trialInfo.free.row2":                                "Add local files, Wedding Player Originals and Apple Music tracks",
+  "trialInfo.free.row1":                                "Add, delete, and configure your moments",
+  "trialInfo.free.row2":                                "Add local files, Wedding Player Originals, and Apple Music tracks",
   "trialInfo.free.row3":                                "Preview each track for 15 seconds",
   "trialInfo.free.row4":                                "",
   "trialInfo.unlock.header":                            "FULL ACCESS",
@@ -156,8 +156,8 @@
   "trialInfo.couple.stress":                            "No subscription. No renewals. No surprise charges.",
   "trialInfo.pro.priceQualifier":                       "ANNUAL SUBSCRIPTION",
   "trialInfo.pro.value":                                "Unlimited weddings. No per-event fees.",
-  "trialInfo.cta.unlock":                               "Unlock Now",
-  "trialInfo.cta.continue":                             "Continue with trial",
+  "trialInfo.cta.unlock":                               "Unlock full access",
+  "trialInfo.cta.continue":                             "Continue for free",
 
   "demo.couple.partner1":                     "Nicola",
   "demo.couple.partner2":                     "Alex",
