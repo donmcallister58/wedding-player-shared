@@ -178,10 +178,10 @@
   "demo.tip.label":                            "TIP",
 
   "demo.tip.entrance.stopped.action":          "Tap the big play button above to start the track",
-  "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the bride's walk down the aisle.",
+  "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the walk down the aisle.",
   "demo.tip.entrance.stopped.tip":             "When they are ready to make their entrance, just tap the Play button to start the track",
   "demo.tip.entrance.playing.action":          "The music for the %@ moment is now playing",
-  "demo.tip.entrance.playing.context":         "The bride starts walking down the aisle to this track.",
+  "demo.tip.entrance.playing.context":         "The walk down the aisle begins to this track.",
   "demo.tip.entrance.playing.tip":             "When the time is right, and only then, just simply tap Fade out to gracefully stop the track and seamlessly cue up the next moment.",
 
 
