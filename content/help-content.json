@@ -686,7 +686,7 @@
         {
           "icon": "edit",
           "label": "Add couple names",
-          "context": "Enter the names that show on the player's header, e.g. 'Emma & James'. Visible during rehearsal and on the live banner."
+          "context": "Enter the names that show on the player's header, e.g. 'Nicola & Alex'. Visible during rehearsal and on the live banner."
         },
         {
           "icon": "info",
