@@ -6,6 +6,16 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.73 - 2026-06-03
+
+Narrated demo audio and setup-pager narration assets for the iOS narration release. Adds new audio files only: no change to localisation, help, palette, catalogue, or the demo manifest, so existing iOS and Android codegen inputs are byte-identical to v1.0.72.
+
+### Demo audio (`demo/audio/`)
+- Add narrated masters as siblings of the clean tracks: `a-thousand-tomorrows-narrated.mp3`, `as-we-sign-our-names-narrated.mp3`, `from-this-day-on-narrated.mp3`. Don's instructional voice mixed in-place over the music (same duration as the clean masters, within 0.2 dB loudness). iOS installs the narrated set for the demo and swaps each track back to clean when a couple or pro keeps the demo, so a kept ceremony never carries the narrator.
+
+### Setup audio (`setup/audio/`, new)
+- Add the four setup-pager narration clips: `setup-primer.mp3`, `setup-moments.mp3`, `setup-music.mp3`, `setup-preview.mp3`. Productionises the clips previously committed directly in the iOS app; iOS now rsyncs them from here at build time. Android inherits later.
+
 ## v1.0.66 - 2026-06-01
 
 Catalogue-pipeline and CDN tooling polish. Scripts only: no change to any app-facing content, localisation, help, palette, or catalogue data, so iOS and Android codegen inputs are byte-identical to v1.0.65.
