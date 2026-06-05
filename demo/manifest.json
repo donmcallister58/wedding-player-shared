@@ -15,10 +15,10 @@
   },
   {
     "id": "demo_003",
-    "filename": "from-this-day-on.mp3",
-    "displayTitleKey": "demo.track.from-this-day-on.title",
-    "artistKey": "demo.track.from-this-day-on.artist",
-    "durationSecs": 177
+    "filename": "pop-strings-finale.mp3",
+    "displayTitleKey": "demo.track.pop-strings-finale.title",
+    "artistKey": "demo.track.pop-strings-finale.artist",
+    "durationSecs": 87
   },
   {
     "id": "demo_004",

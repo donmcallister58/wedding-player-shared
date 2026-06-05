@@ -6,6 +6,27 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 (no changes pending)
 
+## v1.0.75 - 2026-06-06
+
+Demo "Couple Exit" track swap and the splash tagline rebrand, for iOS build 59.
+
+### Demo audio (`demo/audio/`)
+- Replace the demo's Couple Exit track. Adds `pop-strings-finale.mp3` (edited-clean, 87.5s), `pop-strings-finale-narrated.mp3` (the same edit with the instructional voice mixed in-place, same duration), and `pop-strings-finale-full.mp3` (the full 105.4s master). The demo plays the edited cut; when a couple or pro keeps the demo, iOS swaps in the full master and corrects the kept track's duration/peak/gain. The previous `from-this-day-on*.mp3` files remain for now (Android still references them until its parity bump).
+
+### Localisation (`localisation/en.json`)
+- Add `demo.track.pop-strings-finale.title` ("Pop Strings Finale") and `.artist` ("Wedding Player Demo"), siblings of the other demo-track keys.
+- `onboarding.splash.subtitle`: "Your Ceremony Music Deserves More Than Just a Playlist" becomes "Your Wedding Music Deserves More Than Just a Playlist" (brand rebrand, applied across the app and the website).
+
+### Demo manifest (`demo/manifest.json`)
+- `demo_003` now points at `pop-strings-finale.mp3` with the new keys and the edited 87s duration (Android-facing; iOS reads track metadata from the app).
+
+## v1.0.74 - 2026-06-05
+
+Onboarding narration audio for the iOS narration release (build 58). Audio only: no change to localisation, help, palette, catalogue, or the demo manifest.
+
+### Onboarding audio
+- Add the full first-run narration set (welcome, role, couple-personalisation, pro-intro, pre-demo, completion) plus the re-recorded setup-pager clips, all consumed by iOS build 58.
+
 ## v1.0.73 - 2026-06-03
 
 Narrated demo audio and setup-pager narration assets for the iOS narration release. Adds new audio files only: no change to localisation, help, palette, catalogue, or the demo manifest, so existing iOS and Android codegen inputs are byte-identical to v1.0.72.

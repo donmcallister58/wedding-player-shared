@@ -42,6 +42,8 @@
   "demo.track.as-we-sign-our-names.artist":  "Wedding Player Demo",
   "demo.track.from-this-day-on.title":       "From This Day On",
   "demo.track.from-this-day-on.artist":      "Wedding Player Demo",
+  "demo.track.pop-strings-finale.title":     "Pop Strings Finale",
+  "demo.track.pop-strings-finale.artist":    "Wedding Player Demo",
   "demo.track.perfect-enough.title":         "Perfect Enough",
   "demo.track.perfect-enough.artist":        "Wedding Player Demo",
   "demo.track.quiet-hands-steady-hearts.title":  "Quiet Hands, Steady Hearts",
@@ -96,7 +98,7 @@
   "onboarding.demo.body":                "The demo walks you through a real ceremony: tracks organised into moments, played and managed exactly as you would on the day.",
   "onboarding.demo.tip":                 "Tip cards appear at each stage to explain what to do and why.",
 
-  "onboarding.splash.subtitle":               "Your Ceremony Music Deserves More Than Just a Playlist",
+  "onboarding.splash.subtitle":               "Your Wedding Music Deserves More Than Just a Playlist",
 
   "onboarding.role.title":                    "Welcome to Wedding Player",
   "onboarding.role.body":                     "Whether you're planning your own big day or helping run someone else's, we'll set everything up around you.",
