@@ -4,7 +4,20 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
-(no changes pending)
+## v1.0.76 - 2026-06-06
+
+Re-recorded onboarding narration and demo narrated tracks, for iOS build 59.
+
+### Onboarding audio (`setup/audio/`)
+- Re-recorded narration clips: `welcome` (drops the spoken voice on/off line), `setup-primer` (the "three elements" intro reworded to hold the whole day, not just the ceremony), `setup-moments` (now references the evening), `setup-music`, `setup-preview`, `couple-personalisation`, and a shorter `completion`.
+- Removed `pre-demo.mp3`: the pre-demo spoken intro was dropped from the onboarding flow and the clip is no longer played.
+
+### Demo audio (`demo/audio/`)
+- Re-recorded `a-thousand-tomorrows-narrated` and `as-we-sign-our-names-narrated` to shorten the musical intro before the instructional voice starts. The clean masters are unchanged; durations stay in step (114.83s and 91.95s), so the iOS per-track metadata needs no change.
+
+### Localisation (`localisation/en.json`)
+- `demo.tip.entrance.stopped.action`: "Tap the big play button above to start the track" becomes "Tap Start the Ceremony" (matches the demo's Start the Ceremony button).
+- `demo.tip.entrance.stopped.tip`: cleared to "" to drop the duplicate "tap play to start" instruction, so the entrance card collapses to the explainer plus the single Start the Ceremony CTA.
 
 ## v1.0.75 - 2026-06-06
 

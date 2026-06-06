@@ -179,9 +179,9 @@
 
   "demo.tip.label":                            "TIP",
 
-  "demo.tip.entrance.stopped.action":          "Tap the big play button above to start the track",
+  "demo.tip.entrance.stopped.action":          "Tap Start the Ceremony",
   "demo.tip.entrance.stopped.context":         "This is the entrance moment: typically a single, carefully chosen track for the walk down the aisle.",
-  "demo.tip.entrance.stopped.tip":             "When they are ready to make their entrance, just tap the Play button to start the track",
+  "demo.tip.entrance.stopped.tip":             "",
   "demo.tip.entrance.playing.action":          "%@ is playing",
   "demo.tip.entrance.playing.context":         "",
   "demo.tip.entrance.playing.tip":             "When the walk is complete, tap Fade Out to cue the next moment.",
