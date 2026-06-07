@@ -178,7 +178,7 @@
             "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, or a segment with no playable moments. Worth-checking items (lighter shade) are informational: a moment with no tracks, or a battery below 30% and not charging.",
             "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill — there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
             "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Ceremony playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
-            "Start the Ceremony activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
+            "Go Live activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
           ]
         },
         {
@@ -405,8 +405,8 @@
         },
         {
           "icon": "play",
-          "label": "Start the Ceremony",
-          "context": "The button activates once every checklist row is satisfied — it turns gold and lifts slightly. One tap hands you over to Live Mode."
+          "label": "Go Live",
+          "context": "The Go Live button activates once every checklist row is satisfied: it turns gold and lifts slightly. One tap hands you over to Live Mode."
         }
       ]
     },

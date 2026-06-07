@@ -4,6 +4,20 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.81 - 2026-06-07
+
+Pre-Go-Live readiness sheet: rename "Start the Ceremony" to "Go Live" and reframe the header around Go Live.
+
+### Strings (`localisation/en.json`)
+- `preCeremony.eyebrow.default`: "PRE-CEREMONY" becomes "PRE GO LIVE".
+- `preCeremony.title.default`: "Ready for the ceremony?" becomes "Ready to Go Live?".
+- `preCeremony.button.start`: "Start the Ceremony" becomes "Go Live".
+- `preCeremony.checklist.intro`: "...then tap Start the Ceremony." becomes "...then tap Go Live.".
+- `preCeremony.subtitle.complete`: "Tap Start the Ceremony when you're set." becomes "Tap Go Live when you're set.".
+
+### Help (`content/help-content.json`)
+- Pre-ceremony readiness help step and the "Before going Live" card now reference the "Go Live" button instead of "Start the Ceremony".
+
 ## v1.0.80 - 2026-06-07
 
 Trial-info subtitle wording tweak.
