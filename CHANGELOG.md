@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.79 - 2026-06-07
+
+Track-preview unlock CTA copy refresh (consistency with the paywall/button rename).
+
+### Strings (`localisation/en.json`)
+- `preview.cta.unlock`: "Unlock Full Access" becomes "Unlock Features".
+
 ## v1.0.78 - 2026-06-07
 
 Paywall ("Unlock Full Access" screen) copy refresh.
