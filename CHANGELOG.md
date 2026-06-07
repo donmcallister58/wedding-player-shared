@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.80 - 2026-06-07
+
+Trial-info subtitle wording tweak.
+
+### Strings (`localisation/en.json`)
+- `trialInfo.subtitle`: second sentence "Upgrade to full access when you need all of the features." becomes "Upgrade to unlock all of the features."
+
 ## v1.0.79 - 2026-06-07
 
 Track-preview unlock CTA copy refresh (consistency with the paywall/button rename).
