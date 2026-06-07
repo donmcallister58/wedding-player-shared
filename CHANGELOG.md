@@ -4,6 +4,14 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.77 - 2026-06-07
+
+Trial-info ("Free and full access") copy refresh.
+
+### Strings (`localisation/en.json`)
+- `trialInfo.subtitle`: "Set up your ceremony now. Upgrade when you need full playback." becomes "You can use Wedding Player for free as below. Upgrade to full access when you need all of the features."
+- `trialInfo.cta.unlock`: "Unlock full access" becomes "Unlock all features now".
+
 ## v1.0.76 - 2026-06-06
 
 Re-recorded onboarding narration and demo narrated tracks, for iOS build 59.

@@ -143,7 +143,7 @@
   "paywall.couple.stress.line":                         "One-time purchase. No subscription. No renewals.",
 
   "trialInfo.title":                                    "Free and full access",
-  "trialInfo.subtitle":                                 "Set up your ceremony now. Upgrade when you need full playback.",
+  "trialInfo.subtitle":                                 "You can use Wedding Player for free as below. Upgrade to full access when you need all of the features.",
   "trialInfo.free.header":                              "FREE",
   "trialInfo.free.row1":                                "Add, delete, and configure your moments",
   "trialInfo.free.row2":                                "Add local files, Wedding Player Originals, and Apple Music tracks",
@@ -158,7 +158,7 @@
   "trialInfo.couple.stress":                            "No subscription. No renewals. No surprise charges.",
   "trialInfo.pro.priceQualifier":                       "ANNUAL SUBSCRIPTION",
   "trialInfo.pro.value":                                "Unlimited weddings. No per-event fees.",
-  "trialInfo.cta.unlock":                               "Unlock full access",
+  "trialInfo.cta.unlock":                               "Unlock all features now",
   "trialInfo.cta.continue":                             "Continue for free",
 
   "demo.couple.partner1":                     "Nicola",
