@@ -4,6 +4,14 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.78 - 2026-06-07
+
+Paywall ("Unlock Full Access" screen) copy refresh.
+
+### Strings (`localisation/en.json`)
+- `paywall.title`: "Unlock Full\nAccess" becomes "Unlock All\nFeatures".
+- `paywall.feature.playback.title`: "Full Ceremony Playback" becomes "Full Playback".
+
 ## v1.0.77 - 2026-06-07
 
 Trial-info ("Free and full access") copy refresh.
