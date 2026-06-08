@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.84 - 2026-06-08
+
+Onboarding narration audio cleaned up: denoised, true-peak fixed, level-matched, folded to mono (the "A_gentle" pass).
+
+### Audio (`setup/audio/`)
+- The nine pure-voice onboarding clips (welcome, role, couple-personalisation, pro-intro, setup-primer, setup-moments, setup-music, setup-preview, completion) were reprocessed: folded to mono, 75 Hz high-pass, light broadband denoise (drops the room-tone floor by roughly 20 dB in the gaps), and EBU R128 normalisation to -16 LUFS with a -1.0 dBTP ceiling (fixes the true-peak overs). Word timing preserved (durations within 0.04 ms; a constant ~25 ms MP3-codec offset only, no drift), so the setup-pager cue constants are unchanged. Demo narrated tracks (voice over music) left untouched.
+
 ## v1.0.83 - 2026-06-08
 
 "Building your ceremony" help card rebranded to "Building your Wedding Day".
