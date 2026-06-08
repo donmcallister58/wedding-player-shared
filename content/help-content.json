@@ -350,19 +350,19 @@
     {
       "id": "main-player-setup",
       "screenName": "Main Player — Rehearsal Mode",
-      "title": "Building your ceremony",
+      "title": "Building your Wedding Day",
       "platform": "both",
       "cardPosition": "bottom",
       "actions": [
         {
           "icon": "info",
           "label": "Rehearsal Screen",
-          "context": "This is the main screen where you build your ceremony from."
+          "context": "This is the main screen where you build your Wedding Day timeline from."
         },
         {
           "icon": "edit",
           "label": "First - Edit your moments",
-          "context": "Each moment is a separate row or block - Tap Edit Moments at the bottom of the screen to add, rename, reorder, or delete the moments of your ceremony."
+          "context": "Each moment is a separate row or block - Tap Edit Moments at the bottom of the screen to add, rename, reorder, or delete the moments of your Wedding Day."
         },
         {
           "icon": "tracks",
@@ -372,7 +372,7 @@
         {
           "icon": "play",
           "label": "Play Through",
-          "context": "Once you're arranged your moments and added music tracks, you can rehearse your full ceremony. Tap the big button to play and tap again to fade out. If you have multiple tracks, use the Next Track button to jump to the next track in the moment."
+          "context": "Once you've arranged your moments and added music tracks, you can rehearse your full Wedding Day timeline. Tap the big button to play and tap again to fade out. If you have multiple tracks, use the Next Track button to jump to the next track in the moment."
         },
         {
           "icon": "info",

@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.83 - 2026-06-08
+
+"Building your ceremony" help card rebranded to "Building your Wedding Day".
+
+### Help content (`content/help-content.json`)
+- `main-player-setup` card: title "Building your ceremony" becomes "Building your Wedding Day", and all four "ceremony" mentions become "Wedding Day" (the main screen where you build your Wedding Day timeline; the moments of your Wedding Day; rehearse your full Wedding Day timeline). Also corrected "you're arranged" to "you've arranged".
+
 ## v1.0.82 - 2026-06-08
 
 Splash subtitle sentence-cased so only the highlighted "Wedding Music" stands out.
