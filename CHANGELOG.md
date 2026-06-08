@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.82 - 2026-06-08
+
+Splash subtitle sentence-cased so only the highlighted "Wedding Music" stands out.
+
+### Strings (`localisation/en.json`)
+- `onboarding.splash.subtitle`: "Your Wedding Music Deserves More Than Just a Playlist" becomes "Your Wedding Music deserves more than just a playlist" (only "Your" and the gold-highlighted "Wedding Music" stay capitalised).
+
 ## v1.0.81 - 2026-06-07
 
 Pre-Go-Live readiness sheet: rename "Start the Ceremony" to "Go Live" and reframe the header around Go Live.
