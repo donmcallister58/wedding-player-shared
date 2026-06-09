@@ -4,6 +4,15 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.86 - 2026-06-09
+
+New Pro subscription pricing (monthly + annual, 1-month free trial) plus the paywall and trial-info copy overhaul.
+
+### Localisation (`localisation/en.json`)
+- Pro paywall: added `paywall.pro.trial.headline` / `.subhead`, `paywall.pro.savings.badge` (annual-explicit), `paywall.pro.disclaimer`. `paywall.venue.title` "Professional Licence" -> "Pro Subscription".
+- Trial-info sheet: tier card "FREE" -> "INCLUDED"; role-aware `trialInfo.title(.pro)` and `trialInfo.subtitle(.pro)`; unlock headers "FULL ACCESS" -> "ALL FEATURES" and the pro header -> "ALL PRO FEATURES"; new `trialInfo.cta.startTrial` ("Start my free month") and `trialInfo.cta.maybeLater`; reworded `trialInfo.pro.priceQualifier` / `trialInfo.pro.value`. The word "free" is reserved for the trial throughout.
+- `live.goLive.locked` value set to "Unlock Features"; `settings.venueUpsell.subtitle` made trial-forward.
+
 ## v1.0.85 - 2026-06-09
 
 Share Wedding Player screen: App Store / Website QR labels and a role-aware recommendation email.
