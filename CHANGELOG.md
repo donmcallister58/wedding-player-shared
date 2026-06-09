@@ -4,6 +4,15 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.85 - 2026-06-09
+
+Share Wedding Player screen: App Store / Website QR labels and a role-aware recommendation email.
+
+### Localisation (`localisation/en.json`)
+- Added Share-screen keys for the App Store / Website segmented toggle (`settings.share.platform.appStore`, `.website`, `.googlePlay`), the website caption (`settings.share.caption.website`), and per-target QR accessibility labels (`settings.share.qr.accessibility.appStore` / `.website` / `.googlePlay`).
+- Added a role-aware recommendation email: `settings.share.email.couple.subject` / `.body` (a couple's personal recommendation) and `settings.share.email.pro.subject` / `.body` (a wedding professional's solution-to-a-problem note), plus `settings.share.emailRecommendation`. Reworded `settings.share.body`.
+- The `.googlePlay` label and accessibility string are retained for the Android port, which keeps the App Store + Google Play layout (iOS uses App Store + Website to satisfy App Store Review guideline 2.3.10).
+
 ## v1.0.84 - 2026-06-08
 
 Onboarding narration audio cleaned up: denoised, true-peak fixed, level-matched, folded to mono (the "A_gentle" pass).
