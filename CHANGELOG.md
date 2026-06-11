@@ -4,6 +4,20 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.87 - 2026-06-11
+
+Wedding-day positioning sweep of help content, the verified Spotify answer, and the Ready to Go Live rename alignment.
+
+### Help content (`content/help-content.json`)
+- Wedding-day pivot: "ceremony music app" -> "wedding day music app"; Moments described as sections of the wedding day; retitled "How do I set up my wedding day moments?" and "How do I switch to Live Mode on the day?"; screen-tip groups now "Running the music on the day", "Personalising your wedding day", "Set the wedding date" (matches the Wedding Date setting). "Wedding Player Ceremony" Apple Music playlist name kept (literal product name).
+- Spotify entry rewritten on verified facts: replaces the incorrect 30-second-previews claim with the real restrictions (no fades/blending, no offline, personal use only, stream-only DJ-partner precedent), Android route included, links weddingplayer.app/music/spotify.
+- Renamed-feature alignment: "Pre-Ceremony Readiness check" -> "Ready to Go Live check" in title, body, and screen-tip screenName, matching the shipped sheet UI; "pre-flight check" -> "Ready to Go Live checks". Screen-tip ids unchanged.
+- Em-dash cleanup: all 21 instances resolved to colons/commas per house style.
+
+### Localisation (`localisation/en.json`)
+- `downloads.readiness`: "CEREMONY READINESS" -> "WEDDING DAY READINESS" (Offline Readiness screen header).
+- `trial.body`: em-dash resolved to a colon.
+
 ## v1.0.86 - 2026-06-09
 
 New Pro subscription pricing (monthly + annual, 1-month free trial) plus the paywall and trial-info copy overhaul.

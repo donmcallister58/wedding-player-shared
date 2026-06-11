@@ -13,10 +13,10 @@
           "title": "What is Wedding Player?",
           "platform": "both",
           "steps": [
-            "Wedding Player is a ceremony music app designed for the day itself, not for streaming or discovery, but for reliable, offline playback when it matters most.",
-            "You build a playlist for each part of your ceremony (called a Moment), queue them in order, then hand the phone to your venue coordinator or a trusted friend.",
+            "Wedding Player is a wedding day music app designed for the day itself, not for streaming or discovery, but for reliable, offline playback when it matters most.",
+            "You build a playlist for each part of your wedding day (called a Moment), queue them in order, then hand the phone to your venue coordinator or a trusted friend.",
             "On the day, one tap starts the music. No Wi-Fi required, no notifications, no surprises.",
-            "Wedding Player works with music from your own files, Apple Music, or our built-in collection of original ceremony tracks."
+            "Wedding Player works with music from your own files, Apple Music, or our built-in collection of original wedding tracks."
           ]
         },
         {
@@ -24,7 +24,7 @@
           "title": "What is a Moment?",
           "platform": "both",
           "steps": [
-            "A Moment is a named section of your ceremony, for example Walking Down The Aisle, Signing the Register, or Recessional.",
+            "A Moment is a named section of your wedding day, for example Walking Down The Aisle, Signing the Register, or Recessional.",
             "Each Moment has its own playlist of music tracks that play in order. The right music plays at exactly the right time, without any manual switching. And when the Moment ends, the music can be faded out with a simple tap, just when it's needed. The next moment is lined up automatically, ready to play with a single tap.",
             "Wedding Player comes with six default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Exit and Wedding Breakfast in the Daytime segment, plus Drinks Reception in the Evening segment. You can rename, reorder, add, or remove them to match your ceremony.",
             "Moments are grouped into Daytime and Evening sections, so the app stays organised for longer celebrations."
@@ -35,7 +35,7 @@
           "title": "Next Steps",
           "platform": "both",
           "steps": [
-            "Follow the detailed instructions below to start personalising your moments and tracks to fit your ceremony."
+            "Follow the detailed instructions below to start personalising your moments and tracks to fit your day."
           ]
         }
       ]
@@ -46,7 +46,7 @@
       "items": [
         {
           "id": "setup-moments",
-          "title": "How do I set up my ceremony moments?",
+          "title": "How do I set up my wedding day moments?",
           "platform": "both",
           "steps": [
             "Tap the \"Edit Moments\" button next to Rehearsal Mode to open the Edit Moments screen.",
@@ -62,7 +62,7 @@
           "steps": [
             "Tap any moment, then tap \"Add Tracks\" (on an empty moment) or \"Edit Tracks\" (once it has any).",
             "Then choose Add Local Files to import existing files from the Files app (MP3, M4A, WAV, AIFF).",
-            "Or choose Add Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Or choose Add Originals to browse Wedding Player's built-in original tracks.",
             "Or choose Add Apple Music to search and add Apple Music tracks (an active Apple Music subscription is required).",
             "Tracks play in order. Drag to reorder them within a moment."
           ]
@@ -74,7 +74,7 @@
           "steps": [
             "Tap any moment, then tap Edit.",
             "Tap + Edit Tracks to import MP3, M4A, or WAV files from your device storage.",
-            "Or choose Originals to browse Wedding Player's built-in ceremony tracks.",
+            "Or choose Originals to browse Wedding Player's built-in original tracks.",
             "Tracks play in order. Drag to reorder them within a moment."
           ]
         },
@@ -84,9 +84,9 @@
           "platform": "ios",
           "steps": [
             "Wedding Player plays MP3, M4A, WAV, and AIFF files stored on your device. Three easy ways to get them there:",
-            "iCloud Drive — Drop your music files into iCloud Drive on your Mac. They'll appear in the Files app on your iPhone or iPad and in Wedding Player's file picker.",
-            "AirDrop — Right-click a file on your Mac and AirDrop it to your phone. iOS will offer to save it to Files.",
-            "Mac Finder — Connect your iPhone or iPad to your Mac with a cable, open Finder, select your device in the sidebar, then drag music files into the Files section.",
+            "iCloud Drive: Drop your music files into iCloud Drive on your Mac. They'll appear in the Files app on your iPhone or iPad and in Wedding Player's file picker.",
+            "AirDrop: Right-click a file on your Mac and AirDrop it to your phone. iOS will offer to save it to Files.",
+            "Mac Finder: Connect your iPhone or iPad to your Mac with a cable, open Finder, select your device in the sidebar, then drag music files into the Files section.",
             "Tip: keep everything in a dedicated 'Wedding Music' folder in Files so it's easy to find on the day."
           ]
         },
@@ -96,20 +96,20 @@
           "platform": "android",
           "steps": [
             "Wedding Player plays MP3, M4A, WAV, and AIFF files stored on your phone. Three easy ways to get them there:",
-            "Google Drive — On your computer, go to drive.google.com and upload your files. In Wedding Player's file picker, tap the menu icon (≡) and choose Google Drive — your files will appear there.",
-            "USB cable — Connect your phone to your computer with a USB cable. Swipe down on your phone and tap the USB notification, then choose File Transfer. Your phone appears as a drive on the computer; drag music into Music or Downloads.",
-            "Files by Google — Install Files by Google from the Play Store (free). Use it to move files from Downloads into a Music folder, or to open files directly from cloud services.",
+            "Google Drive: On your computer, go to drive.google.com and upload your files. In Wedding Player's file picker, tap the menu icon (≡) and choose Google Drive, and your files will appear there.",
+            "USB cable: Connect your phone to your computer with a USB cable. Swipe down on your phone and tap the USB notification, then choose File Transfer. Your phone appears as a drive on the computer; drag music into Music or Downloads.",
+            "Files by Google: Install Files by Google from the Play Store (free). Use it to move files from Downloads into a Music folder, or to open files directly from cloud services.",
             "Tip: keep everything in a dedicated 'Wedding Music' folder so it's easy to find on the day."
           ]
         },
         {
           "id": "enable-live-mode",
-          "title": "How do I switch to Live Mode for the ceremony?",
+          "title": "How do I switch to Live Mode on the day?",
           "platform": "both",
           "steps": [
             "Tap Go Live when you're ready to hand over control.",
             "Wedding Player runs a pre-flight check first, flagging any missing tracks or offline issues before switching to the large-control interface.",
-            "Fix any warnings before the ceremony. Don't dismiss them and hope for the best.",
+            "Fix any warnings before the wedding. Don't dismiss them and hope for the best.",
             "We recommend running through this during rehearsal so there are no surprises on the day."
           ]
         },
@@ -122,7 +122,7 @@
             "Any tracks not yet downloaded will show a warning.",
             "Open the Apple Music app and access the Wedding Player Ceremony playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
             "Return to Wedding Player. Each track should show a gold tick.",
-            "Test playback in Airplane Mode the day before, not on the morning of the ceremony."
+            "Test playback in Airplane Mode the day before, not on the morning of the wedding."
           ]
         },
         {
@@ -130,10 +130,11 @@
           "title": "Why isn't Spotify supported?",
           "platform": "both",
           "steps": [
-            "Spotify doesn't allow third-party apps to play full-length tracks. Their developer terms restrict playback to 30-second previews unless the app is the Spotify app itself — which means a ceremony player built on Spotify would cut every track short before the meaningful moment.",
-            "Apple Music, by contrast, provides MusicKit, an Apple framework that gives third-party apps full-track playback for subscribers, including offline downloads. That's what Wedding Player uses on iOS.",
-            "If your music collection lives in Spotify, the workaround is to find each track on Apple Music (a one-month free trial covers a wedding) and add it through Add Apple Music inside Wedding Player.",
-            "Alternatively, export the tracks you own as MP3 or M4A files and import them via Add Local Files. Tracks you purchase outright (iTunes, Bandcamp, or a CD rip) work the same as any other local file."
+            "No wedding app can play Spotify, ours included. Spotify's rules stop every app from fading or blending its songs, from playing them offline, and from using them commercially. Even the big DJ platforms only get a stream-only version that stops working if the venue Wi-Fi drops.",
+            "Apple Music is different: Apple's MusicKit framework gives apps like Wedding Player full-track playback for subscribers, including offline downloads, real crossfades, and precise cues. That's what Wedding Player uses on iPhone and iPad.",
+            "If your music lives in Spotify, find each track on Apple Music (a one-month free trial covers the wedding) and add it through Add Apple Music inside Wedding Player.",
+            "Or buy the tracks you need outright (iTunes Store, Amazon Music, Qobuz, Bandcamp) and import them with Add Local Files. On Android this is the main route, alongside Wedding Player Originals.",
+            "The full story is at weddingplayer.app/music/spotify"
           ]
         },
         {
@@ -145,7 +146,7 @@
             "Drag the IN-POINT slider to set where the track should start playing, and the OUT-POINT slider to set where it should stop. The Duration field shows the length of the trimmed window.",
             "Fade in at in-point ramps from silence to full volume over the duration set in Settings → Playback (default 5 seconds). Fade out at out-point does the reverse before the out-point.",
             "Use From in-point and To out-point to spot-check the first or last 10 seconds, or Full trimmed clip to hear the whole edit with both fades applied. The countdown inside each button shows time remaining.",
-            "Tap Reset Trim at the bottom to clear everything and start over. Tap Save when you're happy. The original file or Apple Music track is unaffected — Wedding Player only stores your trim points."
+            "Tap Reset Trim at the bottom to clear everything and start over. Tap Save when you're happy. The original file or Apple Music track is unaffected: Wedding Player only stores your trim points."
           ]
         }
       ]
@@ -171,12 +172,12 @@
       "items": [
         {
           "id": "pre-ceremony-readiness",
-          "title": "What does the Pre-Ceremony Readiness check do?",
+          "title": "What does the Ready to Go Live check do?",
           "platform": "both",
           "steps": [
-            "When you tap Go Live, Wedding Player shows a Pre-Ceremony Readiness sheet before switching to the large-button operator interface. It flags anything that could cause a silent failure on the day, then asks you to confirm a short operator checklist.",
+            "When you tap Go Live, Wedding Player runs its Ready to Go Live checks before switching to the large-button operator interface. It flags anything that could cause a silent failure on the day, then asks you to confirm a short operator checklist.",
             "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, or a segment with no playable moments. Worth-checking items (lighter shade) are informational: a moment with no tracks, or a battery below 30% and not charging.",
-            "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill — there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
+            "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill: there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
             "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Ceremony playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
             "Go Live activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
           ]
@@ -186,9 +187,9 @@
           "title": "What is the airplane icon in Live Mode?",
           "platform": "both",
           "steps": [
-            "The Airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the ceremony.",
+            "The Airplane icon shows whether Airplane Mode is on. When it's red, Airplane Mode is off and calls, texts, or system alerts could interrupt the music.",
             "Tap the icon to open Settings, then switch Airplane Mode on yourself (iOS no longer allows apps to deep-link to that toggle). The indicator turns green once it's active.",
-            "Enable Airplane Mode before every ceremony, ideally during the pre-flight check when you first tap Go Live."
+            "Enable Airplane Mode before every event, ideally as part of the Ready to Go Live checks."
           ]
         },
         {
@@ -208,7 +209,7 @@
           "steps": [
             "All local audio files work offline automatically. No action needed.",
             "For Apple Music tracks (iOS): open the Offline Readiness page in Settings and follow the instructions there to download every track and verify it's ready for offline playback.",
-            "Enable Airplane Mode during the ceremony to block calls and notifications.",
+            "Enable Airplane Mode on the day to block calls and notifications.",
             "Charge your device fully the night before. Keep the app in the foreground and don't close it between moments."
           ]
         }
@@ -333,7 +334,7 @@
         {
           "icon": "play",
           "label": "Preview your trim",
-          "context": "Three preview buttons let you hear From in-point (first 10s), To out-point (last 10s), or the Full trimmed clip end-to-end. For Apple Music tracks the preview uses the main player briefly — the Now Playing card will show the previewed track."
+          "context": "Three preview buttons let you hear From in-point (first 10s), To out-point (last 10s), or the Full trimmed clip end-to-end. For Apple Music tracks the preview uses the main player briefly: the Now Playing card will show the previewed track."
         },
         {
           "icon": "edit",
@@ -349,7 +350,7 @@
     },
     {
       "id": "main-player-setup",
-      "screenName": "Main Player — Rehearsal Mode",
+      "screenName": "Main Player: Rehearsal Mode",
       "title": "Building your Wedding Day",
       "platform": "both",
       "cardPosition": "bottom",
@@ -383,7 +384,7 @@
     },
     {
       "id": "pre-ceremony-readiness",
-      "screenName": "Pre-Ceremony Readiness",
+      "screenName": "Ready to Go Live",
       "title": "Before going Live",
       "platform": "both",
       "cardPosition": "bottom",
@@ -391,17 +392,17 @@
         {
           "icon": "info",
           "label": "Review warnings first",
-          "context": "Critical items (burgundy) will likely cause silent playback failure — missing tracks, no Apple Music access. Fix these before Live. Worth-checking items are lighter and informational."
+          "context": "Critical items (burgundy) will likely cause silent playback failure: missing tracks, no Apple Music access. Fix these before Live. Worth-checking items are lighter and informational."
         },
         {
           "icon": "tracks",
           "label": "Open Apple Music if needed",
-          "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Ceremony playlist. Download the track(s) and return to Wedding Player — the row refreshes automatically."
+          "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Ceremony playlist. Download the track(s) and return to Wedding Player: the row refreshes automatically."
         },
         {
           "icon": "edit",
           "label": "Confirm each operator check",
-          "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm — toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm."
+          "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm: toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm."
         },
         {
           "icon": "play",
@@ -412,19 +413,19 @@
     },
     {
       "id": "main-player-live",
-      "screenName": "Main Player — Live Mode",
-      "title": "Running the ceremony",
+      "screenName": "Main Player: Live Mode",
+      "title": "Running the music on the day",
       "platform": "both",
       "actions": [
         {
           "icon": "play",
           "label": "Play the current moment",
-          "context": "The big play button starts the music for whatever moment is showing. One tap — hand the phone over and trust it."
+          "context": "The big play button starts the music for whatever moment is showing. One tap: hand the phone over and trust it."
         },
         {
           "icon": "info",
           "label": "Check the airplane indicator",
-          "context": "Top of the screen shows whether Airplane Mode is on. Tap to enable — blocks calls and notifications mid-ceremony."
+          "context": "Top of the screen shows whether Airplane Mode is on. Tap to enable: blocks calls and notifications on the day."
         },
         {
           "icon": "moments",
@@ -434,7 +435,7 @@
         {
           "icon": "settings",
           "label": "Exit Live Mode",
-          "context": "Tap the LIVE MODE banner at the top of the screen, then confirm Exit. Useful during rehearsal — not on the day itself."
+          "context": "Tap the LIVE MODE banner at the top of the screen, then confirm Exit. Useful during rehearsal, not on the day itself."
         }
       ]
     },
@@ -564,7 +565,7 @@
         {
           "icon": "info",
           "label": "Already-used tracks are locked",
-          "context": "Tracks you've already added to another moment show 'Used in [Moment]' and can't be picked twice. This prevents accidental duplicates in the ceremony."
+          "context": "Tracks you've already added to another moment show 'Used in [Moment]' and can't be picked twice. This prevents accidental duplicates in your running order."
         }
       ]
     },
@@ -578,7 +579,7 @@
         {
           "icon": "play",
           "label": "Preview a track",
-          "context": "Tap the play circle to hear a 15-second preview. Use the category chips to filter by ceremony moment."
+          "context": "Tap the play circle to hear a 15-second preview. Use the category chips to filter by moment."
         },
         {
           "icon": "download",
@@ -606,7 +607,7 @@
         {
           "icon": "moments",
           "label": "Manage moments",
-          "context": "Edit Moments takes you straight to the Moment Manager — add, rename, reorder, delete."
+          "context": "Edit Moments takes you straight to the Moment Manager: add, rename, reorder, delete."
         },
         {
           "icon": "apple-music",
@@ -616,7 +617,7 @@
         {
           "icon": "download",
           "label": "Offline Readiness",
-          "context": "See which tracks are ready without Wi-Fi. Run this check the day before the ceremony."
+          "context": "See which tracks are ready without Wi-Fi. Run this check the day before the wedding."
         },
         {
           "icon": "info",
@@ -639,7 +640,7 @@
         {
           "icon": "info",
           "label": "Looking for something specific?",
-          "context": "If a topic isn't here, weddingplayer.app has the full guide — and you can email support if you're still stuck."
+          "context": "If a topic isn't here, weddingplayer.app has the full guide, and you can email support if you're still stuck."
         },
         {
           "icon": "info",
@@ -673,14 +674,14 @@
         {
           "icon": "play",
           "label": "Test in Airplane Mode",
-          "context": "Once everything shows a gold tick, switch on Airplane Mode and play through every moment. Do this the day before — not the morning of."
+          "context": "Once everything shows a gold tick, switch on Airplane Mode and play through every moment. Do this the day before, not the morning of."
         }
       ]
     },
     {
       "id": "personalisation",
       "screenName": "Personalisation (couple names, date)",
-      "title": "Personalising your ceremony",
+      "title": "Personalising your wedding day",
       "platform": "both",
       "actions": [
         {
@@ -690,7 +691,7 @@
         },
         {
           "icon": "info",
-          "label": "Set the ceremony date",
+          "label": "Set the wedding date",
           "context": "The date drives the post-wedding rating prompt and the personalised header. Change it any time."
         },
         {

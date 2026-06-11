@@ -520,7 +520,7 @@
   "downloads.tip.heading":                     "Download all your tracks the night before.",
   "downloads.tip.body":                        "Tap **DOWNLOAD** on any track: this opens Apple Music where you can download it. Come back here and tap **VERIFY ALL TRACKS** to confirm.",
   "downloads.percent":                         "%d%%",
-  "downloads.readiness":                       "CEREMONY READINESS",
+  "downloads.readiness":                       "WEDDING DAY READINESS",
   "downloads.readiness.count":                 "%d of %d tracks ready for offline",
   "downloads.required":                        "Download Required",
   "downloads.a11y.downloaded":                 "Downloaded",
@@ -544,7 +544,7 @@
 
   "trial.title":                               "TRIAL MODE",
   "trial.tagline":                             "CEREMONY MUSIC",
-  "trial.body":                                "Each track previews for 15 seconds — long enough to check the song fits the moment. When you're ready to use Wedding Player on your day, unlock Full Access.",
+  "trial.body":                                "Each track previews for 15 seconds: long enough to check the song fits the moment. When you're ready to use Wedding Player on your day, unlock Full Access.",
   "trial.cta.preview":                         "Continue for free",
   "trial.cta.unlock":                          "Or unlock unlimited playback",
   "trial.banner.title":                        "TRIAL MODE",
