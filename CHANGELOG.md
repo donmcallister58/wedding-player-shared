@@ -4,6 +4,13 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.88 - 2026-06-13
+
+Strings for the personalised recommendation email: couples and pros can edit the canned recommendation email and save their own version per role.
+
+### Localisation (`localisation/en.json`)
+- Added `settings.share.email.personalise` (button), `settings.share.email.editor.title` / `.footer` / `.subject` / `.body` / `.save` / `.reset` / `.saved`, and `settings.share.email.editor.resetConfirm.title` / `.message`. Drives the new in-app editor where a saved message replaces the canned default when the recommendation email is created. Local per-device, role-aware (couple / pro stored independently).
+
 ## v1.0.87 - 2026-06-11
 
 Wedding-day positioning sweep of help content, the verified Spotify answer, and the Ready to Go Live rename alignment.
