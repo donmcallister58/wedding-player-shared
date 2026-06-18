@@ -563,9 +563,9 @@
   "trial.banner.cta":                          "Tap to unlock",
 
   "rating.prompt.title":                       "Enjoying Wedding Player?",
-  "rating.prompt.body":                        "Your feedback helps other couples find us",
-  "rating.prompt.rate":                        "Rate Us on the App Store",
-  "rating.prompt.feedback":                    "Help, Feedback & Contact Us",
+  "rating.prompt.body":                        "If Wedding Player is earning its place in your day, a quick rating helps other couples find it",
+  "rating.prompt.rate":                        "Rate Wedding Player",
+  "rating.prompt.feedback":                    "Something not right? Tell us first",
   "rating.prompt.notNow":                      "Not Now",
 
   "postWedding.title":                         "Congratulations!",

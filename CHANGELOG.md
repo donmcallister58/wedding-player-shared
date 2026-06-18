@@ -4,6 +4,16 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.89 - 2026-06-18
+
+Review-prompt copy refresh, and a platform-leak fix in the rate button.
+
+### Localisation (`localisation/en.json`)
+- `rating.prompt.body`: now "If Wedding Player is earning its place in your day, a quick rating helps other couples find it" (was "Your feedback helps other couples find us").
+- `rating.prompt.rate`: now "Rate Wedding Player" (was "Rate Us on the App Store"). Fixes an Android leak: the old string named the App Store, but Android sends users to the Play Store. The new label is platform-neutral; the rate action was already platform-correct (iOS SKStoreReviewController / App Store deep link, Android Play In-App Review).
+- `rating.prompt.feedback`: now "Something not right? Tell us first" (was "Help, Feedback & Contact Us"). Note: this key is shared by the rating pre-prompt and the post-wedding review view.
+- `rating.prompt.title` and `rating.prompt.notNow` unchanged.
+
 ## v1.0.88 - 2026-06-13
 
 Strings for the personalised recommendation email: couples and pros can edit the canned recommendation email and save their own version per role.
