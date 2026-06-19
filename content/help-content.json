@@ -120,7 +120,7 @@
           "steps": [
             "Open the Offline Readiness checklist in the Settings page.",
             "Any tracks not yet downloaded will show a warning.",
-            "Open the Apple Music app and access the Wedding Player Ceremony playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
+            "Open the Apple Music app and access the Wedding Player Downloads playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
             "Return to Wedding Player. Each track should show a gold tick.",
             "Test playback in Airplane Mode the day before, not on the morning of the wedding."
           ]
@@ -178,7 +178,7 @@
             "When you tap Go Live, Wedding Player runs its Ready to Go Live checks before switching to the large-button operator interface. It flags anything that could cause a silent failure on the day, then asks you to confirm a short operator checklist.",
             "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, or a segment with no playable moments. Worth-checking items (lighter shade) are informational: a moment with no tracks, or a battery below 30% and not charging.",
             "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill: there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
-            "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Ceremony playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
+            "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Downloads playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
             "Go Live activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
           ]
         },
@@ -397,7 +397,7 @@
         {
           "icon": "tracks",
           "label": "Open Apple Music if needed",
-          "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Ceremony playlist. Download the track(s) and return to Wedding Player: the row refreshes automatically."
+          "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Downloads playlist. Download the track(s) and return to Wedding Player: the row refreshes automatically."
         },
         {
           "icon": "edit",
@@ -536,7 +536,7 @@
         {
           "icon": "download",
           "label": "Download for offline use",
-          "context": "After adding tracks, open Offline Readiness in Settings and download the auto-created Wedding Player Ceremony playlist via the Music app."
+          "context": "After adding tracks, open Offline Readiness in Settings and download the auto-created Wedding Player Downloads playlist via the Music app."
         }
       ]
     },
