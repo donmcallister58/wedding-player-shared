@@ -1,0 +1,97 @@
+{
+  "defaultMoments": [
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "teal",
+      "key": "guests-arriving",
+      "nameKey": "moment.guests-arriving.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.guests-arriving.short",
+      "sortOrder": 0
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "blue",
+      "key": "walking-the-aisle",
+      "nameKey": "moment.walking-the-aisle.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.walking-the-aisle.short",
+      "sortOrder": 1
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "green",
+      "key": "signing-the-register",
+      "nameKey": "moment.signing-the-register.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.signing-the-register.short",
+      "sortOrder": 2
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "orange",
+      "key": "the-couple-exit",
+      "nameKey": "moment.the-couple-exit.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.the-couple-exit.short",
+      "sortOrder": 3
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "purple",
+      "key": "wedding-breakfast",
+      "nameKey": "moment.wedding-breakfast.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.wedding-breakfast.short",
+      "sortOrder": 4
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "mint",
+      "key": "drinks-reception",
+      "nameKey": "moment.drinks-reception.name",
+      "segment": "evening",
+      "shortNameKey": "moment.drinks-reception.short",
+      "sortOrder": 5
+    }
+  ],
+  "demoMoments": [
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "blue",
+      "key": "demo-walking-the-aisle",
+      "nameKey": "moment.walking-the-aisle.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.walking-the-aisle.short",
+      "sortOrder": 0
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "green",
+      "key": "demo-signing-the-register",
+      "nameKey": "moment.signing-the-register.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.signing-the-register.short",
+      "sortOrder": 1
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "orange",
+      "key": "demo-the-couple-exit",
+      "nameKey": "moment.the-couple-exit.name",
+      "segment": "daytime",
+      "shortNameKey": "moment.the-couple-exit.short",
+      "sortOrder": 2
+    }
+  ],
+  "segments": [
+    {
+      "displayKey": "segment.daytime",
+      "key": "daytime"
+    },
+    {
+      "displayKey": "segment.evening",
+      "key": "evening"
+    }
+  ]
+}

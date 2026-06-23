@@ -13,11 +13,6 @@
     "autoAdvance": true
   },
 
-  "segments": [
-    { "key": "daytime", "displayKey": "segment.daytime" },
-    { "key": "evening", "displayKey": "segment.evening" }
-  ],
-
   "colours": [
     { "key": "blue",   "displayKey": "colour.dustyblue", "lightHex": "#5A72B5", "darkHex": "#7A8FCA", "tabLightHex": "#4A5E96", "tabDarkHex": "#6478AA" },
     { "key": "green",  "displayKey": "colour.sage",      "lightHex": "#6B9E70", "darkHex": "#88B88D", "tabLightHex": "#58835C", "tabDarkHex": "#709A74" },
@@ -35,18 +30,47 @@
 
   "colourAutoSequence": ["teal", "pink", "indigo", "orange", "mint", "purple", "cyan", "brown", "blue", "yellow", "green", "red"],
 
-  "defaultMoments": [
-    { "key": "guests-arriving",      "nameKey": "moment.guests-arriving.name",      "shortNameKey": "moment.guests-arriving.short",      "colourKey": "teal",   "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 0 },
-    { "key": "walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
-    { "key": "signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 2 },
-    { "key": "the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 3 },
-    { "key": "wedding-breakfast",    "nameKey": "moment.wedding-breakfast.name",    "shortNameKey": "moment.wedding-breakfast.short",    "colourKey": "purple", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 4 },
-    { "key": "drinks-reception",     "nameKey": "moment.drinks-reception.name",     "shortNameKey": "moment.drinks-reception.short",     "colourKey": "mint",   "segment": "evening", "autoAdvanceToNext": false, "sortOrder": 5 }
-  ],
+  "defaultLocale": "GB",
 
-  "demoMoments": [
-    { "key": "demo-walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 0 },
-    { "key": "demo-signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
-    { "key": "demo-the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 2 }
-  ]
+  "locales": {
+    "GB": {
+      "segments": [
+        { "key": "daytime", "displayKey": "segment.daytime" },
+        { "key": "evening", "displayKey": "segment.evening" }
+      ],
+      "defaultMoments": [
+        { "key": "guests-arriving",      "nameKey": "moment.guests-arriving.name",      "shortNameKey": "moment.guests-arriving.short",      "colourKey": "teal",   "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 0 },
+        { "key": "walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
+        { "key": "signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 2 },
+        { "key": "the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 3 },
+        { "key": "wedding-breakfast",    "nameKey": "moment.wedding-breakfast.name",    "shortNameKey": "moment.wedding-breakfast.short",    "colourKey": "purple", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 4 },
+        { "key": "drinks-reception",     "nameKey": "moment.drinks-reception.name",     "shortNameKey": "moment.drinks-reception.short",     "colourKey": "mint",   "segment": "evening", "autoAdvanceToNext": false, "sortOrder": 5 }
+      ],
+      "demoMoments": [
+        { "key": "demo-walking-the-aisle",    "nameKey": "moment.walking-the-aisle.name",    "shortNameKey": "moment.walking-the-aisle.short",    "colourKey": "blue",   "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 0 },
+        { "key": "demo-signing-the-register", "nameKey": "moment.signing-the-register.name", "shortNameKey": "moment.signing-the-register.short", "colourKey": "green",  "segment": "daytime", "autoAdvanceToNext": true,  "sortOrder": 1 },
+        { "key": "demo-the-couple-exit",      "nameKey": "moment.the-couple-exit.name",      "shortNameKey": "moment.the-couple-exit.short",      "colourKey": "orange", "segment": "daytime", "autoAdvanceToNext": false, "sortOrder": 2 }
+      ]
+    },
+    "US": {
+      "segments": [
+        { "key": "ceremony",  "displayKey": "segment.ceremony" },
+        { "key": "cocktail",  "displayKey": "segment.cocktail" },
+        { "key": "reception", "displayKey": "segment.reception" }
+      ],
+      "defaultMoments": [
+        { "key": "us-prelude",        "nameKey": "moment.us-prelude.name",        "shortNameKey": "moment.us-prelude.short",        "colourKey": "teal",   "segment": "ceremony",  "autoAdvanceToNext": false, "sortOrder": 0 },
+        { "key": "us-processional",   "nameKey": "moment.us-processional.name",   "shortNameKey": "moment.us-processional.short",   "colourKey": "blue",   "segment": "ceremony",  "autoAdvanceToNext": true,  "sortOrder": 1 },
+        { "key": "us-unity-ceremony", "nameKey": "moment.us-unity-ceremony.name", "shortNameKey": "moment.us-unity-ceremony.short", "colourKey": "green",  "segment": "ceremony",  "autoAdvanceToNext": true,  "sortOrder": 2 },
+        { "key": "us-recessional",    "nameKey": "moment.us-recessional.name",    "shortNameKey": "moment.us-recessional.short",    "colourKey": "orange", "segment": "ceremony",  "autoAdvanceToNext": false, "sortOrder": 3 },
+        { "key": "us-cocktail-hour",  "nameKey": "moment.us-cocktail-hour.name",  "shortNameKey": "moment.us-cocktail-hour.short",  "colourKey": "purple", "segment": "cocktail",  "autoAdvanceToNext": false, "sortOrder": 4 },
+        { "key": "us-reception",      "nameKey": "moment.us-reception.name",      "shortNameKey": "moment.us-reception.short",      "colourKey": "mint",   "segment": "reception", "autoAdvanceToNext": false, "sortOrder": 5 }
+      ],
+      "demoMoments": [
+        { "key": "demo-us-processional",   "nameKey": "moment.us-processional.name",   "shortNameKey": "moment.us-processional.short",   "colourKey": "blue",   "segment": "ceremony", "autoAdvanceToNext": true,  "sortOrder": 0 },
+        { "key": "demo-us-unity-ceremony", "nameKey": "moment.us-unity-ceremony.name", "shortNameKey": "moment.us-unity-ceremony.short", "colourKey": "green",  "segment": "ceremony", "autoAdvanceToNext": true,  "sortOrder": 1 },
+        { "key": "demo-us-recessional",    "nameKey": "moment.us-recessional.name",    "shortNameKey": "moment.us-recessional.short",    "colourKey": "orange", "segment": "ceremony", "autoAdvanceToNext": false, "sortOrder": 2 }
+      ]
+    }
+  }
 }

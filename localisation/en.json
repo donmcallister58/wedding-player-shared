@@ -9,6 +9,9 @@
 
   "segment.daytime": "Daytime",
   "segment.evening": "Evening",
+  "segment.ceremony": "Ceremony",
+  "segment.cocktail": "Cocktail Hour",
+  "segment.reception": "Reception",
 
   "colour.dustyblue": "Dusty Blue",
   "colour.sage":      "Sage",
@@ -35,6 +38,19 @@
   "moment.wedding-breakfast.short":    "Breakfast",
   "moment.drinks-reception.name":      "Drinks Reception",
   "moment.drinks-reception.short":     "Drinks",
+
+  "moment.us-prelude.name":            "Prelude",
+  "moment.us-prelude.short":           "Prelude",
+  "moment.us-processional.name":       "Processional",
+  "moment.us-processional.short":      "Entrance",
+  "moment.us-unity-ceremony.name":     "Unity Ceremony",
+  "moment.us-unity-ceremony.short":    "Unity",
+  "moment.us-recessional.name":        "Recessional",
+  "moment.us-recessional.short":       "Exit",
+  "moment.us-cocktail-hour.name":      "Cocktail Hour",
+  "moment.us-cocktail-hour.short":     "Cocktail",
+  "moment.us-reception.name":          "Reception",
+  "moment.us-reception.short":         "Reception",
 
   "demo.track.a-thousand-tomorrows.title":   "A Thousand Tomorrows",
   "demo.track.a-thousand-tomorrows.artist":  "Wedding Player Demo",
@@ -268,6 +284,9 @@
 
   "segment.daytime.upper":                     "DAYTIME",
   "segment.evening.upper":                     "EVENING",
+  "segment.ceremony.upper":                    "CEREMONY",
+  "segment.cocktail.upper":                    "COCKTAIL HOUR",
+  "segment.reception.upper":                   "RECEPTION",
 
   "allMoments.title":                          "All Moments",
   "allMoments.count":                          "YOUR %d MOMENTS",

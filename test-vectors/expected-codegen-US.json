@@ -1,0 +1,101 @@
+{
+  "defaultMoments": [
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "teal",
+      "key": "us-prelude",
+      "nameKey": "moment.us-prelude.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-prelude.short",
+      "sortOrder": 0
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "blue",
+      "key": "us-processional",
+      "nameKey": "moment.us-processional.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-processional.short",
+      "sortOrder": 1
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "green",
+      "key": "us-unity-ceremony",
+      "nameKey": "moment.us-unity-ceremony.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-unity-ceremony.short",
+      "sortOrder": 2
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "orange",
+      "key": "us-recessional",
+      "nameKey": "moment.us-recessional.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-recessional.short",
+      "sortOrder": 3
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "purple",
+      "key": "us-cocktail-hour",
+      "nameKey": "moment.us-cocktail-hour.name",
+      "segment": "cocktail",
+      "shortNameKey": "moment.us-cocktail-hour.short",
+      "sortOrder": 4
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "mint",
+      "key": "us-reception",
+      "nameKey": "moment.us-reception.name",
+      "segment": "reception",
+      "shortNameKey": "moment.us-reception.short",
+      "sortOrder": 5
+    }
+  ],
+  "demoMoments": [
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "blue",
+      "key": "demo-us-processional",
+      "nameKey": "moment.us-processional.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-processional.short",
+      "sortOrder": 0
+    },
+    {
+      "autoAdvanceToNext": true,
+      "colourKey": "green",
+      "key": "demo-us-unity-ceremony",
+      "nameKey": "moment.us-unity-ceremony.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-unity-ceremony.short",
+      "sortOrder": 1
+    },
+    {
+      "autoAdvanceToNext": false,
+      "colourKey": "orange",
+      "key": "demo-us-recessional",
+      "nameKey": "moment.us-recessional.name",
+      "segment": "ceremony",
+      "shortNameKey": "moment.us-recessional.short",
+      "sortOrder": 2
+    }
+  ],
+  "segments": [
+    {
+      "displayKey": "segment.ceremony",
+      "key": "ceremony"
+    },
+    {
+      "displayKey": "segment.cocktail",
+      "key": "cocktail"
+    },
+    {
+      "displayKey": "segment.reception",
+      "key": "reception"
+    }
+  ]
+}

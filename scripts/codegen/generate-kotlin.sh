@@ -9,6 +9,11 @@
 #
 # Per-platform overrides: applies any defaults.json `platformOverrides.android` field-by-field
 # on top of base values (currently used for colours).
+#
+# defaults.json is locale-indexed (.locales.<REGION>.{segments,defaultMoments,demoMoments}).
+# The flat Defaults.segments/defaultMoments/demoMoments accessors emit the .defaultLocale
+# template (backward-compatible). Defaults.localeTemplates exposes every region for
+# locale-aware seeding of new ceremonies.
 
 set -euo pipefail
 
@@ -25,6 +30,8 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 DEFAULTS="$REPO_ROOT/content/defaults.json"
 STRINGS="$REPO_ROOT/localisation/en.json"
 VERSION="$(cat "$REPO_ROOT/VERSION")"
+
+DEFAULT_LOCALE="$(jq -r '.defaultLocale' "$DEFAULTS")"
 
 PKG_DIR="$OUT_DIR/uk/playerapps/weddingplayer/shared"
 mkdir -p "$PKG_DIR"
@@ -70,10 +77,19 @@ object SharedContent {
         val autoAdvance: Boolean
     )
 
+    /** A per-region wedding-structure template (phases + starter moments).
+     *  [segments] carries the region's phase keys (GB: daytime/evening; US: ceremony/cocktail/reception). */
+    data class LocaleTemplate(
+        val segments: List<Segment>,
+        val defaultMoments: List<MomentDefinition>,
+        val demoMoments: List<MomentDefinition>
+    )
+
     object Defaults {
         const val schemaVersion: Int = $(jq -r '.schemaVersion' "$DEFAULTS")
         const val cdnBaseUrl: String = $(jq -r '.cdnBaseURL | @json' "$DEFAULTS")
         const val fullAccessProductId: String = $(jq -r '.iap.fullAccessProductId | @json' "$DEFAULTS")
+        const val defaultLocale: String = $(jq -r '.defaultLocale | @json' "$DEFAULTS")
         val playback = Playback(
             fadeDurationSecs = $(jq -r '.playback.fadeDurationSecs' "$DEFAULTS"),
             crossfadeSecs = $(jq -r '.playback.crossfadeSecs' "$DEFAULTS"),
@@ -81,10 +97,11 @@ object SharedContent {
         )
 EOF
 
+# --- Segments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        val segments: List<Segment> = listOf("
-  jq -r '.segments[] | "            Segment(key = \(.key|@json), displayKey = \(.displayKey|@json)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].segments[] | "            Segment(key = \(.key|@json), displayKey = \(.displayKey|@json)),"' "$DEFAULTS"
   echo "        )"
 } >> "$OUT_FILE"
 
@@ -108,17 +125,39 @@ EOF
   echo "        )"
 } >> "$OUT_FILE"
 
+# --- Default moments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        val defaultMoments: List<MomentDefinition> = listOf("
-  jq -r '.defaultMoments[] | "            MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].defaultMoments[] | "            MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
   echo "        )"
 } >> "$OUT_FILE"
 
+# --- Demo moments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        val demoMoments: List<MomentDefinition> = listOf("
-  jq -r '.demoMoments[] | "            MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].demoMoments[] | "            MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
+  echo "        )"
+} >> "$OUT_FILE"
+
+# --- Locale templates (per-region segments/defaultMoments/demoMoments) ---
+{
+  echo
+  echo "        val localeTemplates: Map<String, LocaleTemplate> = mapOf("
+  for LOC in $(jq -r '.locales | keys[]' "$DEFAULTS"); do
+    echo "            \"$LOC\" to LocaleTemplate("
+    echo "                segments = listOf("
+    jq -r --arg loc "$LOC" '.locales[$loc].segments[] | "                    Segment(key = \(.key|@json), displayKey = \(.displayKey|@json)),"' "$DEFAULTS"
+    echo "                ),"
+    echo "                defaultMoments = listOf("
+    jq -r --arg loc "$LOC" '.locales[$loc].defaultMoments[] | "                    MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
+    echo "                ),"
+    echo "                demoMoments = listOf("
+    jq -r --arg loc "$LOC" '.locales[$loc].demoMoments[] | "                    MomentDefinition(key = \(.key|@json), nameKey = \(.nameKey|@json), shortNameKey = \(.shortNameKey|@json), colourKey = \(.colourKey|@json), segment = \(.segment|@json), autoAdvanceToNext = \(.autoAdvanceToNext|tostring), sortOrder = \(.sortOrder)),"' "$DEFAULTS"
+    echo "                )"
+    echo "            ),"
+  done
   echo "        )"
   echo "    }"
 } >> "$OUT_FILE"

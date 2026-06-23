@@ -7,6 +7,11 @@
 # Writes: <output-dir>/SharedContent.generated.swift
 #
 # Idempotent. Safe to run on every iOS build.
+#
+# defaults.json is locale-indexed (.locales.<REGION>.{segments,defaultMoments,demoMoments}).
+# The flat Defaults.segments/defaultMoments/demoMoments accessors emit the .defaultLocale
+# template (backward-compatible). Defaults.localeTemplates exposes every region for
+# locale-aware seeding of new ceremonies.
 
 set -euo pipefail
 
@@ -27,6 +32,8 @@ OUT_FILE="$OUT_DIR/SharedContent.generated.swift"
 
 [ -f "$DEFAULTS" ] || { echo "Missing: $DEFAULTS" >&2; exit 1; }
 [ -f "$STRINGS"  ] || { echo "Missing: $STRINGS"  >&2; exit 1; }
+
+DEFAULT_LOCALE="$(jq -r '.defaultLocale' "$DEFAULTS")"
 
 # --- Header ---
 cat > "$OUT_FILE" <<EOF
@@ -70,12 +77,21 @@ enum SharedContent {
         let autoAdvance: Bool
     }
 
+    /// A per-region wedding-structure template (phases + starter moments).
+    /// \`segments\` carries the region's phase keys (GB: daytime/evening; US: ceremony/cocktail/reception).
+    struct LocaleTemplate {
+        let segments: [Segment]
+        let defaultMoments: [MomentDefinition]
+        let demoMoments: [MomentDefinition]
+    }
+
     // MARK: - Defaults
 
     enum Defaults {
         static let schemaVersion: Int = $(jq -r '.schemaVersion' "$DEFAULTS")
         static let cdnBaseURL: URL = URL(string: $(jq -r '.cdnBaseURL | @json' "$DEFAULTS"))!
         static let fullAccessProductId: String = $(jq -r '.iap.fullAccessProductId | @json' "$DEFAULTS")
+        static let defaultLocale: String = $(jq -r '.defaultLocale | @json' "$DEFAULTS")
         static let playback = Playback(
             fadeDurationSecs: $(jq -r '.playback.fadeDurationSecs' "$DEFAULTS"),
             crossfadeSecs: $(jq -r '.playback.crossfadeSecs' "$DEFAULTS"),
@@ -83,11 +99,11 @@ enum SharedContent {
         )
 EOF
 
-# --- Segments ---
+# --- Segments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        static let segments: [Segment] = ["
-  jq -r '.segments[] | "            Segment(key: \(.key | @json), displayKey: \(.displayKey | @json)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].segments[] | "            Segment(key: \(.key | @json), displayKey: \(.displayKey | @json)),"' "$DEFAULTS"
   echo "        ]"
 } >> "$OUT_FILE"
 
@@ -107,19 +123,39 @@ EOF
   echo "        ]"
 } >> "$OUT_FILE"
 
-# --- Default moments ---
+# --- Default moments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        static let defaultMoments: [MomentDefinition] = ["
-  jq -r '.defaultMoments[] | "            MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].defaultMoments[] | "            MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
   echo "        ]"
 } >> "$OUT_FILE"
 
-# --- Demo moments ---
+# --- Demo moments (default locale, backward-compat flat accessor) ---
 {
   echo
   echo "        static let demoMoments: [MomentDefinition] = ["
-  jq -r '.demoMoments[] | "            MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
+  jq -r --arg loc "$DEFAULT_LOCALE" '.locales[$loc].demoMoments[] | "            MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
+  echo "        ]"
+} >> "$OUT_FILE"
+
+# --- Locale templates (per-region segments/defaultMoments/demoMoments) ---
+{
+  echo
+  echo "        static let localeTemplates: [String: LocaleTemplate] = ["
+  for LOC in $(jq -r '.locales | keys[]' "$DEFAULTS"); do
+    echo "            \"$LOC\": LocaleTemplate("
+    echo "                segments: ["
+    jq -r --arg loc "$LOC" '.locales[$loc].segments[] | "                    Segment(key: \(.key|@json), displayKey: \(.displayKey|@json)),"' "$DEFAULTS"
+    echo "                ],"
+    echo "                defaultMoments: ["
+    jq -r --arg loc "$LOC" '.locales[$loc].defaultMoments[] | "                    MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
+    echo "                ],"
+    echo "                demoMoments: ["
+    jq -r --arg loc "$LOC" '.locales[$loc].demoMoments[] | "                    MomentDefinition(key: \(.key|@json), nameKey: \(.nameKey|@json), shortNameKey: \(.shortNameKey|@json), colourKey: \(.colourKey|@json), segment: \(.segment|@json), autoAdvanceToNext: \(.autoAdvanceToNext|tostring), sortOrder: \(.sortOrder)),"' "$DEFAULTS"
+    echo "                ]"
+    echo "            ),"
+  done
   echo "        ]"
   echo "    }"
 } >> "$OUT_FILE"
