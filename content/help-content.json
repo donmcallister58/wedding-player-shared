@@ -163,6 +163,17 @@
             "Tap Add or Edit Tracks on a moment and tap Get more music at the bottom of the screen.",
             "The tip card lists three on-device routes: buying individual tracks outright (iTunes Store, Bandcamp, Qobuz, 7digital, Amazon Music), free music libraries (Pixabay, Free Music Archive, ccMixter, Incompetech), and adding files you already own from iCloud Drive, Files, AirDrop, or an email attachment."
           ]
+        },
+        {
+          "id": "music-licensing",
+          "title": "Do I need a music licence?",
+          "platform": "both",
+          "steps": [
+            "Wedding Player is a player. It helps you organise, time, and reliably play the music you choose. It does not provide music rights or licences, and the app itself does not need a PRS licence.",
+            "Performance licences (PRS and PPL): playing recorded music in public can need a licence, known in the UK as TheMusicLicence. This is normally the venue's responsibility, and most licensed venues already hold it. Genuinely private, invitation-only ceremonies are generally not charged. If you are unsure, ask your venue.",
+            "Streaming services: if you play from a service like Apple Music, that subscription has its own terms, and those terms are for personal, non-commercial use. That is an agreement between you and the service, separate from any venue licence.",
+            "For total peace of mind, especially if you are a celebrant, planner, or venue, build your ceremony from music you own or have purchased, or from our royalty-cleared Wedding Player Originals. For those tracks there is nothing extra to clear on the recording side."
+          ]
         }
       ]
     },
