@@ -546,7 +546,7 @@
   "downloads.verify":                          "TAP OR PULL DOWN TO REFRESH",
   "downloads.verify.checking":                 "Verifying...",
   "downloads.tip.heading":                     "Download all your tracks the night before.",
-  "downloads.tip.body":                        "Tap **DOWNLOAD** on any track: this opens Apple Music where you can download it. Come back here and tap **VERIFY ALL TRACKS** to confirm.",
+  "downloads.tip.body":                        "Tap **DOWNLOAD** on any track to open Apple Music, then download your ceremony playlist from Library. Come back here and pull down to refresh.",
   "downloads.percent":                         "%d%%",
   "downloads.readiness":                       "WEDDING DAY READINESS",
   "downloads.readiness.count":                 "%d of %d tracks ready for offline",
@@ -664,7 +664,7 @@
 
   "downloads.action.bullet1":                  "Apple Music tracks won't play without internet unless downloaded first",
   "downloads.action.bullet2":                  "A **\"%@\"** playlist has been created in Apple Music",
-  "downloads.action.bullet3":                  "Open Apple Music, find the playlist, and tap the download icon",
+  "downloads.action.bullet3":                  "In Apple Music, open Library, then Playlists, and tap the download icon on that playlist",
 
   "catalogue.category.prelude":                "Prelude",
   "catalogue.category.processional":           "Processional",
