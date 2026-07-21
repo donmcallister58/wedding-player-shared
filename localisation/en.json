@@ -290,6 +290,8 @@
   "nowPlaying.editButton":                     "Add Tracks",
   "nowPlaying.moreTracks":                     "and %d more",
   "nowPlaying.a11y.progress":                  "Playback progress",
+  "nowPlaying.a11y.fadeIn":                    "Fades in at the start",
+  "nowPlaying.a11y.fadeOut":                   "Fades out at the end",
 
   "volume.muted":                              "Volume is muted: use device buttons to turn up",
   "volume.low":                                "Volume is low: raise it before the ceremony",
