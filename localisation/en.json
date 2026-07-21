@@ -662,7 +662,6 @@
   "downloads.diagnostic.value.active":         "Active",
   "downloads.diagnostic.value.notDetected":    "Not detected",
 
-  "downloads.action.bullet1":                  "Apple Music tracks won't play without internet unless downloaded first",
   "downloads.action.bullet2":                  "A **\"%@\"** playlist has been created in Apple Music",
   "downloads.action.bullet3":                  "In Apple Music, open Library, then Playlists, and tap the download icon on that playlist",
 
