@@ -731,7 +731,7 @@
   "preCeremony.subtitle.default":              "A few quick checks before going Live.",
   "preCeremony.subtitle.complete":             "Tap Go Live when you're set.",
   "preCeremony.checklist.title":               "Operator checklist",
-  "preCeremony.checklist.intro":               "Tap each one to confirm, then tap Go Live.",
+  "preCeremony.checklist.intro":               "Tap the circles to confirm, then tap Go Live. The rest is checked for you.",
   "preCeremony.row.airplane.title":            "Is Airplane Mode on?",
   "preCeremony.row.airplane.helper":           "Swipe down from the top-right edge to open Control Centre, then tap the airplane icon.",
   "preCeremony.row.dnd.title":                 "Is Do Not Disturb on? - Manual Check",
