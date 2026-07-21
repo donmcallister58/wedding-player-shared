@@ -543,7 +543,7 @@
   "downloads.allClear.title":                  "All Clear",
   "downloads.allClear.body":                   "All your tracks are stored on this device: they'll work offline with no issues.",
   "downloads.openAppleMusic":                  "OPEN APPLE MUSIC",
-  "downloads.verify":                          "VERIFY ALL TRACKS",
+  "downloads.verify":                          "TAP OR PULL DOWN TO REFRESH",
   "downloads.verify.checking":                 "Verifying...",
   "downloads.tip.heading":                     "Download all your tracks the night before.",
   "downloads.tip.body":                        "Tap **DOWNLOAD** on any track: this opens Apple Music where you can download it. Come back here and tap **VERIFY ALL TRACKS** to confirm.",
