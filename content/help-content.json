@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.7",
+  "version": "1.8",
   "sections": [
     {
       "id": "about",
@@ -335,7 +335,7 @@
         {
           "icon": "scissors",
           "label": "Set start and end points",
-          "context": "Drag the gold and burgundy sliders to clip the track to the part you want. Or type exact mm:ss values into the timestamp fields. Sliders auto-enable the matching fade the first time you touch them."
+          "context": "Drag the gold and burgundy sliders to clip the track to the part you want. Or type exact mm:ss values into the timestamp fields. Trimming does not add a fade on its own: use the two fade switches below if you want one."
         },
         {
           "icon": "tracks",
@@ -385,6 +385,11 @@
           "icon": "play",
           "label": "Play Through",
           "context": "Once you've arranged your moments and added music tracks, you can rehearse your full Wedding Day timeline. Tap the big button to play and tap again to fade out. If you have multiple tracks, use the Next Track button to jump to the next track in the moment."
+        },
+        {
+          "icon": "scissors",
+          "label": "What the marks on a track row mean",
+          "context": "Gold marks are edits you made: scissors means the track is trimmed, and the small waveform means a fade is set. A dusty pink cloud at the start of a row means an Apple Music track has not been downloaded yet, so it could go silent without signal. Tap the cloud to open the download checklist. These marks appear while you are building and are hidden in Live Mode."
         },
         {
           "icon": "info",
