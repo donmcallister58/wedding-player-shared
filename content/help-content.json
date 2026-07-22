@@ -1,8 +1,8 @@
 {
   "_comment": "Single source of truth for in-app help and the website support page.",
-  "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform.",
+  "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform. screenTip actions may carry their own optional platform (schema 1.10); omitted means both.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.9",
+  "version": "1.10",
   "sections": [
     {
       "id": "about",
@@ -379,7 +379,14 @@
         {
           "icon": "tracks",
           "label": "Next - Add music to each moment",
+          "platform": "ios",
           "context": "Tap Edit Tracks on each moment to add or delete tracks from your local files, Wedding Player Originals or from Apple Music. "
+        },
+        {
+          "icon": "tracks",
+          "label": "Next - Add music to each moment",
+          "platform": "android",
+          "context": "Tap Edit Tracks on each moment to add or delete tracks from your local files or Wedding Player Originals."
         },
         {
           "icon": "play",
@@ -389,7 +396,14 @@
         {
           "icon": "scissors",
           "label": "What the icons on a track row mean",
+          "platform": "ios",
           "context": "Scissor icon on a track row means the track is trimmed, and the waveform icon means a fade is set: both appear only where you have edited that track. A cloud icon at the start of a row means an Apple Music track has not been downloaded yet, and needs downloading for faultless playback. Tap the cloud icon on the row to open the download checklist. These icons appear while you are building and are hidden in Live Mode."
+        },
+        {
+          "icon": "scissors",
+          "label": "What the icons on a track row mean",
+          "platform": "android",
+          "context": "Scissor icon on a track row means the track is trimmed, and the waveform icon means a fade is set: both appear only where you have edited that track. These icons appear while you are building and are hidden in Live Mode."
         },
         {
           "icon": "info",

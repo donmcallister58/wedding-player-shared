@@ -7,7 +7,9 @@ Usage:
   python3 generate-help.py android kotlin <output-kotlin-file>
 
 Items with platform == target OR platform == "both" are included.
-Items for the other platform are silently dropped.
+Items for the other platform are silently dropped. The same rule applies to
+individual screenTip actions, which may carry their own optional "platform"
+(schema 1.10); omitting it means "both", so pre-1.10 content is unaffected.
 
 Also emits screenTips (per-screen contextual tip cards) using the icon
 vocabulary defined in content/icons.json. Build fails on duplicate ids,
@@ -55,6 +57,15 @@ def validate_screen_tips(tips, icon_vocab, platform):
             fail(f"{loc}.platform '{tip['platform']}' must be ios|android|both")
         if not isinstance(tip["actions"], list) or not tip["actions"]:
             fail(f"{loc}.actions must be a non-empty array")
+        # Per-action platform gating (schema 1.10). Optional, defaults to
+        # "both", so every pre-1.10 action keeps its behaviour and the output
+        # for a file that uses no action-level platform key is byte-identical
+        # to what the previous generator emitted. It exists because a single
+        # action can mix claims that are true on one platform and false on the
+        # other (an Apple Music sentence inside an otherwise shared
+        # explanation), and the consumers' only alternative was a string-match
+        # shim over the rendered copy, which drops the true half with the false.
+        kept_actions = []
         for j, action in enumerate(tip["actions"]):
             aloc = f"{loc}.actions[{j}]"
             for required in ("icon", "label", "context"):
@@ -65,12 +76,28 @@ def validate_screen_tips(tips, icon_vocab, platform):
                     f"{aloc}.icon '{action['icon']}' is not in the icon vocabulary "
                     f"(content/icons.json). Add it there first."
                 )
+            action_platform = action.get("platform", "both")
+            if action_platform not in ("ios", "android", "both"):
+                fail(f"{aloc}.platform '{action_platform}' must be ios|android|both")
+            if action_platform in (platform, "both"):
+                kept_actions.append(action)
         # cardPosition is optional; defaults to "bottom"
         pos = tip.get("cardPosition", "bottom")
         if pos not in ("top", "bottom"):
             fail(f"{loc}.cardPosition '{pos}' must be 'top' or 'bottom'")
         if tip["platform"] in (platform, "both"):
-            filtered.append({**tip, "cardPosition": pos})
+            # A tip whose every action was gated away for this platform has
+            # nothing left to say, so drop the tip rather than emit an empty
+            # card. Announced rather than silent, so an over-broad gate shows
+            # up in the build log instead of as a card that quietly stopped
+            # appearing.
+            if not kept_actions:
+                print(
+                    f"generate-help: note — {loc} ('{tip_id}') has no actions for "
+                    f"platform '{platform}'; tip omitted."
+                )
+                continue
+            filtered.append({**tip, "cardPosition": pos, "actions": kept_actions})
     return filtered
 
 
