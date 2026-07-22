@@ -2,7 +2,7 @@
   "_comment": "Single source of truth for in-app help and the website support page.",
   "_comment2": "platform: 'ios' | 'android' | 'both'. Items filtered at codegen time per platform. screenTip actions may carry their own optional platform (schema 1.10); omitted means both.",
   "_comment3": "Consumers MUST ignore unknown top-level keys (forward-compatible additions only).",
-  "version": "1.10",
+  "version": "1.11",
   "sections": [
     {
       "id": "about",
@@ -345,7 +345,14 @@
         {
           "icon": "play",
           "label": "Preview your trim",
+          "platform": "ios",
           "context": "Three preview buttons let you hear From in-point (first 10s), To out-point (last 10s), or the Full trimmed clip end-to-end. For Apple Music tracks the preview uses the main player briefly: the Now Playing card will show the previewed track."
+        },
+        {
+          "icon": "play",
+          "label": "Preview your trim",
+          "platform": "android",
+          "context": "Three preview buttons let you hear Start (first 10s), End (last 10s), or the Full trimmed clip end-to-end."
         },
         {
           "icon": "edit",
@@ -422,11 +429,19 @@
         {
           "icon": "info",
           "label": "Review warnings first",
+          "platform": "ios",
           "context": "Critical items (burgundy) will likely cause silent playback failure: missing tracks, no Apple Music access. Fix these before Live. Worth-checking items are lighter and informational."
+        },
+        {
+          "icon": "info",
+          "label": "Review warnings first",
+          "platform": "android",
+          "context": "Critical items (burgundy) will likely cause silent playback failure, such as missing tracks. Fix these before Live. Worth-checking items are lighter and informational."
         },
         {
           "icon": "tracks",
           "label": "Open Apple Music if needed",
+          "platform": "ios",
           "context": "The Open Apple Music button takes you to the Apple Music app. Navigate to your Playlists and open the Wedding Player Downloads playlist. Download the track(s) and return to Wedding Player: the row refreshes automatically."
         },
         {
@@ -522,7 +537,14 @@
         {
           "icon": "trash",
           "label": "Delete a track",
+          "platform": "ios",
           "context": "Tap the trash icon on the right of the row to remove the track from this moment. The original file or Apple Music track is unaffected."
+        },
+        {
+          "icon": "trash",
+          "label": "Delete a track",
+          "platform": "android",
+          "context": "Tap the trash icon on the right of the row to remove the track from this moment. The original file is unaffected."
         },
         {
           "icon": "info",
@@ -642,6 +664,7 @@
         {
           "icon": "apple-music",
           "label": "Apple Music setup",
+          "platform": "ios",
           "context": "Connect Apple Music, see subscription status, and check what's downloaded for offline playback."
         },
         {
