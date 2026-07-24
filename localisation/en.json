@@ -376,6 +376,8 @@
   "settings.account.venue.badge":              "ACTIVE SUBSCRIPTION",
   "settings.account.premium.title":            "Wedding Player Premium",
   "settings.account.premium.badge":            "ACTIVE MEMBER",
+  "settings.account.lapsed.title":             "Subscription Lapsed",
+  "settings.account.lapsed.badge":             "RENEW TO RESTORE",
   "settings.sync.title":                       "iCloud Sync",
   "settings.sync.toggle.caption":              "Changes take effect the next time you open Wedding Player.",
   "settings.sync.locked.title":                "iCloud Sync",
