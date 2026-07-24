@@ -384,7 +384,7 @@
   "privacy.adConsent.prompt.body":             "Turn this on to help us understand, in a privacy-first way, how people discover Wedding Player, so we can reach more couples. It runs quietly in the background, with no questions to answer and no forms to fill in. Nothing identifies you and your data is never sold. You can change this any time in Settings.",
   "privacy.adConsent.prompt.accept":           "Allow",
   "privacy.adConsent.prompt.decline":          "Not now",
-  "privacy.adConsent.prompt.details":          "Privacy details",
+  "privacy.adConsent.prompt.details":          "Privacy Policy",
   "settings.sync.title":                       "iCloud Sync",
   "settings.sync.toggle.caption":              "Changes take effect the next time you open Wedding Player.",
   "settings.sync.locked.title":                "iCloud Sync",
