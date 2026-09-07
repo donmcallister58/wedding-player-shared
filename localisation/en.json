@@ -354,10 +354,12 @@
   "settings.moments.subtitle":                 "Tap to add, edit, or reorder moments",
 
   "settings.crossfade.toggle":                 "Crossfade between tracks",
+  "settings.crossfade.toggle.caption":         "Songs in the same moment overlap for 3 seconds. Not adjustable.",
   "settings.fadeOut.label":                    "Fade out duration",
   "settings.fadeOut.value":                    "%ds",
   "settings.fadeOut.min":                      "2s",
   "settings.fadeOut.max":                      "15s",
+  "settings.fadeOut.caption":                  "How long a track ramps to silence on playback. Used when Fade out is on for a track, and by the Fade out button between moments.",
 
   "settings.originals.title":                  "Manage WP Originals",
   "settings.originals.subtitle.empty":         "Download ceremony tracks: %d available",
