@@ -736,8 +736,8 @@
     "durationSecs": 140,
     "dateAdded": "2026-05-17",
     "filename": "wp_040.mp3",
-    "sourceHash": "d1ab446895b46c963dd309339d6810d9ff66af883b0a670009d2f82f3a0269ef",
-    "previewVersion": 3
+    "sourceHash": "c51dd44c03d3764eb8f64b8f1629061547fc01e6d5b167b2b680f9356ca289dc",
+    "previewVersion": 4
   },
   {
     "id": "wp_041",
@@ -757,5 +757,138 @@
     "filename": "wp_041.mp3",
     "sourceHash": "f1e3c74ad82f0741d08b5d9021b0b9ddba432f75bf9ff04a59d1782b68592d5e",
     "previewVersion": 3
+  },
+  {
+    "id": "wp_042",
+    "title": "Folk Strings Duo",
+    "style": "Folk Strings Duo",
+    "category": "PRELUDE",
+    "genre": "Folk",
+    "mood": [
+      "Tender",
+      "Reflective"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 124,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_042.mp3",
+    "sourceHash": "70ca25e3bc2e1f67a97ba8d2297be1c6500066134bcd4b9051b5fea8eec34ac4",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_043",
+    "title": "Bossa Nova Ceremony",
+    "style": "Bossa Nova Ceremony",
+    "category": "PRELUDE",
+    "genre": "Jazz",
+    "mood": [
+      "Romantic",
+      "Joyful"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 180,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_043.mp3",
+    "sourceHash": "138078d294e4c04359424bd597cc5b6a0991300d884fe6838390e855f37fc4f3",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_044",
+    "title": "Ambient Modern Classical",
+    "style": "Ambient Modern Classical",
+    "category": "PRELUDE",
+    "genre": "Ambient",
+    "mood": [
+      "Serene",
+      "Reflective"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 180,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_044.mp3",
+    "sourceHash": "634575050e8f197fb092f8b08bfde59e85ae24832ba011ae099863b4bdff8e0b",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_045",
+    "title": "Soft Choir Pad",
+    "style": "Soft Choir Pad",
+    "category": "PRELUDE",
+    "genre": "Ambient",
+    "mood": [
+      "Serene",
+      "Tender"
+    ],
+    "instrumentation": "Choir",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 180,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_045.mp3",
+    "sourceHash": "d2be5239b15fc4bf492640a57b0045d836e3f75e9aaf3be13682a2eaa363f466",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_046",
+    "title": "Celtic Wedding",
+    "style": "Celtic Wedding",
+    "category": "PROCESSIONAL",
+    "genre": "Celtic",
+    "mood": [
+      "Joyful",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 160,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_046.mp3",
+    "sourceHash": "fcca8ceb17164f33028df090af1f3892decb9266098cd3d410ccb4352a72e83b",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_047",
+    "title": "Latin Acoustic",
+    "style": "Latin Acoustic",
+    "category": "PROCESSIONAL",
+    "genre": "World",
+    "mood": [
+      "Romantic",
+      "Joyful"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 117,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_047.mp3",
+    "sourceHash": "0393579787bb0c88a187fdc145b15f89eda35d8919175d9dc83f6e7264d9443d",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_048",
+    "title": "Brass Quintet Processional",
+    "style": "Brass Quintet Processional",
+    "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Ceremonial",
+      "Triumphant"
+    ],
+    "instrumentation": "Brass",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 97,
+    "dateAdded": "2026-09-08",
+    "filename": "wp_048.mp3",
+    "sourceHash": "c87032214ff3282e869dbb38fc0ef0666cc3a455b468f7306a59289eed9f143a",
+    "previewVersion": 1
   }
 ]
