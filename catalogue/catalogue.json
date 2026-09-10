@@ -890,5 +890,157 @@
     "filename": "wp_048.mp3",
     "sourceHash": "c87032214ff3282e869dbb38fc0ef0666cc3a455b468f7306a59289eed9f143a",
     "previewVersion": 1
+  },
+  {
+    "id": "wp_049",
+    "title": "Harp Solo",
+    "style": "Harp Solo",
+    "category": "PROCESSIONAL",
+    "genre": "Classical",
+    "mood": [
+      "Serene",
+      "Ceremonial"
+    ],
+    "instrumentation": "Harp",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 164,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_049.mp3",
+    "sourceHash": "6bf68d45f8fb38818b4d44b873dd2f8424b8672ff6f94083cb44140e3acf4eb0",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_050",
+    "title": "String Quartet Romantic",
+    "style": "String Quartet Romantic",
+    "category": "SIGNING",
+    "genre": "Classical",
+    "mood": [
+      "Romantic",
+      "Reflective"
+    ],
+    "instrumentation": "Strings",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 142,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_050.mp3",
+    "sourceHash": "6f4054c4abe10e4b5fd98d6826d2381746200ce1a6eadd998cfe02bf467d535a",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_051",
+    "title": "Bach Jesu Joy of Man's Desiring",
+    "style": "Bach Jesu Joy of Man's Desiring",
+    "category": "SIGNING",
+    "genre": "Classical",
+    "mood": [
+      "Serene",
+      "Tender"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 128,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_051.mp3",
+    "sourceHash": "8d71072de312bcc9c679a83bdf9b90f79804e9e26871fcf460c62e6692546f08",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_052",
+    "title": "Bach Air on the G String",
+    "style": "Bach Air on the G String",
+    "category": "SIGNING",
+    "genre": "Classical",
+    "mood": [
+      "Uplifting",
+      "Reflective"
+    ],
+    "instrumentation": "Strings",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 148,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_052.mp3",
+    "sourceHash": "29f56cd46d51ff61898f926616280a0a120452cc85d65761ae7c5b27ef3ecdf3",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_053",
+    "title": "Acoustic Fingerstyle Guitar",
+    "style": "Acoustic Fingerstyle Guitar",
+    "category": "SIGNING",
+    "genre": "Acoustic",
+    "mood": [
+      "Serene",
+      "Reflective"
+    ],
+    "instrumentation": "Guitar",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 153,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_053.mp3",
+    "sourceHash": "20d9021d01c4a7d1100c0ddad3de5b3c2bad920d6e135ead36f2608c62a6da25",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_054",
+    "title": "World Percussion Processional",
+    "style": "World Percussion Processional",
+    "category": "RECESSIONAL",
+    "genre": "World",
+    "mood": [
+      "Ceremonial",
+      "Joyful"
+    ],
+    "instrumentation": "Mixed",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 131,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_054.mp3",
+    "sourceHash": "b2010cf28655d270088610a1a73aac7ad739c056da1c87c9d3b1d6e15c4ec083",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_055",
+    "title": "Cinematic Orchestral",
+    "style": "Cinematic Orchestral",
+    "category": "RECESSIONAL",
+    "genre": "Cinematic",
+    "mood": [
+      "Romantic",
+      "Triumphant"
+    ],
+    "instrumentation": "Orchestra",
+    "tempo": "Moderate",
+    "vocal": false,
+    "durationSecs": 153,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_055.mp3",
+    "sourceHash": "4394a7dbd63cab1ec4df799a9a115f6f42f1797d6ac44f940809570fb9a93456",
+    "previewVersion": 1
+  },
+  {
+    "id": "wp_056",
+    "title": "Acoustic Piano Solo",
+    "style": "Acoustic Piano Solo",
+    "category": "RECESSIONAL",
+    "genre": "Piano",
+    "mood": [
+      "Reflective",
+      "Serene"
+    ],
+    "instrumentation": "Piano",
+    "tempo": "Slow",
+    "vocal": false,
+    "durationSecs": 151,
+    "dateAdded": "2026-09-10",
+    "filename": "wp_056.mp3",
+    "sourceHash": "5a9d7d399ba804a19711e00347c53ab068a9325b108999cae3eac4415fcdee3b",
+    "previewVersion": 1
   }
 ]
