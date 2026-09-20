@@ -93,6 +93,38 @@ for src in "${NEW_CANDIDATES[@]}"; do
     -metadata album_artist="Wedding Player" \
     "$tmp" && mv "$tmp" "$src"
 
+  # 1b. Declick leading edge. Some sources (notably Mozart AI) emit a spurious
+  #     click a few tens of ms into an otherwise-silent lead-in, before the music
+  #     actually enters. Only tracks that start hot are touched: for those we mute
+  #     the (inaudible, sub -25 dB) lead-in up to just before the musical onset
+  #     and fade 20 ms into it - removing the click while leaving the music
+  #     byte-for-byte intact in level. Clean-start tracks (e.g. most Suno takes)
+  #     never trip the probe and are left untouched (no recompression). Fixes the
+  #     shipping master, not just the preview.
+  head_peak=$(ffmpeg -hide_banner -nostats -i "$src" -t 0.06 -af "volumedetect" -vn -f null - 2>&1 \
+              | awk -F': ' '/max_volume/ {gsub(/ dB/, "", $2); print $2}')
+  [[ -z "$head_peak" ]] && head_peak="-99"
+  if awk -v p="$head_peak" 'BEGIN{exit !(p > -30)}'; then
+    # Musical onset = end of the leading near-silence. -25 dB threshold keeps a
+    # quiet click (which sits below it) inside the "silence" we mute.
+    onset=$(ffmpeg -hide_banner -nostats -i "$src" -af "silencedetect=noise=-25dB:d=0.1" -f null - 2>&1 \
+            | awk -F': ' '/silence_end/{print $2; exit}' | awk '{print $1}')
+    [[ -z "$onset" ]] && onset=0
+    # Mute up to 20 ms before onset, capped at 0.33 s so a genuine long quiet
+    # intro is never cut; then a 20 ms fade into the music.
+    mute=$(awk -v o="$onset" 'BEGIN{m=o-0.02; if(m>0.33)m=0.33; if(m<0)m=0; printf "%.3f", m}')
+    if awk -v m="$mute" 'BEGIN{exit !(m > 0.001)}'; then
+      filt="volume=0:enable='lt(t,$mute)',afade=t=in:st=$mute:d=0.02"
+    else
+      filt="afade=t=in:st=0:d=0.02"
+    fi
+    dc="${src}.declick.tmp.mp3"
+    ffmpeg -y -hide_banner -loglevel error -i "$src" \
+      -af "$filt" -b:a 320k -map_metadata 0 \
+      "$dc" && mv "$dc" "$src"
+    echo "    ↳ declick: ${head_peak}dB leading onset, muted lead to ${mute}s + 20ms fade"
+  fi
+
   # 2. Measure duration + peak dBFS.
   dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$src")
   dur_int=$(printf '%.0f' "$dur")
