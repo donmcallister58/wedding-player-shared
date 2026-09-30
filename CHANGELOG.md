@@ -4,6 +4,11 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+## v1.0.108 - 2026-09-30
+
+### Help content (`content/help-content.json`)
+- Go Live screen tip: corrected the spelling of "simplified".
+
 ## v1.0.89 - 2026-06-18
 
 Review-prompt copy refresh, and a platform-leak fix in the rate button.
