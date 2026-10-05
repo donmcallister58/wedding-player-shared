@@ -4,6 +4,14 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
+
+### Localisation (`localisation/en.json`)
+- `paywall.feature.playback.title`: now "Full tracks and Live Mode on the day" (was "Full Playback + Live Mode").
+- `paywall.feature.sync.title`: now "iCloud backup and sync" (was "Back up and sync").
+- `paywall.link.venue` and `settings.account.venue.title`: now "Wedding Player Pro" (was "Professional Licence").
+- `live.goLive.locked`: now "Unlock Live Mode" (was "Unlock Features"). `preview.cta.unlock` keeps "Unlock Features".
+
 ## v1.0.108 - 2026-09-30
 
 ### Help content (`content/help-content.json`)
