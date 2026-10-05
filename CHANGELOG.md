@@ -13,6 +13,10 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `live.goLive.locked`: now "Unlock Live Mode" (was "Unlock Features"). `preview.cta.unlock` keeps "Unlock Features".
 - `personalisation.cta.continue`: now "Continue" (was "CONTINUE"), sentence case to match the onboarding buttons.
 - `personalisation.cta.startAdding`: now "Start adding music" (was "START ADDING MUSIC"), the same button's last step.
+- `paywall.appleIdScope` (new, iOS): "Unlocks on devices signed in to the Apple ID that buys it.", one line under the couple paywall's price.
+
+### Help content (`content/help-content.json`)
+- New iOS-only Troubleshooting item `bought-on-wrong-iphone`, "Bought on the wrong iPhone?": the unlock belongs to the buying Apple ID; Restore Purchases on a device signed in to it, otherwise contact support.
 
 ## v1.0.108 - 2026-09-30
 

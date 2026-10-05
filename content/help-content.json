@@ -320,6 +320,14 @@
             "Tap Restore Purchases in Settings → Account.",
             "If it still doesn't work, contact support with your original purchase receipt."
           ]
+        },
+        {
+          "id": "bought-on-wrong-iphone",
+          "title": "Bought on the wrong iPhone?",
+          "platform": "ios",
+          "steps": [
+            "Wedding Player has no account or sign-in. Your unlock belongs to the Apple ID that bought it. On another iPhone or iPad signed in to that same Apple ID, tap Restore Purchases. If the other device uses a different Apple ID, contact support."
+          ]
         }
       ]
     }

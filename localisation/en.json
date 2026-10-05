@@ -65,6 +65,7 @@
   "paywall.cta.purchase.withPrice":        "One-off Purchase: %@",
   "paywall.cta.purchase.withPrice.compact": "One-off: %@",
   "paywall.noSubscription":                "No Subscription. Ever.",
+  "paywall.appleIdScope":                  "Unlocks on devices signed in to the Apple ID that buys it.",
   "paywall.cta.restore":                   "Restore Purchases",
   "restore.success.title":                 "Purchases restored",
   "restore.success.message":               "Your Wedding Player purchase is active on this device.",
