@@ -11,6 +11,7 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `paywall.feature.sync.title`: now "iCloud backup and sync" (was "Back up and sync").
 - `paywall.link.venue` and `settings.account.venue.title`: now "Wedding Player Pro" (was "Professional Licence").
 - `live.goLive.locked`: now "Unlock Live Mode" (was "Unlock Features"). `preview.cta.unlock` keeps "Unlock Features".
+- `personalisation.cta.continue`: now "Continue" (was "CONTINUE"), sentence case to match the onboarding buttons.
 
 ## v1.0.108 - 2026-09-30
 
