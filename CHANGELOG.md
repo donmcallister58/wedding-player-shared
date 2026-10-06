@@ -15,6 +15,9 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `personalisation.cta.startAdding`: now "Start adding music" (was "START ADDING MUSIC"), the same button's last step.
 - `paywall.appleIdScope` (new, iOS): "Unlocks on devices signed in to the Apple ID that buys it.", one line under the couple paywall's price.
 
+### Narration audio (`setup/audio/`, `demo/audio/`)
+- Re-voiced with Sulafat, same wording, filenames and formats: the nine setup clips (mono 128 kbps) and the four narrated demo tracks (stereo 192 kbps, voice re-laid over the original music at the original start times, same track lengths). Several setup clips run longer (setup-moments +5.3 s, setup-primer +3.0 s), so the iOS setup-pager cues are re-derived in the app. Android bundles its own copies in its app assets and is not changed here.
+
 ### Help content (`content/help-content.json`)
 - New iOS-only Troubleshooting item `bought-on-wrong-iphone`, "Bought on the wrong iPhone?": the unlock belongs to the buying Apple ID; Restore Purchases on a device signed in to it, otherwise contact support.
 
