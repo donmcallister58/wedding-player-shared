@@ -14,9 +14,11 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `personalisation.cta.continue`: now "Continue" (was "CONTINUE"), sentence case to match the onboarding buttons.
 - `personalisation.cta.startAdding`: now "Start adding music" (was "START ADDING MUSIC"), the same button's last step.
 - `paywall.appleIdScope` (new, iOS): "Unlocks on devices signed in to the Apple ID that buys it.", one line under the couple paywall's price.
+- `transport.fadeAndEnd`: now "Fade to End" (was "Fade & End"), matching "Fade to <moment>" and "Fading to End". `demo.tip.exit.playing.tip` names the button the same way.
 
 ### Narration audio (`setup/audio/`, `demo/audio/`)
 - Re-voiced with Sulafat, same wording, filenames and formats: the nine setup clips (mono 128 kbps) and the four narrated demo tracks (stereo 192 kbps, voice re-laid over the original music at the original start times, same track lengths). Several setup clips run longer (setup-moments +5.3 s, setup-primer +3.0 s), so the iOS setup-pager cues are re-derived in the app. Android bundles its own copies in its app assets and is not changed here.
+- Don's notes from the 3.1.1 (103) device listen: `setup-moments` says "Drinks Reception" (was "drink reception"). The entrance and signing narrated tracks add "and when the next moment appears, tap Start Signing The Register / Start The Couple Exit to continue through the ceremony", before the final Fade Out call to action. The exit track's last instruction is now "tap Fade to End to complete the ceremony, and tap Continue when you're ready to try out Wedding Player". The three changed demo tracks are re-mixed over the clean music master with a duck under every voice line, and the exit track's music is brought down 4.5 dB (it was the hottest master at -10.6 LUFS), so it now sits below the other narrated tracks (-16.2 LUFS integrated, was -12.2).
 
 ### Help content (`content/help-content.json`)
 - New iOS-only Troubleshooting item `bought-on-wrong-iphone`, "Bought on the wrong iPhone?": the unlock belongs to the buying Apple ID; Restore Purchases on a device signed in to it, otherwise contact support.

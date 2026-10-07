@@ -219,7 +219,7 @@
 
   "demo.tip.exit.playing.action":              "%@ is playing",
   "demo.tip.exit.playing.context":             "",
-  "demo.tip.exit.playing.tip":                 "Let it finish, or tap Fade & End to close the ceremony.",
+  "demo.tip.exit.playing.tip":                 "Let it finish, or tap Fade to End to close the ceremony.",
   "demo.tip.exit.stopped.action":              "Tap the big play button above to start the track",
   "demo.tip.exit.stopped.context":             "The exit music: the grand finale as the newlyweds walk back down the aisle.",
   "demo.tip.exit.stopped.tip":                 "Everything is pre-loaded and ready. One tap and the music plays. That's the power of Wedding Player.",
@@ -663,7 +663,7 @@
   "nowPlaying.finalTrack":                     "CEREMONY ENDS AFTER THIS",
 
   "transport.nextTrack":                       "Next Track",
-  "transport.fadeAndEnd":                      "Fade & End",
+  "transport.fadeAndEnd":                      "Fade to End",
   "transport.fadeTo":                          "Fade to %@",
   "transport.fading.stop":                     "Fading to Stop",
   "transport.fading.end":                      "Fading to End",
