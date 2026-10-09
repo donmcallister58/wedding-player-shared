@@ -49,7 +49,7 @@
           "title": "How do I set up my wedding day moments?",
           "platform": "both",
           "steps": [
-            "Tap the \"Edit Moments\" button next to Rehearsal Mode to open the Edit Moments screen.",
+            "Tap the \"Edit Moments\" button, next to Go Live at the bottom of the main screen to open the Edit Moments screen.",
             "You'll see the current list of moments organised into Daytime and Evening Sections. From this screen, you can delete a moment by tapping the trash icon at the end of the row, or drag to re-order.",
             "To add a new moment, tap the \"Add Moment\" button.",
             "Tap any moment to open it to rename it, or to move it to Daytime or Evening Segment and tap \"Save Changes\""
@@ -142,7 +142,7 @@
           "title": "How do I trim a track or add fade-in and fade-out?",
           "platform": "ios",
           "steps": [
-            "In rehearsal mode, tap Edit Tracks on the moment, then tap the scissors icon on any track row.",
+            "On the moment, tap Edit Tracks, then tap the scissors icon on any track row.",
             "Drag the IN-POINT slider to set where the track should start playing, and the OUT-POINT slider to set where it should stop. The Duration field shows the length of the trimmed window.",
             "Fade in at in-point ramps from silence to full volume over the duration set in Settings → Playback (default 5 seconds). Fade out at out-point does the reverse before the out-point.",
             "Use From in-point and To out-point to spot-check the first or last 10 seconds, or Full trimmed clip to hear the whole edit with both fades applied. The countdown inside each button shows time remaining.",
