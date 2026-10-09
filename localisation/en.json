@@ -357,6 +357,7 @@
   "settings.crossfade.toggle":                 "Crossfade between tracks",
   "settings.crossfade.toggle.caption":         "Full-length Apple Music tracks in the same moment overlap for 3 seconds. If you trim a track or turn on Fade in or Fade out, the next track starts after it finishes.",
   "settings.fadeOut.label":                    "Fade out duration",
+  "settings.fadeOut.caption":                  "How long a track ramps to silence on playback. Used when Fade out is on for a track, and by the Fade out button between moments.",
   "settings.fadeOut.value":                    "%ds",
   "settings.fadeOut.min":                      "2s",
   "settings.fadeOut.max":                      "15s",

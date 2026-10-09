@@ -14,6 +14,7 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `personalisation.cta.continue`: now "Continue" (was "CONTINUE"), sentence case to match the onboarding buttons.
 - `personalisation.cta.startAdding`: now "Start adding music" (was "START ADDING MUSIC"), the same button's last step.
 - `paywall.appleIdScope` (new, iOS): "Unlocks on devices signed in to the Apple ID that buys it.", one line under the couple paywall's price.
+- `settings.fadeOut.caption` (new): "How long a track ramps to silence on playback. Used when Fade out is on for a track, and by the Fade out button between moments." The approved caption from 8e94a13, which only reached a backup branch, so iOS 3.1.1 showed the raw key under Settings > Playback.
 - `transport.fadeAndEnd`: now "Fade to End" (was "Fade & End"), matching "Fade to <moment>" and "Fading to End". `demo.tip.exit.playing.tip` names the button the same way.
 
 ### Narration audio (`setup/audio/`, `demo/audio/`)
