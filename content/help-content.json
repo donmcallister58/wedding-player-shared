@@ -73,7 +73,7 @@
           "platform": "android",
           "steps": [
             "Tap any moment, then tap Edit.",
-            "Tap + Edit Tracks to import MP3, M4A, or WAV files from your device storage.",
+            "Tap + Edit Tracks to import MP3, M4A, WAV, and AIFF files from your device storage.",
             "Or choose Originals to browse Wedding Player's built-in original tracks.",
             "Tracks play in order. Drag to reorder them within a moment."
           ]
@@ -257,7 +257,7 @@
           "platform": "android",
           "steps": [
             "The file may have been moved or deleted from your device. Remove it from the moment and re-import it.",
-            "Check the file format is supported: MP3, M4A, and WAV files work. FLAC and OGG are not currently supported.",
+            "Check the file format is supported: MP3, M4A, WAV, and AIFF files work. FLAC and OGG are not currently supported.",
             "Try closing and reopening the app if the issue persists."
           ]
         },
