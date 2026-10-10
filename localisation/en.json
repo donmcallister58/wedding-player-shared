@@ -117,8 +117,8 @@
   "onboarding.splash.subtitle":               "Your Wedding Music deserves more than just a playlist",
 
   "onboarding.role.title":                    "Welcome to Wedding Player",
-  "onboarding.role.body":                     "Whether you're planning your own big day or helping run someone else's, we'll set everything up around you.",
-  "onboarding.role.couple.title":             "I'm planning my own wedding",
+  "onboarding.role.body":                     "Planning one wedding, or running them for a living? We'll set everything up around you.",
+  "onboarding.role.couple.title":             "I'm planning a wedding",
   "onboarding.role.couple.body":              "We'll personalise the app with your names and date so the demo feels like your day.",
   "onboarding.role.pro.title":                "I'm a wedding professional",
   "onboarding.role.pro.body":                 "Walk through a sample ceremony for Nicola & Alex and see how the reset works between weddings.",
@@ -187,7 +187,7 @@
   "demo.couple.partner1":                     "Nicola",
   "demo.couple.partner2":                     "Alex",
 
-  "paywall.link.couple":                      "I'm just planning my own wedding →",
+  "paywall.link.couple":                      "I'm just planning one wedding →",
 
   "demo.complete.title":                       "Demo Complete!",
   "demo.complete.benefit.moments":             "Separate moments for each part of the ceremony: aisle, signing, and exit.",
