@@ -833,7 +833,7 @@
   "backups.restore.error.audioCopyFailed": "The backup's audio files couldn't be copied, so nothing was restored. Please try again.",
   "backups.restore.error.saveFailed": "The wedding couldn't be restored on this device, so nothing was changed. Please try again.",
   "backups.backUpNow": "Back Up Now",
-  "backups.backUpNow.footer": "Wedding Player also backs up on its own: after you edit, once a day, after an update, and before anything is deleted.",
+  "backups.backUpNow.footer": "Wedding Player also backs up on its own: once a day, after an app update, when you leave the app after making changes, and before bigger deletes such as a moment or a whole wedding.",
   "backups.backUpNow.saved": "Backup saved.",
   "backups.backUpNow.unchanged": "Nothing has changed since your last backup.",
   "backups.backUpNow.failed": "The backup couldn't be saved. Please try again.",

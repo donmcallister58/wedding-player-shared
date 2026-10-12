@@ -20,6 +20,7 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `onboarding.role.body`: now "Planning one wedding, or running them for a living? We'll set everything up around you." (was "Whether you're planning your own big day or helping run someone else's, …"). iOS 3.1.2 (Don 2026-10-09): a family member buying for someone else's wedding read "helping run someone else's" as the pro option.
 - `onboarding.role.couple.title`: now "I'm planning a wedding" (was "I'm planning my own wedding"), same reason.
 - `paywall.link.couple`: now "I'm just planning one wedding →" (was "I'm just planning my own wedding →"), matching the role picker.
+- `backups.backUpNow.footer`: now "Wedding Player also backs up on its own: once a day, after an app update, when you leave the app after making changes, and before bigger deletes such as a moment or a whole wedding." (was "...after you edit, once a day, after an update, and before anything is deleted."). iOS 3.1.2 (Don 2026-10-12): only bigger deletes take a backup first, so "before anything is deleted" overclaimed.
 
 ### Narration audio (`setup/audio/`, `demo/audio/`)
 - Re-voiced with Sulafat, same wording, filenames and formats: the nine setup clips (mono 128 kbps) and the four narrated demo tracks (stereo 192 kbps, voice re-laid over the original music at the original start times, same track lengths). Several setup clips run longer (setup-moments +5.3 s, setup-primer +3.0 s), so the iOS setup-pager cues are re-derived in the app. Android bundles its own copies in its app assets and is not changed here.
