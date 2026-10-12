@@ -49,7 +49,7 @@
   "demo.track.quiet-hands-steady-hearts.title":  "Quiet Hands, Steady Hearts",
   "demo.track.quiet-hands-steady-hearts.artist": "Wedding Player Demo",
 
-  "paywall.eyebrow":                       "WEDDING PLAYER PREMIUM",
+  "paywall.eyebrow":                       "WEDDING PLAYER FULL ACCESS",
   "paywall.title":                         "Unlock All\nFeatures",
   "paywall.subtitle":                      "One-off purchase. Yours forever.",
   "paywall.feature.playback.title":        "Full tracks and Live Mode on the day",
@@ -147,13 +147,12 @@
   "onboarding.demoComplete.unlockBlock.title":          "Wedding Player Full Access",
   "onboarding.demoComplete.unlockBlock.priceQualifier": "ONE-TIME PURCHASE",
   "onboarding.demoComplete.unlockBlock.stress":         "No subscription. No renewals. No surprise charges.",
-  "onboarding.demoComplete.unlockBlock.trialNote":      "Configure for free. In free mode, every track plays for 15 seconds.",
   "onboarding.demoComplete.unlockBlock.cta":            "Unlock Now",
 
   "onboarding.pro.demoComplete.unlockBlock.title":          "Wedding Player Pro",
   "onboarding.pro.demoComplete.unlockBlock.priceQualifier": "ANNUAL SUBSCRIPTION",
   "onboarding.pro.demoComplete.unlockBlock.value":          "Unlimited weddings. No per-event fees.",
-  "onboarding.pro.demoComplete.unlockBlock.trialNote":      "Set up free. In free mode, every track plays for 15 seconds.",
+  "onboarding.pro.demoComplete.unlockBlock.trialNote":      "Set up free. Previews play for 15 seconds until you unlock.",
   "onboarding.pro.demoComplete.unlockBlock.cta":            "Unlock Now",
 
   "paywall.couple.stress.line":                         "One-time purchase. No subscription. No renewals.",
@@ -255,11 +254,10 @@
   "live.modeBadge":                            "LIVE MODE",
   "live.tapToExit":                            "Tap here to exit",
   "live.exit.title":                           "Exit Live Mode?",
-  "live.exit.message":                         "Return to rehearsal mode.",
+  "live.exit.message":                         "Go back to the main screen to edit and practise.",
   "live.exit.cancel":                          "Cancel",
   "live.exit.confirm":                         "Exit",
   "live.looping":                              "LOOPING",
-  "live.rehearsalMode":                        "REHEARSAL MODE",
   "live.goLive":                               "Go Live",
   "live.goLive.locked":                        "Unlock Live Mode",
 
@@ -287,10 +285,10 @@
   "allMoments.title":                          "All Moments",
   "allMoments.count":                          "YOUR %d MOMENTS",
 
-  "trial.banner":                              "Free Mode: Tap to unlock",
+  "trial.banner":                              "Previews only: tap to unlock",
   "review.banner":                             "Love Wedding Player? Leave a review",
 
-  "iPad.empty.addMusic":                       "Tap **Add Local Files** to import MP3, M4A, and WAV files from your device, **Add Originals** for free ceremony-ready tracks, or **Add Apple Music** to search your subscription.",
+  "iPad.empty.addMusic":                       "Tap **Add Local Files** to import MP3, M4A, WAV, and AIFF files from your device, **Add Originals** for ceremony-ready tracks, or **Add Apple Music** to search your subscription.",
   "iPad.empty.selectMoment":                   "Select your moments in the sidebar, or add new moments using the **Edit Moments** button at the bottom of the sidebar.",
 
   "nowPlaying.empty":                          "No tracks yet",
@@ -377,7 +375,7 @@
 
   "settings.account.venue.title":              "Wedding Player Pro",
   "settings.account.venue.badge":              "ACTIVE SUBSCRIPTION",
-  "settings.account.premium.title":            "Wedding Player Premium",
+  "settings.account.premium.title":            "Wedding Player Full Access",
   "settings.account.premium.badge":            "ACTIVE MEMBER",
   "settings.account.lapsed.title":             "Subscription Lapsed",
   "settings.account.lapsed.badge":             "RENEW TO RESTORE",
@@ -391,9 +389,9 @@
   "settings.sync.title":                       "iCloud Sync",
   "settings.sync.toggle.caption":              "Changes take effect the next time you open Wedding Player.",
   "settings.sync.locked.title":                "iCloud Sync",
-  "settings.sync.locked.subtitle":             "Included with Wedding Player Premium. Back up your wedding and keep it in sync across your devices.",
+  "settings.sync.locked.subtitle":             "Included with Wedding Player Full Access. Back up your wedding and keep it in sync across your devices.",
   "settings.sync.locked.subtitle.pro":         "Upgrade to Wedding Player Pro to back up all of your weddings and keep them in sync across your devices.",
-  "settings.account.upgrade.couple.title":     "Upgrade to Wedding Player Premium",
+  "settings.account.upgrade.couple.title":     "Upgrade to Wedding Player Full Access",
   "settings.account.upgrade.couple.subtitle":  "Play every track in full, plus Live Mode and iCloud sync.",
   "settings.account.upgrade.pro.title":        "Upgrade to Wedding Player Pro",
   "settings.account.upgrade.pro.subtitle":     "Unlimited weddings, full playback, and Live Mode.",
@@ -538,6 +536,7 @@
 
   "getMusic.title.add":                        "Add from Originals",
   "getMusic.title.manage":                     "Manage WP Originals",
+  "getMusic.title.browse":                     "Browse Originals",
   "getMusic.delete":                           "Delete",
   "getMusic.empty.downloaded":                 "No downloaded tracks yet",
   "getMusic.empty.category":                   "No tracks in this category",
@@ -586,7 +585,6 @@
   "downloads.verify":                          "TAP OR PULL DOWN TO REFRESH",
   "downloads.verify.checking":                 "Verifying...",
   "downloads.tip.heading":                     "Download all your tracks the night before.",
-  "downloads.tip.body":                        "Tap **DOWNLOAD** on any track to open Apple Music, then download your ceremony playlist from Library. Come back here and pull down to refresh.",
   "downloads.percent":                         "%d%%",
   "downloads.readiness":                       "WEDDING DAY READINESS",
   "downloads.readiness.count":                 "%d of %d tracks ready for offline",
@@ -617,7 +615,7 @@
   "trial.cta.unlock":                          "Or unlock unlimited playback",
   "trial.banner.title":                        "TRIAL MODE",
   "trial.banner.label":                        "Playback limited to 15 seconds",
-  "trial.nowPlaying.subtitle":                 "Playback limited to 15 seconds in Free Mode",
+  "trial.nowPlaying.subtitle":                 "Previews play for 15 seconds until you unlock",
   "trial.banner.cta":                          "Tap to unlock",
 
   "rating.prompt.title":                       "Enjoying Wedding Player?",

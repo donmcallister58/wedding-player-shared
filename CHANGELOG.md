@@ -21,6 +21,17 @@ iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 - `onboarding.role.couple.title`: now "I'm planning a wedding" (was "I'm planning my own wedding"), same reason.
 - `paywall.link.couple`: now "I'm just planning one wedding →" (was "I'm just planning my own wedding →"), matching the role picker.
 - `backups.backUpNow.footer`: now "Wedding Player also backs up on its own: once a day, after an app update, when you leave the app after making changes, and before bigger deletes such as a moment or a whole wedding." (was "...after you edit, once a day, after an update, and before anything is deleted."). iOS 3.1.2 (Don 2026-10-12): only bigger deletes take a backup first, so "before anything is deleted" overclaimed.
+- `backups.count.onlyDeleted`, `backups.detail.noDate`, `backups.detail.affected`, `backups.detail.deleted` (new): iOS 3.1.2 Backups list counts and detail grouping (U312-bkdetail).
+- iOS 3.1.2 app and help copy pass (Don 2026-10-12, "yes to all"; source `research/WP_312_APP_SITE_MISMATCH_VALIDATION.md`):
+  - The paid tier is "Full Access" in app UI: `paywall.eyebrow` "WEDDING PLAYER FULL ACCESS", `settings.account.premium.title` "Wedding Player Full Access", `settings.sync.locked.subtitle` and `settings.account.upgrade.couple.title` say "Wedding Player Full Access" (were "Premium").
+  - `trial.nowPlaying.subtitle` "Previews play for 15 seconds until you unlock" (was "Playback limited to 15 seconds in Free Mode"); `trial.banner` "Previews only: tap to unlock" (was "Free Mode: Tap to unlock"); `onboarding.pro.demoComplete.unlockBlock.trialNote` "Set up free. Previews play for 15 seconds until you unlock."
+  - `live.exit.message` "Go back to the main screen to edit and practise." (was "Return to rehearsal mode.").
+  - `iPad.empty.addMusic` lists AIFF and drops "free" before Originals.
+  - `getMusic.title.browse` (new): "Browse Originals", the Originals screen opened from the picker's Browse Originals button.
+  - Removed unused keys: `live.rehearsalMode`, `downloads.tip.body`, `onboarding.demoComplete.unlockBlock.trialNote`.
+
+### Help (`content/help-content.json`)
+- iOS 3.1.2 copy pass (same source): new Getting Started item "What happens the first time I open Wedding Player?" (role, names and date, demo skip and Remove demo tracks); six default Moments counted per section; add-music steps match each app (Add Tracks / Edit Tracks, Add Local Files, Add Originals with Browse Originals, the Apple Music tabs, reorder and remove); Offline Readiness or the Ready to Go Live check as the download route; low battery listed as Critical; the Device Volume row; Open Apple Music opens your playlists (not the download arrow); Go Live gated on the checklist and volume, not warnings; the big button starts and fades each moment; no mute-switch advice; trim editor via Edit Tracks and the scissors; Android trim preview labels; "Main Screen" tip label; Exit Live Mode tip; Originals picker and Offline Readiness tips; the Browse tip typo.
 
 ### Narration audio (`setup/audio/`, `demo/audio/`)
 - Re-voiced with Sulafat, same wording, filenames and formats: the nine setup clips (mono 128 kbps) and the four narrated demo tracks (stereo 192 kbps, voice re-laid over the original music at the original start times, same track lengths). Several setup clips run longer (setup-moments +5.3 s, setup-primer +3.0 s), so the iOS setup-pager cues are re-derived in the app. Android bundles its own copies in its app assets and is not changed here.

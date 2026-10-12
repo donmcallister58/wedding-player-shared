@@ -26,7 +26,7 @@
           "steps": [
             "A Moment is a named section of your wedding day, for example Walking Down The Aisle, Signing the Register, or Recessional.",
             "Each Moment has its own playlist of music tracks that play in order. The right music plays at exactly the right time, without any manual switching. And when the Moment ends, the music can be faded out with a simple tap, just when it's needed. The next moment is lined up automatically, ready to play with a single tap.",
-            "Wedding Player comes with six default Moments: Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Exit and Wedding Breakfast in the Daytime segment, plus Drinks Reception in the Evening segment. You can rename, reorder, add, or remove them to match your ceremony.",
+            "Wedding Player comes with six default Moments: five in Daytime (Guests Arriving, Walking Down The Aisle, Signing The Register, The Couple Exit and Wedding Breakfast) and Drinks Reception in Evening. The main screen counts the section you are viewing. You can rename, reorder, add, or remove them to match your ceremony.",
             "Moments are grouped into Daytime and Evening sections, so the app stays organised for longer celebrations."
           ]
         },
@@ -45,6 +45,15 @@
       "title": "Getting Started",
       "items": [
         {
+          "id": "first-launch",
+          "title": "What happens the first time I open Wedding Player?",
+          "platform": "both",
+          "steps": [
+            "When you first open Wedding Player, choose whether you're planning a wedding or a wedding professional, add your names and wedding date (an approximate date or TBC is fine), then try the demo or skip it.",
+            "You can skip the demo and replay it later from Settings. Its sample tracks stay in your moments until you tap Remove demo tracks on the banner."
+          ]
+        },
+        {
           "id": "setup-moments",
           "title": "How do I set up my wedding day moments?",
           "platform": "both",
@@ -62,9 +71,9 @@
           "steps": [
             "Tap any moment, then tap \"Add Tracks\" (on an empty moment) or \"Edit Tracks\" (once it has any).",
             "Then choose Add Local Files to import existing files from the Files app (MP3, M4A, WAV, AIFF).",
-            "Or choose Add Originals to browse Wedding Player's built-in original tracks.",
-            "Or choose Add Apple Music to search and add Apple Music tracks (an active Apple Music subscription is required).",
-            "Tracks play in order. Drag to reorder them within a moment."
+            "Or choose Add Originals. Tap Browse Originals, preview and download the tracks you like (Wi-Fi recommended), tap Done, then select them and tap Add.",
+            "Or choose Add Apple Music (iPhone and iPad, Apple Music subscription required). Search for a song, pick from My Playlists, or Browse Apple Music's wedding playlists. Tap + to add a song, or open a playlist and tap Add to add its songs.",
+            "Tracks play in order. To change the order, tap Edit Tracks and drag the three-line handle on the right of a row. To remove a track, tap its trash icon and confirm Remove."
           ]
         },
         {
@@ -72,10 +81,10 @@
           "title": "How do I add music to a moment?",
           "platform": "android",
           "steps": [
-            "Tap any moment, then tap Edit.",
-            "Tap + Edit Tracks to import MP3, M4A, WAV, and AIFF files from your device storage.",
-            "Or choose Originals to browse Wedding Player's built-in original tracks.",
-            "Tracks play in order. Drag to reorder them within a moment."
+            "Tap any moment, then tap Add Tracks (on an empty moment) or Edit Tracks (once it has any).",
+            "Tap Add Local Files to import MP3, M4A, WAV, and AIFF files from your device storage.",
+            "Or tap Add Originals to browse Wedding Player's built-in original tracks.",
+            "Tracks play in order. In Edit Tracks, drag a row by its handle to reorder; tap the trash icon (or swipe left) to remove it."
           ]
         },
         {
@@ -118,7 +127,7 @@
           "title": "How do I make Apple Music tracks available offline?",
           "platform": "ios",
           "steps": [
-            "Open the Offline Readiness checklist in the Settings page.",
+            "Open Offline Readiness in Settings, or tap Go Live to run the Ready to Go Live check.",
             "Any tracks not yet downloaded will show a warning.",
             "Open the Apple Music app and access the Wedding Player Downloads playlist. This playlist is created automatically for you and contains all of the tracks you have added to Wedding Player. Tap the download arrow in the header of the playlist.",
             "Return to Wedding Player. Each track should show a gold tick.",
@@ -187,10 +196,10 @@
           "platform": "both",
           "steps": [
             "When you tap Go Live, Wedding Player runs its Ready to Go Live checks before switching to the large-button operator interface. It flags anything that could cause a silent failure on the day, then asks you to confirm a short operator checklist.",
-            "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, or a segment with no playable moments. Worth-checking items (lighter shade) are informational: a moment with no tracks, or a battery below 30% and not charging.",
-            "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. The Airplane row reads your device's state automatically and shows a Yes or No pill: there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
-            "If any Apple Music tracks aren't downloaded, an Open Apple Music button drops you straight on the Wedding Player Downloads playlist's download arrow. Once you return to Wedding Player, the readiness sheet refreshes automatically.",
-            "Go Live activates only after every checklist row is satisfied. The button turns gold and a subtle scale-up confirms it's ready. One tap hands you to Live Mode."
+            "Warnings are tiered. Critical items (burgundy) cover issues that will likely break playback: an Apple Music track not downloaded for offline use, Apple Music access not granted, a local file missing from the device, a segment with no playable moments, or a battery below 30% and not charging. Worth-checking items (lighter shade) are informational: a moment with no tracks.",
+            "The operator checklist asks you to confirm Airplane Mode (cellular devices only), Do Not Disturb, that your audio system is connected and tested, and battery if it's low. A Device Volume row shows the device volume: if it's muted, Go Live stays off until you turn it up. The Airplane row reads your device's state automatically and shows a Yes or No pill: there's nothing to tap. Do Not Disturb is a manual check: switch it on in Control Centre first, then tap the row to confirm.",
+            "On iPhone and iPad, if any Apple Music tracks aren't downloaded, tap Open Apple Music. It opens your playlists in Apple Music: open Wedding Player Downloads and tap the download arrow. When you come back to Wedding Player, the check refreshes automatically.",
+            "Go Live turns gold once every checklist row is confirmed and the device volume isn't muted. Warnings, such as an Apple Music track that isn't downloaded, don't block Go Live, so sort them out first. One tap hands you to Live Mode."
           ]
         },
         {
@@ -210,7 +219,7 @@
           "steps": [
             "Yes. Live Mode is designed exactly for this. Hand your device to your venue coordinator or a trusted friend once Live Mode is active.",
             "The large-button interface is straightforward to use without any knowledge of how the app was set up.",
-            "Brief them beforehand on which button starts each moment, and run a rehearsal so they're confident."
+            "Brief them beforehand: the big button starts each moment, and the same button fades it out and lines up the next one. Do a run-through together so they're confident."
           ]
         },
         {
@@ -219,7 +228,7 @@
           "platform": "both",
           "steps": [
             "All local audio files work offline automatically. No action needed.",
-            "For Apple Music tracks (iOS): open the Offline Readiness page in Settings and follow the instructions there to download every track and verify it's ready for offline playback.",
+            "For Apple Music tracks (iOS): open Offline Readiness in Settings, or tap Go Live to run the Ready to Go Live check, and follow the instructions there to download every track and verify it's ready for offline playback.",
             "Enable Airplane Mode on the day to block calls and notifications.",
             "Charge your device fully the night before. Keep the app in the foreground and don't close it between moments."
           ]
@@ -236,7 +245,7 @@
           "platform": "both",
           "steps": [
             "Check your device's physical volume buttons.",
-            "Make sure the mute switch on the side of the device is off.",
+            "Check the device volume isn't muted (the Ready to Go Live check shows it).",
             "If using Bluetooth or an external speaker, confirm it's connected and selected as the audio output."
           ]
         },
@@ -360,7 +369,7 @@
           "icon": "play",
           "label": "Preview your trim",
           "platform": "android",
-          "context": "Three preview buttons let you hear Start (first 10s), End (last 10s), or the Full trimmed clip end-to-end."
+          "context": "Three preview buttons let you hear From in-point (first 10s), To out-point (last 10s), or the Full trimmed clip end-to-end."
         },
         {
           "icon": "edit",
@@ -376,14 +385,14 @@
     },
     {
       "id": "main-player-setup",
-      "screenName": "Main Player: Rehearsal Mode",
+      "screenName": "Main Player: Main Screen",
       "title": "Building your Wedding Day",
       "platform": "both",
       "cardPosition": "bottom",
       "actions": [
         {
           "icon": "info",
-          "label": "Rehearsal Screen",
+          "label": "Main Screen",
           "context": "This is the main screen where you build your Wedding Day timeline from."
         },
         {
@@ -455,12 +464,12 @@
         {
           "icon": "edit",
           "label": "Confirm each operator check",
-          "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm: toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm."
+          "context": "The Airplane row reads your device automatically and shows Yes or No. Do Not Disturb is a manual confirm: toggle it in Control Centre first, then tap the row. The audio and battery rows are tap-to-confirm. The Device Volume row must not be muted."
         },
         {
           "icon": "play",
           "label": "Go Live",
-          "context": "The Go Live button activates once every checklist row is satisfied: it turns gold and lifts slightly. One tap hands you over to Live Mode."
+          "context": "Go Live turns gold once every checklist row is confirmed and the device volume isn't muted. Warnings don't block it, so sort them out first. One tap hands you over to Live Mode."
         }
       ]
     },
@@ -488,7 +497,7 @@
         {
           "icon": "settings",
           "label": "Exit Live Mode",
-          "context": "Tap the LIVE MODE banner at the top of the screen, then confirm Exit. Useful during rehearsal, not on the day itself."
+          "context": "Tap the LIVE MODE banner at the top of the screen, then confirm Exit. On the day, stay in Live Mode unless you need to change something."
         }
       ]
     },
@@ -535,7 +544,7 @@
         {
           "icon": "scissors",
           "label": "Trim and fade",
-          "context": "Tap a track to open the trim editor. Set custom start and end points, add smooth fade-ins and fade-outs at each end. Tap the ? button inside the editor for more detail."
+          "context": "Tap Edit Tracks, then the scissors icon on a track to open the trim editor. Set custom start and end points, add smooth fade-ins and fade-outs at each end. Tap the ? button inside the editor for more detail."
         },
         {
           "icon": "tracks",
@@ -591,7 +600,7 @@
         {
           "icon": "search",
           "label": "Browse",
-          "context": "Tap Browse to access Apples Prebuilt Wedding Collections"
+          "context": "Tap Browse to explore Apple Music's wedding playlists, or tap a suggestion such as First Dance or Love Songs."
         },
         {
           "icon": "download",
@@ -610,7 +619,7 @@
         {
           "icon": "tracks",
           "label": "Browse Originals",
-          "context": "Originals are exclusive tracks bundled with Wedding Player. Tap any track to preview, or tap the download arrow to add it to your library."
+          "context": "Originals are exclusive tracks bundled with Wedding Player. Tap the play circle to preview. Tap a track to select it, then tap Add."
         },
         {
           "icon": "tracks",
@@ -730,7 +739,7 @@
         {
           "icon": "info",
           "label": "Files showing Download",
-          "context": "Make sure the Apple Music Setup steps are completed. Open Apple Music and navigate to the Wedding Player playlist. Tap the download arrow to download all tracks."
+          "context": "Make sure the Apple Music Setup steps are completed. Open Apple Music, go to Library > Playlists and open Wedding Player Downloads. Tap the download arrow to download all tracks."
         },
         {
           "icon": "play",
