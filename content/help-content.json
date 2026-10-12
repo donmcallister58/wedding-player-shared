@@ -82,7 +82,7 @@
           "platform": "android",
           "steps": [
             "Tap any moment, then tap Add Tracks (on an empty moment) or Edit Tracks (once it has any).",
-            "Tap Add Local Files to import MP3, M4A, WAV, and AIFF files from your device storage.",
+            "Tap Add Local Files to import MP3, M4A, WAV, FLAC and OGG (Vorbis) files from your device storage.",
             "Or tap Add Originals to browse Wedding Player's built-in original tracks.",
             "Tracks play in order. In Edit Tracks, drag a row by its handle to reorder; tap the trash icon (or swipe left) to remove it."
           ]
@@ -104,7 +104,7 @@
           "title": "How do I get music files onto my Android device?",
           "platform": "android",
           "steps": [
-            "Wedding Player plays MP3, M4A, WAV, and AIFF files stored on your phone. Three easy ways to get them there:",
+            "Wedding Player plays MP3, M4A, WAV, FLAC and OGG (Vorbis) files stored on your phone. Three easy ways to get them there:",
             "Google Drive: On your computer, go to drive.google.com and upload your files. In Wedding Player's file picker, tap the menu icon (≡) and choose Google Drive, and your files will appear there.",
             "USB cable: Connect your phone to your computer with a USB cable. Swipe down on your phone and tap the USB notification, then choose File Transfer. Your phone appears as a drive on the computer; drag music into Music or Downloads.",
             "Files by Google: Install Files by Google from the Play Store (free). Use it to move files from Downloads into a Music folder, or to open files directly from cloud services.",
@@ -266,7 +266,7 @@
           "platform": "android",
           "steps": [
             "The file may have been moved or deleted from your device. Remove it from the moment and re-import it.",
-            "Check the file format is supported: MP3, M4A, WAV, and AIFF files work. FLAC and OGG are not currently supported.",
+            "Check the file format is supported: MP3, M4A, WAV, FLAC and OGG (Vorbis) files work. AIFF isn't supported on Android, so convert it to M4A or WAV first.",
             "Try closing and reopening the app if the issue persists."
           ]
         },
