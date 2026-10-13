@@ -857,6 +857,7 @@
   "backups.detail.noFile": "Nothing to restore: this wedding had no moments.",
   "backups.detail.noDate": "No date",
   "backups.detail.affected": "About to change when backed up",
+  "backups.detail.changed": "Changed since this backup",
   "backups.detail.deleted": "Deleted (%d)",
   "backups.restore.button": "Restore as a Copy",
   "backups.restore.prompt.title": "Restore %@ as a copy?",
