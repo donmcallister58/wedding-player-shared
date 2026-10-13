@@ -888,5 +888,9 @@
   "tutorials.episode": "Episode %d",
   "tutorials.watched": "Watched",
   "tutorials.close": "Close",
-  "tutorials.play.hint": "Plays the video"
+  "tutorials.play.hint": "Plays the video",
+  "tutorials.allEpisodes": "All episodes",
+  "tutorials.upNextEpisode": "Up next · Episode %d",
+  "tutorials.watchAgainEpisode": "Watch again · Episode %d",
+  "tutorials.progress": "%1$d of %2$d watched · %3$d min in total"
 }

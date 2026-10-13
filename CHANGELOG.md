@@ -9,6 +9,7 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 - `content/defaults.json` `tutorialsManifestURL`: `https://cdn.weddingplayer.app/tutorials/tutorials.json`. iOS and Android read this same address. Swift `SharedContent.Defaults.tutorialsManifestURL`, Kotlin `Defaults.tutorialsManifestUrl`.
 - New strings: `tutorials.title`, `tutorials.helpCard`, `tutorials.offline`, `tutorials.footer`, `tutorials.episode`, `tutorials.watched`, `tutorials.close`, `tutorials.play.hint`.
 - VERSION 1.0.110. Continues the 1.0.x sequence used for new keys.
+- List strings for the design A screen (iOS 3.1.2): `tutorials.allEpisodes`, `tutorials.upNextEpisode`, `tutorials.watchAgainEpisode`, `tutorials.progress`. VERSION 1.0.111, still on the 1.0.x sequence used for new keys.
 
 iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 
