@@ -879,5 +879,14 @@
   "backups.audio.estimate": "Imported audio kept for restore: about %@ (shared space, an estimate)",
   "backups.restoredName": "%1$@ (restored %2$@)",
   "backups.restoredName.numbered": "%1$@ (restored %2$@, %3$d)",
-  "backups.restoredName.unnamed": "Wedding"
+  "backups.restoredName.unnamed": "Wedding",
+
+  "tutorials.title": "Video Tutorials",
+  "tutorials.helpCard": "Watch the video tutorials",
+  "tutorials.offline": "Tutorials need an internet connection. Wedding Player itself works fully offline.",
+  "tutorials.footer": "New tutorials appear here automatically.",
+  "tutorials.episode": "Episode %d",
+  "tutorials.watched": "Watched",
+  "tutorials.close": "Close",
+  "tutorials.play.hint": "Plays the video"
 }

@@ -2,6 +2,7 @@
   "schemaVersion": 1,
 
   "cdnBaseURL": "https://cdn.weddingplayer.app/music",
+  "tutorialsManifestURL": "https://cdn.weddingplayer.app/tutorials/tutorials.json",
 
   "iap": {
     "fullAccessProductId": "com.donmcallister.weddingplayer.fullaccess"

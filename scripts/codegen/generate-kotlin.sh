@@ -73,6 +73,7 @@ object SharedContent {
     object Defaults {
         const val schemaVersion: Int = $(jq -r '.schemaVersion' "$DEFAULTS")
         const val cdnBaseUrl: String = $(jq -r '.cdnBaseURL | @json' "$DEFAULTS")
+        const val tutorialsManifestUrl: String = $(jq -r '.tutorialsManifestURL | @json' "$DEFAULTS")
         const val fullAccessProductId: String = $(jq -r '.iap.fullAccessProductId | @json' "$DEFAULTS")
         val playback = Playback(
             fadeDurationSecs = $(jq -r '.playback.fadeDurationSecs' "$DEFAULTS"),

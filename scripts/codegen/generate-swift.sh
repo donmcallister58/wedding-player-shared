@@ -75,6 +75,7 @@ enum SharedContent {
     enum Defaults {
         static let schemaVersion: Int = $(jq -r '.schemaVersion' "$DEFAULTS")
         static let cdnBaseURL: URL = URL(string: $(jq -r '.cdnBaseURL | @json' "$DEFAULTS"))!
+        static let tutorialsManifestURL: URL = URL(string: $(jq -r '.tutorialsManifestURL | @json' "$DEFAULTS"))!
         static let fullAccessProductId: String = $(jq -r '.iap.fullAccessProductId | @json' "$DEFAULTS")
         static let playback = Playback(
             fadeDurationSecs: $(jq -r '.playback.fadeDurationSecs' "$DEFAULTS"),
