@@ -858,6 +858,8 @@
   "backups.detail.noDate": "No date",
   "backups.detail.affected": "About to change when backed up",
   "backups.detail.changed": "Changed since this backup",
+  "backups.detail.uncopied.one": "1 of your own music files wasn't on the %@ when this backup was made. Its track will show as not on this device.",
+  "backups.detail.uncopied.other": "%1$d of your own music files weren't on the %2$@ when this backup was made. Their tracks will show as not on this device.",
   "backups.detail.deleted": "Deleted (%d)",
   "backups.restore.button": "Restore as a Copy",
   "backups.restore.prompt.title": "Restore %@ as a copy?",
