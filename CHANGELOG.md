@@ -4,6 +4,11 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+### Apple Music access prompt (iOS 3.1.2, U312-amauth)
+
+- `preCeremony.warning.amNotAuthorized.detail.notDetermined` / `.detail.denied` (new): the Go Live readiness card's detail now matches the access state. Not yet asked: "Tap below and iOS will ask you to allow it." Denied: "Turn on Media & Apple Music for Wedding Player in Settings." The old `.detail` key stays for Android.
+- `music.accessCard.title`, `.body.notDetermined.one` / `.other`, `.body.denied.one` / `.other`, `.allow`, `.openSettings` (new): main-screen card shown when the wedding holds Apple Music songs but this device has not been given access, for example after a reinstall or an iCloud restore. "Allow" asks iOS; "Open Settings" when access was turned off.
+
 ### Tutorials (iOS 3.1.2)
 
 - `content/defaults.json` `tutorialsManifestURL`: `https://cdn.weddingplayer.app/tutorials/tutorials.json`. iOS and Android read this same address. Swift `SharedContent.Defaults.tutorialsManifestURL`, Kotlin `Defaults.tutorialsManifestUrl`.
