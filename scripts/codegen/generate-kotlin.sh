@@ -130,7 +130,9 @@ EOF
   echo "        fun en(key: String): String = enTable[key] ?: key"
   echo
   echo "        val enTable: Map<String, String> = mapOf("
-  jq -r 'to_entries[] | select(.key | startswith("_") | not) | "            \(.key|@json) to \(.value|@json),"' "$STRINGS"
+  # @json escapes quotes and backslashes but not `$`, which Kotlin reads as a
+  # string template: positional placeholders like "%1$d" would not compile.
+  jq -r 'to_entries[] | select(.key | startswith("_") | not) | "            \(.key|@json) to \(.value|@json|gsub("\\$";"\\$")),"' "$STRINGS"
   echo "        )"
   echo "    }"
   echo "}"
