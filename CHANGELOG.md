@@ -15,6 +15,7 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 - New strings: `tutorials.title`, `tutorials.helpCard`, `tutorials.offline`, `tutorials.footer`, `tutorials.episode`, `tutorials.watched`, `tutorials.close`, `tutorials.play.hint`.
 - VERSION 1.0.110. Continues the 1.0.x sequence used for new keys.
 - List strings for the design A screen (iOS 3.1.2): `tutorials.allEpisodes`, `tutorials.upNextEpisode`, `tutorials.watchAgainEpisode`, `tutorials.progress`. VERSION 1.0.111, still on the 1.0.x sequence used for new keys.
+- `backups.restore.error.notEnoughSpace` (new, iOS 3.1.3 U313-icd2 review): "There isn't enough free space to open this backup. Free up about %@ and try again." `%@` is the amount to free, formatted for the user's locale (iOS ByteCountFormatter). Shown when a `.wpbackup` needs more free space than the device has, on every open route; a backup over the size cap still gets `backups.restore.error.tooLarge`. Copy approved by Don 2026-10-27. VERSION 1.0.112.
 
 iOS 3.1.1 onboarding and paywall copy (approved by Don 2026-10-05).
 
