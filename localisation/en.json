@@ -837,6 +837,7 @@
   "backups.restore.error.empty": "This backup doesn't contain a wedding.",
   "backups.restore.error.missingManifest": "This file isn't a Wedding Player backup.",
   "backups.restore.error.tooLarge": "This backup is too large to open on this device.",
+  "backups.restore.error.notEnoughSpace": "There isn't enough free space to open this backup. Free up about %@ and try again.",
   "backups.restore.error.audioCopyFailed": "The backup's audio files couldn't be copied, so nothing was restored. Please try again.",
   "backups.restore.error.saveFailed": "The wedding couldn't be restored on this device, so nothing was changed. Please try again.",
   "backups.backUpNow": "Back Up Now",
