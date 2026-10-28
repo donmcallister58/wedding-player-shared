@@ -950,6 +950,7 @@
   "backups.getBack.footer": "Pick a wedding, then pick a time to go back to. Restoring adds a copy and never changes the wedding you have now.",
   "backups.getBack.empty": "No backups yet. Wedding Player makes the first one when you leave the app, or tap Back Up Now on the previous screen.",
   "backups.section.live": "Your weddings",
+  "backups.section.files": "Backup files",
   "backups.deleted.search": "Search by name or date",
   "backups.row.deletedBefore": "Deleted before %@",
   "backups.row.fewerSongs": "Fewer songs than before",
