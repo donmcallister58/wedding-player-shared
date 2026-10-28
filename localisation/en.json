@@ -905,7 +905,7 @@
   "backups.row.versions.one": "1 earlier version",
   "backups.row.versions.other": "%d earlier versions",
   "backups.row.deleted": "Deleted %@",
-  "backups.footer.saveCopy": "Saves every wedding on this %1$@ into one file you can keep in Files or send with AirDrop. Do this before you delete the app or move to a new %1$@, if you use your own music files.",
+  "backups.footer.saveCopy": "This file is the newest backup on this %1$@. You can keep it in Files or send it with AirDrop. A wedding deleted more than 30 days ago may not be in it. Those weddings stay in Every Backup on This %1$@. Save a file before you delete the app or move to a new %1$@, if you use your own music files.",
   "backups.about": "How Backups Work",
   "backups.allBackups": "Every Backup on This %@",
   "backups.empty.openFile.footer": "Open a file saved from another iPhone or iPad.",
