@@ -945,6 +945,7 @@
 "backups.status.icloudLast": "Latest iCloud Drive copy %@.",
   "backups.status.localOnly": "Last backup %1$@, kept on this %2$@ only.",
   "backups.status.icloudOff": "iCloud Drive copies are off.",
+  "backups.status.icloudUnchecked": "iCloud Drive couldn't be checked just now.",
   "backups.status.missing.see": "See Earlier Versions",
   "backups.status.missing.dismiss": "I Removed Them on Purpose",
   "backups.status.loading": "Checking your backups...",
