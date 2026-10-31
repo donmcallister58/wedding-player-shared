@@ -776,6 +776,8 @@
   "missing.status.failed":                     "Couldn't get it from iCloud Drive. Tap Find the File, or try again later.",
   "missing.ready.announce":                    "%@ is ready.",
   "missing.allDone":                           "All songs are on this %@.",
+  "missing.linked.title":                      "Linked",
+  "missing.linked.message":                    "“%1$@” is on this %2$@ now and ready to play.",
   "missing.banner.fetching.one":               "Getting 1 song from iCloud Drive",
   "missing.banner.fetching.other":             "Getting %d songs from iCloud Drive",
   "missing.banner.title.one":                  "1 song not on this %@",
