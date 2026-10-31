@@ -4,6 +4,10 @@ All notable changes to `wedding-player-shared`. Format follows [Keep a Changelog
 
 ## Unreleased
 
+### Paywall close button (iOS 3.1.3, paywall122)
+
+- `paywall.dismiss.a11y`: now "Close" (was "Dismiss"), the VoiceOver label of the close (X) button. iOS reads it on the Full Access paywall and on the note from Don and Nic (TeamNoteView); Android picks up the same value from this file. Value change only, no new key, so VERSION stays 1.0.112 (Don 2026-10-31).
+
 ### Apple Music access prompt (iOS 3.1.2, U312-amauth)
 
 - `preCeremony.warning.amNotAuthorized.detail.notDetermined` / `.detail.denied` (new): the Go Live readiness card's detail now matches the access state. Not yet asked: "Tap below and iOS will ask you to allow it." Denied: "Turn on Media & Apple Music for Wedding Player in Settings." The old `.detail` key stays for Android.
