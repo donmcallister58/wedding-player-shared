@@ -762,6 +762,7 @@
 
   "missing.explainer.title":                   "Not on this %@ yet",
   "missing.explainer.body":                    "These songs are on your ceremony plan, but their music files were added on another device. Wedding Player gets them from iCloud Drive where it can. Anything it can't get needs adding here before the ceremony.",
+  "missing.explainer.body.findTheFile":        "These songs are on your ceremony plan, but their music files were added on another device. Use Find the File to add each one from this device before the ceremony.",
   "missing.tag.ownFile":                       "YOUR OWN FILE",
   "missing.row.in":                            "in %@",
   "missing.action.find":                       "Find the File",
@@ -771,6 +772,7 @@
   "missing.status.offline":                    "Waiting for an internet connection to check iCloud Drive.",
   "missing.status.icloudOff":                  "Turn on iCloud Drive in Settings to get it automatically, or tap Find the File.",
   "missing.status.notFound":                   "Couldn't find this file in iCloud Drive. It may have been moved or renamed.",
+  "missing.status.addedElsewhere":             "Added on another device. Tap Find the File to add it here.",
   "missing.status.sizeMismatch":               "A file with this name is in iCloud Drive, but it isn't the same file, so Wedding Player didn't use it.",
   "missing.status.noSource":                   "This file wasn't added from iCloud Drive, so this %@ can't get it by itself.",
   "missing.status.failed":                     "Couldn't get it from iCloud Drive. Tap Find the File, or try again later.",
